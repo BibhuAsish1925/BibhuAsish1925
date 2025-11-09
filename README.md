@@ -10,7 +10,7 @@ Driven by curiosity and precision, I aim to contribute to the domains of **Digit
 
 ---
 
-## 🧩 Featured Projects
+## 🧩 My works
 
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
   A curated collection of Verilog HDL examples: adders, multiplexers, counters, and registers with testbenches and waveform validation.
