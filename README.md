@@ -24,7 +24,7 @@ I build full-stack digital and mixed-signal systems, focusing on RTL design, ver
 **Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz  
 **Digital Design & Verification:** Verilog · Xilinx · Vivado  
 **Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
-**Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog
+**Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog  
 **Other:** Git · GitHub  
 
 ---
