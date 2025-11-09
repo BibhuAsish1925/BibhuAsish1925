@@ -21,7 +21,7 @@ I build full-stack digital and mixed-signal systems, focusing on RTL design, ver
 ---
 
 ## 🧰 Tools & Technologies  
-**Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz
+**Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz  
 **Digital Design & Verification:** Verilog · Xilinx · Vivado  
 **Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
 **Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog
@@ -35,7 +35,6 @@ I build full-stack digital and mixed-signal systems, focusing on RTL design, ver
 
 ### 🧭 Overview
 ![GitHub Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BibhuAsish1925&theme=radical)
-![Top Langs by Commit](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BibhuAsish1925&theme=radical)
 
 ### 📈 Stats Overview
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BibhuAsish1925&theme=radical)
