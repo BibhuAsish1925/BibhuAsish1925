@@ -1,26 +1,28 @@
-# 👋 Hi, I’m Bibhu Asish Panda  
+# 👋 Hi, I’m Bibhu Asish Panda
 
-**an aspiring Electronics and Communication Engineer passionate about Digital VLSI Design, Verification, and Embedded Hardware Systems.
-With a strong foundation in Verilog, FSM-based modeling, and digital system simulation, I enjoy building circuits that bridge logic design with real-world applications.**
+I’m an **Electronics and Communication Engineering undergraduate** with a strong passion for **Digital VLSI Design, Verification, and Embedded Systems**.  
+My work bridges the gap between **hardware-level design and real-world implementation**, combining Verilog-based digital systems with embedded and analog hardware integration.
 
-**I have hands-on experience with EDA tools such as Vivado, Xschem, Ngspice, and LTspice, and I’m skilled in both digital and analog design flows — from Verilog RTL modeling to transistor-level circuit analysis using SkyWater 130 nm CMOS.**
+I possess hands-on experience with **EDA tools** such as *Vivado, Xschem, Ngspice, and LTspice*, and I’m comfortable working across both **digital RTL modeling** and **analog mixed-signal simulation** environments.  
+My technical foundation includes **FSM-based modeling, HDL coding, circuit design, and system-level debugging**, allowing me to take a design from concept to verified implementation.
 
-**I am driven by curiosity and precision, aiming to contribute to the fields of Digital Design, ASIC Verification, and Mixed-Signal IC Development, while continuously exploring embedded automation and IoT integration.**
+Driven by curiosity and precision, I aim to contribute to the domains of **Digital Design, ASIC Verification, and Embedded Automation**, while exploring **mixed-signal IC development** for intelligent electronic systems.
 
 ---
 
 ## 🧩 Featured Projects
-- 🔸 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI.git)**  
-  A curated collection of Verilog HDL examples: adders, multiplexers, counters, registers with testbenches and waveforms.
 
-- 🔸 **[Verilog Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda.git)**  
-  FSM and RTL design projects including vending machine, traffic controller, digital lock and many more.
+- 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
+  A curated collection of Verilog HDL examples: adders, multiplexers, counters, and registers with testbenches and waveform validation.
 
-- 🔸 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda.git)**  
-  End-to-end analog front-end design for a MEMS microphone: modelling, simulation, layout readiness.
+- 🔹 **[Verilog Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda)**  
+  FSM and RTL design projects including *Vending Machine*, *Traffic Light Controller*, *Digital Lock*, and more, showcasing finite state machine design and control logic implementation.
 
-- 🔸 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot.git)**  
-  ESP32‐based autonomous robot using dual ultrasonic sensors with servo scanning for obstacle avoidance.
+- 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
+  End-to-end analog front-end design using *SkyWater 130 nm CMOS technology*, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
+
+- 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
+  ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
 
 ---
 
