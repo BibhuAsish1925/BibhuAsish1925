@@ -1,18 +1,46 @@
 # 👋 Hi, I’m Bibhu Asish Panda  
-**Electronics & Communication Engineering Student | Analog IC Design · VLSI · IoT**
+**Electronics & Communication Engineering Student | Digital VLSI · Analog IC Design · IoT Embedded Systems**
 
-I build full-stack hardware systems: from transistor-level analog ICs to RTL digital designs and embedded IoT solutions.
+I build full-stack digital and mixed-signal systems, focusing on RTL design, verification, and embedded IoT applications.
 
 ---
 
 ## 🔭 What I Do
-- **Analog & Mixed-Signal IC Design**  
-  • MEMS microphone front-end, low-noise amplifiers, layout & simulation.  
-  • Tools: Xschem · Ngspice · Magic · Netgen · SkyWater 130 nm PDK  
-- **Digital VLSI / RTL Design**  
-  • Verilog modules, FSMs, ASIC flow aware projects (Traffic Light, Vending Machine, Digital Lock)  
-- **Embedded Systems & IoT**  
-  • ESP32 based sensors/robotics, dual ultrasonic radar robots, Blynk dashboards  
+
+- **⚙️ Analog & Mixed-Signal IC Design**  
+  • Design and simulation of MEMS microphone front-end circuits, amplifiers, and biasing networks.  
+  • Layout design, DRC/LVS verification, and post-layout simulation using SkyWater 130 nm PDK.  
+  • Hands-on experience with **Xschem**, **Ngspice**, **Magic VLSI**, **Netgen**, and **LTspice**.  
+  • Focus on **low-noise**, **low-power**, and **area-efficient** analog architectures.  
+  • Exposure to analog building blocks like op-amps, comparators, current mirrors, differential pairs, and ADC front-ends.
+
+- **💡 Digital VLSI / RTL Design**  
+  • Development of synthesizable Verilog modules and testbenches for digital systems.  
+  • Projects include **Traffic Light Controller**, **Vending Machine**, **Digital Lock**, and **4-bit ALU**.  
+  • Understanding of RTL-to-GDSII flow, timing analysis, FSM design, and digital system verification.  
+  • Familiar with tools such as **Vivado**, **Icarus Verilog (iVerilog)**, and **Yosys** for simulation and synthesis.  
+  • Strong foundation in **Combinational and Sequential Circuits**, **Counters**, **Shift Registers**, and **FSM Design**.
+
+- **🤖 Embedded Systems & IoT Development**  
+  • Design of **ESP32** and **Arduino-based** smart systems integrating multiple sensors and actuators.  
+  • Developed a **Dual Ultrasonic Sensor Obstacle Avoidance Robot** with servo scanning radar.  
+  • Implementation of **IoT-based Monitoring Systems** (Baby Monitor, Fire Detection, Environmental Sensing).  
+  • Integration with **Blynk Cloud** and **MQTT** for real-time data visualization and control.  
+  • Power management and regulation circuits using **IC7805** and Li-ion batteries.
+
+- **🔬 System Integration & PCB Design**  
+  • Circuit schematic design and PCB layout using **KiCad** and **EasyEDA**.  
+  • Mixed-domain prototyping combining analog signal processing with digital control logic.  
+  • Emphasis on modular design for easy debugging and scalability.
+
+- **📊 Simulation, Analysis & Verification**  
+  • Simulation of analog/digital systems with waveform analysis, frequency response, and transient behavior.  
+  • Post-layout verification and performance optimization of ICs and system prototypes.  
+  • Familiar with data visualization tools and hardware debugging instruments like DSO, logic analyzer, and multimeter.
+
+---
+
+
 
 ---
 
@@ -21,7 +49,7 @@ I build full-stack hardware systems: from transistor-level analog ICs to RTL dig
   A curated collection of Verilog HDL examples: adders, multiplexers, counters, registers with testbenches and waveforms.
 
 - 🔸 **[Verilog Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda.git)**  
-  FSM and RTL design projects including vending machine, traffic controller, digital lock and more.
+  FSM and RTL design projects including vending machine, traffic controller, digital lock and many more.
 
 - 🔸 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda.git)**  
   End-to-end analog front-end design for a MEMS microphone: modelling, simulation, layout readiness.
@@ -32,11 +60,11 @@ I build full-stack hardware systems: from transistor-level analog ICs to RTL dig
 ---
 
 ## 🧰 Tools & Technologies  
-**Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm  
-**Digital Design & Verification:** Verilog · iVerilog · Yosys · Vivado  
-**Embedded & IoT:** ESP32 · Arduino IDE · Blynk · Sensors · Robotics  
-**Languages:** Python · C/C++ · MATLAB  
-**Other:** Git · GitHub · KiCad  
+**Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz
+**Digital Design & Verification:** Verilog · Xilinx · Vivado  
+**Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
+**Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog
+**Other:** Git · GitHub  
 
 ---
 
@@ -61,8 +89,7 @@ I build full-stack hardware systems: from transistor-level analog ICs to RTL dig
 
 ## 📬 Let’s Connect
 - LinkedIn: [linkedin.com/in/bibhu-asish-panda-05332b288](https://www.linkedin.com/in/bibhu-asish-panda-05332b288)  
-- 📧 Email: your_email@example.com  
-- Portfolio / Resume: *(your link here)*
+- 📧 Email: bibhuap2003@gmail.com  
 
 ---
 
