@@ -35,10 +35,7 @@ I build full-stack digital and mixed-signal systems, focusing on RTL design, ver
 
 ### 🧭 Overview
 ![GitHub Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BibhuAsish1925&theme=radical)
-
-### 📊 Top Languages by Commit
 ![Top Langs by Commit](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BibhuAsish1925&theme=radical)
-![Top Langs by Repo](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BibhuAsish1925&theme=radical)
 
 ### 📈 Stats Overview
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BibhuAsish1925&theme=radical)
