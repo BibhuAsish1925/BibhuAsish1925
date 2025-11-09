@@ -1,7 +1,11 @@
 # 👋 Hi, I’m Bibhu Asish Panda  
-**Electronics & Communication Engineering Student | Digital VLSI · Analog IC Design · IoT Embedded Systems**
 
-I build full-stack digital and mixed-signal systems, focusing on RTL design, verification, and embedded IoT applications.
+**an aspiring Electronics and Communication Engineer passionate about Digital VLSI Design, Verification, and Embedded Hardware Systems.
+With a strong foundation in Verilog, FSM-based modeling, and digital system simulation, I enjoy building circuits that bridge logic design with real-world applications.
+
+I have hands-on experience with EDA tools such as Vivado, Xschem, Ngspice, and LTspice, and I’m skilled in both digital and analog design flows — from Verilog RTL modeling to transistor-level circuit analysis using SkyWater 130 nm CMOS.
+
+I am driven by curiosity and precision, aiming to contribute to the fields of Digital Design, ASIC Verification, and Mixed-Signal IC Development, while continuously exploring embedded automation and IoT integration.**
 
 ---
 
