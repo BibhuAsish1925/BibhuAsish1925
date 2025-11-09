@@ -7,8 +7,6 @@ With a strong foundation in Verilog, FSM-based modeling, and digital system simu
 
 **I am driven by curiosity and precision, aiming to contribute to the fields of Digital Design, ASIC Verification, and Mixed-Signal IC Development, while continuously exploring embedded automation and IoT integration.**
 
-**Electronics & Communication Engineering Student | Digital VLSI · Analog IC Design · IoT Embedded Systems**
-
 ---
 
 ## 🧩 Featured Projects
