@@ -13,10 +13,10 @@ Driven by curiosity and precision, I aim to contribute to the domains of **Digit
 ## 🧩 My works
 
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
-  A curated collection of Verilog HDL examples: adders, multiplexers, counters, and registers with testbenches and waveform validation.
+  A curated collection of Verilog HDL examples: Logic gates, Adders, Multiplexers, Counters, Registers, Random sequences and FSM examples with testbenches and waveform validation.
 
 - 🔹 **[Verilog Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda)**  
-  FSM and RTL design projects including *Vending Machine*, *Traffic Light Controller*, *Digital Lock*, and more, showcasing finite state machine design and control logic implementation.
+  FSM and RTL design projects including, showcasing finite state machine design and control logic implementation.
 
 - 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
   End-to-end analog front-end design using *SkyWater 130 nm CMOS technology*, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
