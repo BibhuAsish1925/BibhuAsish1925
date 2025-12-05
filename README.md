@@ -27,7 +27,7 @@ Driven by curiosity and precision, I aim to contribute to the domains of **Digit
 ---
 
 ## 🧰 Tools & Technologies  
-**Analog & IC Design:** Xschem · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz  
+**Analog & IC Design:** Xschem · LTspice • Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz  
 **Digital Design & Verification:** Verilog · Xilinx · Vivado  
 **Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
 **Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog  
