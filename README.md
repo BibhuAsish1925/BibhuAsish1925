@@ -21,7 +21,7 @@ Driven by curiosity and precision, I aim to contribute to the domains of **Digit
 - 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
   End-to-end analog front-end design using *SkyWater 130 nm CMOS technology*, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
 
-- 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
+- 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
   ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
 
 ---
