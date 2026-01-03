@@ -54,33 +54,6 @@
 ![Commits per Year](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BibhuAsish1925&theme=radical)
 
 </div>
----
-
----
-
-## 📈 GitHub Activity Summary
-
-### 🧭 Overall Activity
-![GitHub Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BibhuAsish1925&theme=radical)
-
----
-
-## 📊 Activity – 2025
-![Stats 2025](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BibhuAsish1925&theme=radical)
-![Productive Time 2025](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BibhuAsish1925&theme=radical)
-
-> 📌 *Includes contributions made during the most recent year.*
-
----
-
-## 📊 Activity – 2024
-![Stats 2024](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BibhuAsish1925&theme=radical)
-![Commits 2024](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BibhuAsish1925&theme=radical)
-
-> 📌 *Reflects cumulative activity prior to the current year.*
-
----
-
 
 ---
 
