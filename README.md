@@ -24,6 +24,13 @@ Driven by curiosity and precision, I aim to contribute to the domains of **Digit
 - 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
   ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
 
+- 🔹 **[Health Monitoring System - ESP32-Based IoT Mini Project]([https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-.git])**  
+  IoT-based Health Monitoring System for monitoring Heart Rate, SpO₂, Temperature, Humidity, and Skin Dryness, displaying results on OLED, Serial Monitor, and Blynk IoT Dashboard with intelligent alert messages.
+
+
+
+  
+
 ---
 
 ## 🧰 Tools & Technologies  
