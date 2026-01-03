@@ -1,4 +1,4 @@
-## 🛠️ Bibhu Asish Panda | Digital VLSI, RTL & Embedded Systems
+## 👋 Hi, I’m Bibhu Asish Panda
 
 🎓 I am an Electronics and Communication Engineering undergraduate with a strong interest in Digital VLSI Design, RTL Development, and ASIC Verification. I enjoy translating design specifications into reliable and scalable hardware architectures, with a focus on correctness and clarity.
 
@@ -7,7 +7,6 @@
 🔬 Alongside digital design, I have practical exposure to analog and mixed-signal simulation, enabling effective collaboration at the interface between RTL logic and transistor-level circuits.
 
 🚀 Driven by precision and continuous learning, I aim to contribute to Digital IC Design, ASIC Verification, and Embedded Hardware Development, while steadily building expertise in mixed-signal IC systems.
-
 
 ---
 
