@@ -1,12 +1,13 @@
-# 👋 Hi, I’m Bibhu Asish Panda
+## 🛠️ Bibhu Asish Panda | Digital VLSI, RTL & Embedded Systems
 
-I’m an **Electronics and Communication Engineering undergraduate** with a strong passion for **Digital VLSI Design, Verification, and Embedded Systems**.  
-My work bridges the gap between **hardware-level design and real-world implementation**, combining Verilog-based digital systems with embedded and analog hardware integration.
+🎓 I am an Electronics and Communication Engineering undergraduate with a strong interest in Digital VLSI Design, RTL Development, and ASIC Verification. I enjoy translating design specifications into reliable and scalable hardware architectures, with a focus on correctness and clarity.
 
-I possess hands-on experience with **EDA tools** such as *Vivado, Xschem, Ngspice, and LTspice*, and I’m comfortable working across both **digital RTL modeling** and **analog mixed-signal simulation** environments.  
-My technical foundation includes **FSM-based modeling, HDL coding, circuit design, and system-level debugging**, allowing me to take a design from concept to verified implementation.
+🧠 My experience includes Verilog-based digital system design, FSM modeling, and simulation-driven verification, supported by hands-on work with EDA workflows across both digital and analog domains. I am comfortable taking a design from concept and behavioral modeling through verification and analysis.
 
-Driven by curiosity and precision, I aim to contribute to the domains of **Digital Design, ASIC Verification, and Embedded Automation**, while exploring **mixed-signal IC development** for intelligent electronic systems.
+🔬 Alongside digital design, I have practical exposure to analog and mixed-signal simulation, enabling effective collaboration at the interface between RTL logic and transistor-level circuits.
+
+🚀 Driven by precision and continuous learning, I aim to contribute to Digital IC Design, ASIC Verification, and Embedded Hardware Development, while steadily building expertise in mixed-signal IC systems.
+
 
 ---
 
