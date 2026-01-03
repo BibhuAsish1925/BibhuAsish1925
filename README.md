@@ -1,4 +1,4 @@
-## 👋 Hi, I’m Bibhu Asish Panda
+# 👋 Hi, I’m Bibhu Asish Panda
 
 🎓 I am an Electronics and Communication Engineering undergraduate with a strong interest in Digital VLSI Design, RTL Development, and ASIC Verification. I enjoy translating design specifications into reliable and scalable hardware architectures, with a focus on correctness and clarity.
 
