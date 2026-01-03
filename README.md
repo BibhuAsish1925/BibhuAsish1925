@@ -54,6 +54,50 @@
 ![Commits per Year](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BibhuAsish1925&theme=radical)
 
 </div>
+---
+---
+
+## 📊 GitHub Activity & Contribution Overview
+
+<div align="center">
+
+### 🧭 Overall Profile Activity
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BibhuAsish1925&theme=radical)
+
+</div>
+
+---
+
+<div align="center">
+
+### 📈 Contribution Statistics (Recent Activity)
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BibhuAsish1925&theme=radical)
+![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BibhuAsish1925&theme=radical)
+
+</div>
+
+> 📌 *The statistics above reflect cumulative GitHub activity with emphasis on recent contributions.*
+
+---
+
+<div align="center">
+
+### 🔥 Contribution Streak & Consistency
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=BibhuAsish1925&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🧠 Languages & Code Focus
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BibhuAsish1925&theme=radical)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BibhuAsish1925&theme=radical)
+
+</div>
+
+---
 
 ---
 
