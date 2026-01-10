@@ -37,20 +37,6 @@
 **Languages:** Python · C/C++ · MATLAB · Verilog · System Verilog  
 **Other:** Git · GitHub  
 
----
-
-## 📈 GitHub Activity Summary
-
-<div align="center">
-
-### 🧭 Overview
-![GitHub Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BibhuAsish1925&theme=radical)
-
-### 📈 Stats Overview
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BibhuAsish1925&theme=radical)
-![Commits per Year](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BibhuAsish1925&theme=radical)
-
-</div>
 
 ---
 
