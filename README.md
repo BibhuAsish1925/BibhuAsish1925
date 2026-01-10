@@ -28,9 +28,6 @@
   IoT-based Health Monitoring System for monitoring Heart Rate, SpO₂, Temperature, Humidity, and Skin Dryness, displaying results on OLED, Serial Monitor, and Blynk IoT Dashboard with intelligent alert messages.
 
 
-
-  
-
 ---
 
 ## 🧰 Tools & Technologies  
