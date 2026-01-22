@@ -15,7 +15,7 @@
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
   A curated collection of Verilog HDL examples: Logic gates, Adders, Multiplexers, Counters, Registers, Random sequences and FSM examples with testbenches and waveform validation.
 
-- 🔹 **[Verilog Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda)**  
+- 🔹 **[Verilog Mini Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Projects---Bibhu-Asish-Panda)**  
   FSM and RTL design projects including, showcasing finite state machine design and control logic implementation.
 
 - 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
