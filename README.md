@@ -31,8 +31,8 @@
 ---
 
 ## 🧰 Tools & Technologies  
-**Analog & IC Design:** Xschem · LTspice · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz  
-**Digital Design & Verification:** Verilog · Xilinx · Vivado · Verilator · KiCAD   
+**Digital Design & Verification:** Verilog · Xilinx · Vivado · Verilator · KiCAD  
+**Analog & IC Design:** Xschem · LTspice · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz   
 **Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
 **Languages:** Python · C/C++ · Verilog · System Verilog  
 **Other:** Git · GitHub · MATLAB 
