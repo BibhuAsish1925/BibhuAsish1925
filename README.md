@@ -35,7 +35,7 @@
 **Analog & IC Design:** Xschem · LTspice · Ngspice · Magic VLSI · Netgen · SkyWater 130nm · Siliwiz   
 **Embedded & IoT:** ESP32 · Arduino IDE · Raspberry-pi · Blynk · Sensors · Robotics  
 **Languages:** Python · C/C++ · Verilog · System Verilog  
-**Other:** Git · GitHub · MATLAB 
+**Other:** Git · GitHub · MATLAB · Linux · Ubuntu
 
 
 ---
