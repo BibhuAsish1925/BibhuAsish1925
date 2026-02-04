@@ -13,6 +13,7 @@
 ## 🧩 My works
 
 - 🔹 **[Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)**
+
 This project implements hierarchical clock-gated approximate multipliers using RCA, CSA, CSLA, and COSA adder architectures. The design scales from 4-bit to 8-bit and 16-bit multipliers, applying approximation in lower significant bits while preserving exact computation in higher bits. Clock gating is integrated to suppress unnecessary switching, achieving improved power efficiency with controlled accuracy loss suitable for error-tolerant applications.
 
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
@@ -27,7 +28,7 @@ This project implements hierarchical clock-gated approximate multipliers using R
 - 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
   ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
 
-🔹 **[Health Monitoring System - ESP32-Based IoT Mini Project](https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-.git)**  
+- 🔹 **[Health Monitoring System - ESP32-Based IoT Mini Project](https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-.git)**  
   IoT-based Health Monitoring System for monitoring Heart Rate, SpO₂, Temperature, Humidity, and Skin Dryness, displaying results on OLED, Serial Monitor, and Blynk IoT Dashboard with intelligent alert messages.
 
 ---
