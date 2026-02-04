@@ -13,7 +13,7 @@
 ## 🧩 My works
 
 - 🔹 **[Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)**  
-  AThis project implements hierarchical clock-gated approximate multipliers using RCA, CSA, CSLA, and COSA adder architectures. The design scales from 4-bit to 8-bit and 16-bit multipliers, applying approximation in lower significant bits while preserving exact computation in higher bits. Clock gating is integrated to suppress unnecessary switching, achieving improved power efficiency with controlled accuracy loss suitable for error-tolerant applications.
+  This project implements hierarchical clock-gated approximate multipliers using RCA, CSA, CSLA, and COSA adder architectures. The design scales from 4-bit to 8-bit and 16-bit multipliers, applying approximation in lower significant bits while preserving exact computation in higher bits. Clock gating is integrated to suppress unnecessary switching, achieving improved power efficiency with controlled accuracy loss suitable for error-tolerant applications.
 
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
   A curated collection of Verilog HDL examples: Logic gates, Adders, Multiplexers, Counters, Registers, Random sequences and FSM examples with testbenches and waveform validation.
