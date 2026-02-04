@@ -12,19 +12,19 @@
 
 ## 🧩 My works
 
-🔹 [Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)
+- 🔹 **[Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)**
 This project implements hierarchical clock-gated approximate multipliers using RCA, CSA, CSLA, and COSA adder architectures. The design scales from 4-bit to 8-bit and 16-bit multipliers, applying approximation in lower significant bits while preserving exact computation in higher bits. Clock gating is integrated to suppress unnecessary switching, achieving improved power efficiency with controlled accuracy loss suitable for error-tolerant applications.
 
-🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
+- 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
   A curated collection of Verilog HDL examples: Logic gates, Adders, Multiplexers, Counters, Registers, Random sequences and FSM examples with testbenches and waveform validation.
 
-🔹 **[Verilog Mini Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Mini-Projects---Bibhu-Asish-Panda.git)**  
+- 🔹 **[Verilog Mini Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Mini-Projects---Bibhu-Asish-Panda.git)**  
   FSM and RTL design projects including, showcasing finite state machine design and control logic implementation.
 
-🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
+- 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
   End-to-end analog front-end design using *SkyWater 130 nm CMOS technology*, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
 
-🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
+- 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
   ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
 
 🔹 **[Health Monitoring System - ESP32-Based IoT Mini Project](https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-.git)**  
