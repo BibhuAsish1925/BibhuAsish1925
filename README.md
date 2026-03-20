@@ -12,7 +12,9 @@
 
 ## 🧩 My works
 
-- 🔹 **[Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)** - This project implements hierarchical clock-gated approximate multipliers using RCA, CSA, CSLA, and COSA adder architectures. The design scales from 4-bit to 8-bit and 16-bit multipliers, applying approximation in lower significant bits while preserving exact computation in higher bits. Clock gating is integrated to suppress unnecessary switching, achieving improved power efficiency with controlled accuracy loss suitable for error-tolerant applications.
+- 🔹 **[Power-Efficient 16x8 SRAM Array Design and Layout Implementation using a Low Power 7T-SRAM Cell](https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell.git)** - Designed and simulated a 16×8 7T SRAM in 180nm CMOS technology using Cadence Virtuoso, including SRAM cell, write driver, precharge, sense amplifier, and 4×16 row decoder. Completed custom layout with DRC/LVS verification and validated functionality and power efficiency.
+
+- 🔹 **[Power-efficient Approximate Multiplier via Clock-gating](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)** - Designed and implemented scalable 4-bit, 8-bit, and 16-bit approximate multipliers in Verilog HDL, utilizing hierarchical adder architectures (RCA, CSA, CSLA, COSA) to optimize arithmetic performance. Integrated clock gating with LSB approximation to reduce switching activity and dynamic power while maintaining computational accuracy in MSB paths for error-tolerant digital applications.
 
 - 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)** -  A curated collection of Verilog HDL examples: Logic gates, Adders, Multiplexers, Counters, Registers, Random sequences and FSM examples with testbenches and waveform validation.
 
