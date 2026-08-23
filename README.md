@@ -59,7 +59,7 @@
 - 🔹 **[Verilog Mini Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Mini-Projects---Bibhu-Asish-Panda.git)**  
   RTL and FSM-based mini projects showcasing **finite-state-machine design, control logic implementation, and digital system modeling**.
 
-- 🔹 **[Analog IC Design – MEMS Microphone](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
+- 🔹 **[MEMS Microphone Analog Front-End IC Design](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
   End-to-end analog front-end design using **SkyWater 130 nm CMOS technology**, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
 
 - 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
