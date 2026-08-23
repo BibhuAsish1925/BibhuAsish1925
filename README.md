@@ -1,7 +1,7 @@
 <!-- Animated Header -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=FFA500&center=true&vCenter=true&width=700&lines=🚀+Welcome+to+My+VLSI+Universe!;👨‍💻+RTL+Design+%7C+SystemVerilog+%7C+Verification;🔬+VLSI+%7C+ASIC+%7C+Memory+Design;⚡+Digital+%26+Analog+IC+Design;💡+Building+Reliable+Hardware+Systems" alt="Animated Header">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFA500&center=true&vCenter=true&width=700&lines=🚀+Welcome+to+My+VLSI+Universe!;👨‍💻+RTL+Design+%7C+SystemVerilog+%7C+Verification;🔬+VLSI+%7C+ASIC+%7C+Memory+Design;⚡+Digital+%26+Analog+IC+Design;💡+Building+Reliable+Hardware+Systems" alt="Animated Header">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=750&height=60&lines=🚀+RTL+DESIGN+%26+VERIFICATION+⚡;🔬+VLSI+%7C+ASIC+%7C+MEMORY+DESIGN;🧠+SYSTEMVERILOG+%7C+DIGITAL+IC+DESIGN;💡+DESIGNING+HARDWARE+WITH+PRECISION" alt="Animated Main Heading">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1500&color=00FF00&center=true&vCenter=true&width=750&height=60&lines=🚀+RTL+DESIGN+%26+VERIFICATION+⚡;🔬+VLSI+%7C+ASIC+%7C+MEMORY+DESIGN;🧠+SYSTEMVERILOG+%7C+DIGITAL+IC+DESIGN;💡+DESIGNING+HARDWARE+WITH+PRECISION" alt="Animated Main Heading">
 </h1>
 
 <p align="center">
