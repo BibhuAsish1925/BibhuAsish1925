@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFFFFF&center=true&vCenter=true&width=220&lines=Hi+there!;Welcome+to+my+profile!" alt="Hi there">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFFFFF&center=true&vCenter=true&width=300&lines=Hi+there!;Welcome+to+my+profile!" alt="Hi there">
 </p>
 
 <h1 align="center">
