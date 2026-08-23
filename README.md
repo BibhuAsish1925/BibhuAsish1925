@@ -70,60 +70,19 @@
 
 ---
 
-## 🧰 Tools & Technologies
+## 🧰 Technical Skills
 
-### 💻 Digital VLSI & RTL
+**HDL & Programming:** Verilog, SystemVerilog (Basics), C/C++, Python, TCL (Basics), Perl (Basics)
 
-- **HDL:** Verilog, SystemVerilog (Basics)
-- **RTL Design:** Combinational & Sequential Logic, FSMs, Registers, Counters, Memory, Arithmetic Circuits
-- **Verification:** Simulation, Testbench Development, Waveform Analysis
-- **Scripting:** TCL (Basics), Perl (Basics)
+**Digital VLSI & RTL:** RTL Design, Combinational & Sequential Logic, FSMs, Memory Design, Arithmetic Circuits, Testbench Development, Simulation & Waveform Analysis
 
-### 🔬 Analog & Mixed-Signal
+**ASIC & EDA Tools:** Xilinx Vivado, Icarus Verilog, Verilator, Yosys, Cadence Virtuoso, Netgen, Magic, KiCAD
 
-- **EDA Tools:** Cadence Virtuoso, Xschem, Ngspice, LTSpice
-- **Technologies / PDKs:** SkyWater 130 nm PDK
-- **Design Areas:** Analog IC Design, MEMS Microphone Front-End, CMOS Circuits
+**Analog & Mixed-Signal:** Analog IC Design, MEMS Microphone Front-End, CMOS Circuits, Xschem, Ngspice, LTSpice, SkyWater 130 nm PDK
 
-### ⚙️ Digital Design & ASIC Tools
+**Embedded & IoT:** ESP32, Arduino, Raspberry Pi, Arduino IDE, Blynk, Sensors & Robotics
 
-- Xilinx Vivado
-- Icarus Verilog
-- Verilator
-- Yosys
-- Netgen
-- Magic
-- KiCAD
-- Siliwiz
-
-### 🤖 Embedded & IoT
-
-- ESP32
-- Arduino
-- Raspberry Pi
-- Arduino IDE
-- Blynk
-- Sensors & Robotics
-
-### 🐍 Programming & Other Tools
-
-- C / C++
-- Python
-- MATLAB
-- Git / GitHub
-- Linux
-- AutoCAD
-
----
-
-## 🎓 Coursework
-
-- Digital Electronics
-- Analog Electronics
-- VLSI Design
-- Network Theory
-- Control Systems
-
+**Other:** MATLAB, Git/GitHub, Linux, AutoCAD, Siliwiz
 ---
 
 ## 📬 Let's Connect
