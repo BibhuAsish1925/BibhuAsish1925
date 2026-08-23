@@ -72,17 +72,18 @@
 
 ## 🧰 Technical Skills
 
-**HDL & Programming:** Verilog, SystemVerilog (Basics), C/C++, Python, TCL (Basics), Perl (Basics)
+🔹 **HDL & Programming:** Verilog, SystemVerilog (Basics), C/C++, Python, TCL (Basics), Perl (Basics)
 
-**Digital VLSI & RTL:** RTL Design, Combinational & Sequential Logic, FSMs, Memory Design, Arithmetic Circuits, Testbench Development, Simulation & Waveform Analysis
+🔹 **Digital VLSI & RTL:** RTL Design, Combinational & Sequential Logic, FSMs, Memory Design, Arithmetic Circuits, Testbench Development, Simulation & Waveform Analysis
 
-**ASIC & EDA Tools:** Xilinx Vivado, Icarus Verilog, Verilator, Yosys, Cadence Virtuoso, Netgen, Magic, KiCAD
+🔹 **ASIC & EDA Tools:** Xilinx Vivado, Icarus Verilog, Verilator, Yosys, Cadence Virtuoso, Netgen, Magic, KiCAD
 
-**Analog & Mixed-Signal:** Analog IC Design, MEMS Microphone Front-End, CMOS Circuits, Xschem, Ngspice, LTSpice, SkyWater 130 nm PDK
+🔹 **Analog & Mixed-Signal:** Analog IC Design, MEMS Microphone Front-End, CMOS Circuits, Xschem, Ngspice, LTSpice, SkyWater 130 nm PDK
 
-**Embedded & IoT:** ESP32, Arduino, Raspberry Pi, Arduino IDE, Blynk, Sensors & Robotics
+🔹 **Embedded & IoT:** ESP32, Arduino, Raspberry Pi, Arduino IDE, Blynk, Sensors & Robotics
 
-**Other:** MATLAB, Git/GitHub, Linux, AutoCAD, Siliwiz
+🔹 **Other:** MATLAB, Git/GitHub, Linux, AutoCAD, Siliwiz
+
 ---
 
 ## 📬 Let's Connect
