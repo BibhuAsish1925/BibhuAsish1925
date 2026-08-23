@@ -33,15 +33,15 @@
 
 ---
 
-## 👋 Hi, I'm Bibhu Asish Panda
+## 👋 About Me
 
-🎓 I am an Electronics and Communication Engineering undergraduate with a strong interest in **Digital VLSI Design, RTL Development, and ASIC Verification**. I enjoy translating design specifications into reliable and scalable hardware architectures, with a focus on correctness and clarity.
+🎓 Electronics and Communication Engineering graduate focused on **Digital VLSI, RTL Design, and ASIC Design Verification**, with hands-on experience in Verilog-based digital system design, FSM modeling, and simulation-driven verification.
 
-🧠 My experience includes **Verilog-based digital system design, FSM modeling, and simulation-driven verification**, supported by hands-on work with EDA workflows across both digital and analog domains. I am comfortable taking a design from concept and behavioral modeling through verification and analysis.
+🔧 Experienced in developing and analyzing **RTL architectures, memory systems, arithmetic circuits, and control logic**, with practical exposure to **Verilog/SystemVerilog, Vivado, Icarus Verilog, Verilator, and open-source ASIC design flows**.
 
-🔬 Alongside digital design, I have practical exposure to **analog and mixed-signal simulation**, enabling effective collaboration at the interface between RTL logic and transistor-level circuits.
+🔬 Alongside digital VLSI, I have hands-on experience in **analog IC design and custom layout**, including SRAM cell and array design, analog front-end development, and transistor-level simulation using **Cadence Virtuoso, Xschem, Ngspice, and SkyWater 130 nm PDK**.
 
-🚀 Driven by precision and continuous learning, I aim to contribute to **Digital IC Design, ASIC Verification, and Embedded Hardware Development**, while steadily building expertise in mixed-signal IC systems.
+🚀 My interests lie in **RTL Design, Design Verification, ASIC Design, Memory Design, and Analog IC Design**, with a strong focus on developing reliable, power-efficient, and implementation-oriented hardware architectures.
 
 ---
 
