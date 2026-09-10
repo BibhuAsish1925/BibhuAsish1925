@@ -1,5 +1,15 @@
 <!-- Animated Header -->
 
+<div align="center">
+
+<img src="assets/banner.svg"
+     alt="Bibhu Asish Panda - RTL Design, ASIC and VLSI"
+     width="100%"/>
+
+</div>
+
+<br/>
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFA500&center=true&vCenter=true&width=700&lines=🚀+Welcome+to+My+VLSI+Universe!;👨‍💻+RTL+Design+%7C+SystemVerilog+%7C+Verification;🔬+VLSI+%7C+ASIC+%7C+Memory+Design;⚡+Digital+%26+Analog+IC+Design;💡+Building+Reliable+Hardware+Systems" alt="Animated Header">
 </p>
