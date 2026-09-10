@@ -277,11 +277,7 @@ Browse my complete collection of<br/>
 
 <br/>
 
----
-
 <div align="center">
-
-<h2>🧰 TECHNICAL SKILLS</h2>
 
 <img src="assets/technical-skills.svg"
      alt="Bibhu Asish Panda - Technical Skills and VLSI Toolchain"
