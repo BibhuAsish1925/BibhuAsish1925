@@ -72,14 +72,6 @@ control logic and SystemVerilog verification</b>, with practical exposure
 to Vivado, Verilator, Icarus Verilog and open-source ASIC design flows.
 </p>
 
-<p>
-Alongside digital VLSI, I have experience in <b>analog IC design and
-custom layout</b>, including SRAM cell/array design and MEMS microphone
-analog front-end development using transistor-level simulation tools.
-</p>
-
-<br/>
-
 <h3>🔬 Engineering Focus</h3>
 
 <table>
@@ -100,8 +92,6 @@ analog front-end development using transistor-level simulation tools.
 </tr>
 
 </table>
-
-<br/>
 
 <p>
 <b>Current Focus:</b><br/>
