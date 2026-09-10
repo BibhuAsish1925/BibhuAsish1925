@@ -293,32 +293,22 @@ Browse my complete collection of<br/>
 
 ---
 
-## 📬 Let's Connect
+<!-- ========================================================= -->
+<!--                     LET'S CONNECT                         -->
+<!-- ========================================================= -->
 
-<p align="left">
+<div align="center">
 
-<a href="https://www.linkedin.com/in/bibhu-asish-panda-05332b288/" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
+<a href="https://github.com/BibhuAsish1925">
+
+<img src="assets/connect.svg"
+     alt="Bibhu Asish Panda - Let's Connect"
+     width="100%"/>
+
 </a>
 
-<a href="mailto:bibhuap2003@gmail.com" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" height="35" width="35"/>
-</a>
+</div>
 
-<a href="https://github.com/BibhuAsish1925" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub" height="35" width="35"/>
-</a>
-
-</p>
+<br/>
 
 ---
-
-<p align="center">
-
-### ✨ "Designing reliable hardware, one RTL block at a time." ⚡
-
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=800&color=00FF00&center=true&vCenter=true&width=650&lines=RTL+Design+%7C+Verification;Digital+VLSI+%7C+ASIC+Design;Memory+Design+%7C+Analog+IC+Design;Always+Learning.+Always+Building." alt="Animated Footer">
-</p>
