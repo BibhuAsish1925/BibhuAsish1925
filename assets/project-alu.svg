@@ -1,0 +1,60 @@
+<svg width="580" height="300" viewBox="0 0 580 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080B12"/>
+    <stop offset="100%" stop-color="#17102A"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00E5FF"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+</defs>
+
+<rect x="2" y="2" width="576" height="296" rx="18" fill="url(#bg)" stroke="url(#line)" stroke-width="2"/>
+
+<g opacity="0.16" stroke="#00E5FF">
+  <path d="M20 55H560M20 105H560M20 155H560M20 205H560M20 255H560"/>
+  <path d="M80 20V280M160 20V280M240 20V280M320 20V280M400 20V280M480 20V280"/>
+</g>
+
+<text x="30" y="35" fill="#00E5FF" font-family="monospace" font-size="13" font-weight="bold">
+◈ RTL / PIPELINED / ASIC
+</text>
+
+<text x="30" y="78" fill="#E6EDF3" font-family="sans-serif" font-size="25" font-weight="bold">
+64-BIT 5-STAGE PIPELINED ALU
+</text>
+
+<text x="30" y="105" fill="#A5B4C7" font-family="monospace" font-size="13">
+RTL → SYNTHESIS → PHYSICAL DESIGN → GDSII
+</text>
+
+<rect x="30" y="130" width="145" height="30" rx="15" fill="#101827" stroke="#00E5FF"/>
+<text x="102" y="150" text-anchor="middle" fill="#00E5FF" font-family="monospace" font-size="11">SYSTEMVERILOG</text>
+
+<rect x="185" y="130" width="105" height="30" rx="15" fill="#101827" stroke="#8B5CF6"/>
+<text x="237" y="150" text-anchor="middle" fill="#C4B5FD" font-family="monospace" font-size="11">SKY130A</text>
+
+<rect x="300" y="130" width="105" height="30" rx="15" fill="#101827" stroke="#39FF88"/>
+<text x="352" y="150" text-anchor="middle" fill="#39FF88" font-family="monospace" font-size="11">LIBRELANE</text>
+
+<rect x="415" y="130" width="105" height="30" rx="15" fill="#101827" stroke="#00E5FF"/>
+<text x="467" y="150" text-anchor="middle" fill="#00E5FF" font-family="monospace" font-size="11">OPENROAD</text>
+
+<text x="30" y="192" fill="#39FF88" font-family="monospace" font-size="12">✓ 16 ALU OPERATIONS</text>
+<text x="30" y="214" fill="#39FF88" font-family="monospace" font-size="12">✓ RANDOMIZED VERIFICATION</text>
+
+<text x="300" y="192" fill="#39FF88" font-family="monospace" font-size="12">✓ DRC / LVS / ANTENNA</text>
+<text x="300" y="214" fill="#39FF88" font-family="monospace" font-size="12">✓ FINAL GDSII GENERATED</text>
+
+<path d="M30 245 H120 L135 230 L150 260 L165 235 L180 250 H250"
+      fill="none" stroke="#00E5FF" stroke-width="2"/>
+
+<text x="30" y="278" fill="#8B5CF6" font-family="monospace" font-size="11">
+VIEW REPOSITORY →
+</text>
+
+<text x="420" y="278" fill="#6B7280" font-family="monospace" font-size="10">
+RTL • ASIC • P&amp;R
+</text>
+</svg>
