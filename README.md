@@ -49,7 +49,7 @@
 
 <td width="38%" align="center" valign="middle">
 
-<img src="assets/id-card.svg"
+<img src="assets/id_card.svg"
      alt="Bibhu Asish Panda - VLSI Engineering ID"
      width="330"/>
 
