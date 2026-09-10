@@ -121,100 +121,161 @@ to Vivado, Verilator, Icarus Verilog and open-source ASIC design flows.
 
 ---
 
-<!-- ========================= -->
-<!--    FEATURED PROJECTS       -->
-<!-- ========================= -->
+<!-- ========================================================= -->
+<!--                    FEATURED PROJECTS                      -->
+<!-- ========================================================= -->
 
 <div align="center">
 
 <h2>⭐ FEATURED PROJECTS</h2>
 
 <p>
-Selected work across <b>RTL Design, Memory, ASIC and Analog IC Design</b>
+Selected projects across <b>RTL Design, ASIC, Memory, Verification, Analog IC & Embedded Systems</b>
 </p>
 
 </div>
 
 <br/>
 
-<div align="center">
+<table width="100%">
+<tr>
+
+<!-- ===================== PROJECT 1 ===================== -->
+
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/BibhuAsish1925/Designing-and-Optimizing-a-5-Stage-Pipelined-64-Bit-ALU-from-RTL-to-GDSII">
+
+<img src="assets/project-alu.svg"
+     alt="64-bit 5-Stage Pipelined ALU"
+     width="100%"/>
+
+</a>
+
+</td>
+
+<!-- ===================== PROJECT 2 ===================== -->
+
+<td width="50%" align="center" valign="top">
 
 <a href="https://github.com/BibhuAsish1925/AXI4-Lite-ASIC-RTL-Subsystem-with-RAM-and-GPIO-Peripherals">
 
 <img src="assets/project-axi.svg"
      alt="AXI4-Lite ASIC RTL Subsystem"
-     width="49%"/>
+     width="100%"/>
 
 </a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- ===================== PROJECT 3 ===================== -->
+
+<td width="50%" align="center" valign="top">
 
 <a href="https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell">
 
 <img src="assets/project-sram.svg"
      alt="16x8 7T SRAM Array"
-     width="49%"/>
+     width="100%"/>
 
 </a>
 
-<br/><br/>
+</td>
 
-<a href="YOUR_ALU_REPOSITORY_URL">
+<!-- ===================== PROJECT 4 ===================== -->
 
-<img src="assets/project-alu.svg"
-     alt="64-bit 5-Stage Pipelined ALU"
-     width="49%"/>
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating">
+
+<img src="assets/project-multiplier.svg"
+     alt="Power Efficient Approximate Multiplier"
+     width="100%"/>
 
 </a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- ===================== PROJECT 5 ===================== -->
+
+<td width="50%" align="center" valign="top">
 
 <a href="https://github.com/BibhuAsish1925/MEMS-Microphone-Analog-Front-End-IC-Design">
 
 <img src="assets/project-mems.svg"
      alt="MEMS Microphone Analog Front-End"
-     width="49%"/>
+     width="100%"/>
 
 </a>
 
-</div>
+</td>
+
+<!-- ===================== PROJECT 6 ===================== -->
+
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot">
+
+<img src="assets/project-robot.svg"
+     alt="Dual Ultrasonic Obstacle Avoidance Robot"
+     width="100%"/>
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- ===================== PROJECT 7 ===================== -->
+
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-">
+
+<img src="assets/project-health.svg"
+     alt="ESP32 Health Monitoring System"
+     width="100%"/>
+
+</a>
+
+</td>
+
+<!-- ===================== VIEW ALL PROJECTS ===================== -->
+
+<td width="50%" align="center" valign="middle">
+
+<h3>🚀 EXPLORE ALL PROJECTS</h3>
+
+<p>
+Browse my complete collection of<br/>
+<b>VLSI, RTL, ASIC & Embedded</b> projects.
+</p>
 
 <br/>
 
-<div align="center">
-
-<a href="https://github.com/BibhuAsish1925">
+<a href="https://github.com/BibhuAsish1925?tab=repositories">
 
 <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"/>
 
 </a>
 
-</div>
+</td>
+
+</tr>
+
+</table>
 
 <br/>
-
----
-
----
-
-## 🧩 My Works
-
-- 🔹 **[Power-Efficient 16x8 SRAM Array Design & Layout Implementation using 7T-SRAM Cell](https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell.git)**  
-  Designed and simulated a **16×8 7T SRAM** in 180nm CMOS technology using Cadence Virtuoso, including SRAM cell, write driver, precharge, sense amplifier, and 4×16 row decoder. Completed custom layout with DRC/LVS verification and validated functionality and power efficiency.
-
-- 🔹 **[Power-Efficient Clock-Gated Approximate Multiplier for Low-Power Systems](https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating.git)**  
-  Designed and implemented scalable **4-bit, 8-bit, and 16-bit approximate multipliers** in Verilog HDL, utilizing hierarchical adder architectures (RCA, CSA, CSLA, COSA) to optimize arithmetic performance. Integrated clock gating with LSB approximation to reduce switching activity and dynamic power while maintaining computational accuracy in MSB paths for error-tolerant digital applications.
-
-- 🔹 **[Verilog Codes for Basic Digital Circuits (DVLSI)](https://github.com/BibhuAsish1925/Verilog-codes-for-basic-digital-circuits-DVLSI)**  
-  A curated collection of Verilog HDL examples covering **Logic Gates, Adders, Multiplexers, Counters, Registers, Random Sequences, and FSMs**, along with testbenches and waveform validation.
-
-- 🔹 **[Verilog Mini Projects – Bibhu Asish Panda](https://github.com/BibhuAsish1925/Verilog-Mini-Projects---Bibhu-Asish-Panda.git)**  
-  RTL and FSM-based mini projects showcasing **finite-state-machine design, control logic implementation, and digital system modeling**.
-
-- 🔹 **[MEMS Microphone Analog Front-End IC Design](https://github.com/BibhuAsish1925/Analog-IC-design-GitHub-page-by--Bibhu-Asish-panda)**  
-  End-to-end analog front-end design using **SkyWater 130 nm CMOS technology**, covering MEMS microphone modeling, op-amp simulation, and layout-ready schematic design using Xschem and Ngspice.
-
-- 🔹 **[Dual Ultrasonic Sensor Based Obstacle Detection & Avoidance Robot - Mini Project](https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot)**  
-  ESP32-based autonomous robot featuring dual ultrasonic sensors with servo-based radar scanning for obstacle detection and intelligent navigation.
-
-- 🔹 **[Health Monitoring System - ESP32-Based IoT Mini Project](https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-.git)**  
-  IoT-based Health Monitoring System for monitoring **Heart Rate, SpO₂, Temperature, Humidity, and Skin Dryness**, displaying results on OLED, Serial Monitor, and Blynk IoT Dashboard with intelligent alert messages.
 
 ---
 
