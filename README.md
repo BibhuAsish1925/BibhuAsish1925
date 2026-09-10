@@ -131,6 +131,78 @@ analog front-end development using transistor-level simulation tools.
 
 ---
 
+<!-- ========================= -->
+<!--    FEATURED PROJECTS       -->
+<!-- ========================= -->
+
+<div align="center">
+
+<h2>⭐ FEATURED PROJECTS</h2>
+
+<p>
+Selected work across <b>RTL Design, Memory, ASIC and Analog IC Design</b>
+</p>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/BibhuAsish1925/AXI4-Lite-ASIC-RTL-Subsystem-with-RAM-and-GPIO-Peripherals">
+
+<img src="assets/project-axi.svg"
+     alt="AXI4-Lite ASIC RTL Subsystem"
+     width="49%"/>
+
+</a>
+
+<a href="https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell">
+
+<img src="assets/project-sram.svg"
+     alt="16x8 7T SRAM Array"
+     width="49%"/>
+
+</a>
+
+<br/><br/>
+
+<a href="YOUR_ALU_REPOSITORY_URL">
+
+<img src="assets/project-alu.svg"
+     alt="64-bit 5-Stage Pipelined ALU"
+     width="49%"/>
+
+</a>
+
+<a href="https://github.com/BibhuAsish1925/MEMS-Microphone-Analog-Front-End-IC-Design">
+
+<img src="assets/project-mems.svg"
+     alt="MEMS Microphone Analog Front-End"
+     width="49%"/>
+
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/BibhuAsish1925">
+
+<img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"/>
+
+</a>
+
+</div>
+
+<br/>
+
+---
+
+---
+
 ## 🧩 My Works
 
 - 🔹 **[Power-Efficient 16x8 SRAM Array Design & Layout Implementation using 7T-SRAM Cell](https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell.git)**  
