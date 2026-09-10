@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 580 300"
+     width="580"
+     height="300">
+
+  <defs>
+
+    <linearGradient id="bg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="60%" stop-color="#0D1422"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <pattern id="grid"
+             width="25"
+             height="25"
+             patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-opacity="0.045"/>
+    </pattern>
+
+  </defs>
+
+
+  <rect width="580"
+        height="300"
+        rx="18"
+        fill="url(#bg)"/>
+
+  <rect width="580"
+        height="300"
+        rx="18"
+        fill="url(#grid)"/>
+
+
+  <rect x="1"
+        y="1"
+        width="578"
+        height="298"
+        rx="18"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-opacity="0.45"/>
+
+
+  <text x="35"
+        y="42"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#8B5CF6"
+        letter-spacing="1">
+
+    ◈ MEMORY / CUSTOM LAYOUT
+
+  </text>
+
+
+  <text x="35"
+        y="78"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="25"
+        font-weight="700"
+        fill="#E6EDF3">
+
+    16×8 7T SRAM ARRAY
+
+  </text>
+
+
+  <rect x="35"
+        y="94"
+        width="180"
+        height="2"
+        rx="1"
+        fill="url(#accent)"/>
+
+
+  <text x="35"
+        y="125"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#9AA4B2">
+
+    180nm CMOS • CADENCE VIRTUOSO
+
+  </text>
+
+  <text x="35"
+        y="146"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#9AA4B2">
+
+    7T CELL + PERIPHERAL CIRCUITS
+
+  </text>
+
+
+  <g font-family="Consolas, monospace"
+     font-size="10">
+
+    <rect x="35" y="168" width="90" height="23" rx="6"
+          fill="#8B5CF6" fill-opacity="0.08"
+          stroke="#8B5CF6" stroke-opacity="0.25"/>
+
+    <text x="50" y="184" fill="#B8A3FF">
+      SRAM CELL
+    </text>
+
+
+    <rect x="134" y="168" width="95" height="23" rx="6"
+          fill="#00E5FF" fill-opacity="0.08"
+          stroke="#00E5FF" stroke-opacity="0.25"/>
+
+    <text x="149" y="184" fill="#00E5FF">
+      4×16 DECODER
+    </text>
+
+
+    <rect x="238" y="168" width="70" height="23" rx="6"
+          fill="#39FF88" fill-opacity="0.08"
+          stroke="#39FF88" stroke-opacity="0.25"/>
+
+    <text x="253" y="184" fill="#39FF88">
+      DRC / LVS
+    </text>
+
+  </g>
+
+
+  <text x="35"
+        y="220"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ READ / WRITE
+
+  </text>
+
+  <text x="155"
+        y="220"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ SNM / POWER
+
+  </text>
+
+  <text x="285"
+        y="220"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ LAYOUT
+
+  </text>
+
+
+  <text x="35"
+        y="265"
+        font-family="Consolas, monospace"
+        font-size="11"
+        font-weight="600"
+        fill="#00E5FF">
+
+    VIEW REPOSITORY →
+
+  </text>
+
+
+  <!-- SRAM cell decoration -->
+
+  <g fill="none"
+     stroke="#8B5CF6"
+     stroke-width="1"
+     opacity="0.5">
+
+    <rect x="450" y="95"
+          width="75"
+          height="75"
+          rx="7"/>
+
+    <path d="M450 120 H425 M450 145 H425"/>
+    <path d="M525 120 H550 M525 145 H550"/>
+
+    <path d="M470 95 V75 M505 95 V75"/>
+    <path d="M470 170 V190 M505 170 V190"/>
+
+  </g>
+
+</svg>
