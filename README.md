@@ -1,4 +1,6 @@
-<!-- Animated Header -->
+<!-- ========================= -->
+<!--        HERO BANNER         -->
+<!-- ========================= -->
 
 <div align="center">
 
@@ -9,19 +11,6 @@
 </div>
 
 <br/>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFA500&center=true&vCenter=true&width=700&lines=🚀+Welcome+to+My+VLSI+Universe!;👨‍💻+RTL+Design+%7C+SystemVerilog+%7C+Verification;🔬+VLSI+%7C+ASIC+%7C+Memory+Design;⚡+Digital+%26+Analog+IC+Design;💡+Building+Reliable+Hardware+Systems" alt="Animated Header">
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1500&color=FFFFFF&center=true&vCenter=true&width=300&lines=Hi+there!;Welcome+to+my+profile!" alt="Hi there">
-</p>
-
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1500&color=00FF00&center=true&vCenter=true&width=750&height=60&lines=🚀+RTL+DESIGN+%26+VERIFICATION+⚡;🔬+VLSI+%7C+ASIC+%7C+MEMORY+DESIGN;🧠+SYSTEMVERILOG+%7C+DIGITAL+IC+DESIGN;💡+DESIGNING+HARDWARE+WITH+PRECISION" alt="Animated Main Heading">
-</h1>
 
 <p align="center">
 
@@ -40,6 +29,93 @@
   <img src="https://komarev.com/ghpvc/?username=BibhuAsish1925&label=Profile%20views&color=9f2db4&style=flat" alt="BibhuAsish1925">
 
 </p>
+
+---
+
+<!-- ========================= -->
+<!--         ABOUT ME           -->
+<!-- ========================= -->
+
+<div align="center">
+
+<h2>👋 ABOUT ME</h2>
+
+</div>
+
+<br/>
+
+<table width="100%">
+<tr>
+
+<td width="38%" align="center" valign="middle">
+
+<img src="assets/id-card.svg"
+     alt="Bibhu Asish Panda - VLSI Engineering ID"
+     width="330"/>
+
+</td>
+
+<td width="62%" valign="middle">
+
+<h2>⚡ Electronics & VLSI Engineer</h2>
+
+<p>
+I'm an <b>Electronics and Communication Engineering graduate</b>
+focused on <b>Digital VLSI, RTL Design, ASIC Design and Verification</b>,
+with hands-on experience in Verilog-based digital system design,
+FSM modeling, memory architectures and simulation-driven verification.
+</p>
+
+<p>
+My work spans <b>RTL development, memory systems, arithmetic circuits,
+control logic and SystemVerilog verification</b>, with practical exposure
+to Vivado, Verilator, Icarus Verilog and open-source ASIC design flows.
+</p>
+
+<p>
+Alongside digital VLSI, I have experience in <b>analog IC design and
+custom layout</b>, including SRAM cell/array design and MEMS microphone
+analog front-end development using transistor-level simulation tools.
+</p>
+
+<br/>
+
+<h3>🔬 Engineering Focus</h3>
+
+<table>
+
+<tr>
+<td>🔹 <b>RTL Design</b></td>
+<td>🔹 <b>Design Verification</b></td>
+</tr>
+
+<tr>
+<td>🔹 <b>Memory Design</b></td>
+<td>🔹 <b>ASIC Design</b></td>
+</tr>
+
+<tr>
+<td>🔹 <b>SystemVerilog</b></td>
+<td>🔹 <b>Analog IC Design</b></td>
+</tr>
+
+</table>
+
+<br/>
+
+<p>
+<b>Current Focus:</b><br/>
+<code>RTL → Verification → Synthesis → Physical Implementation</code>
+</p>
+
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+---
 
 ---
 
