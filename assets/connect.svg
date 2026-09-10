@@ -1,0 +1,780 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!--                    BACKGROUND                     -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="55%" stop-color="#0C1220"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!--                     GLOW                         -->
+    <!-- ================================================= -->
+
+    <filter id="glowCyan"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowStrong"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- ================================================= -->
+    <!--                  PCB GRID                         -->
+    <!-- ================================================= -->
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#1C2638"
+            stroke-width="1"/>
+
+    </pattern>
+
+    <!-- ================================================= -->
+    <!--                 SIGNAL DASH                      -->
+    <!-- ================================================= -->
+
+    <linearGradient id="movingSignal"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#00E5FF"
+            stop-opacity="0"/>
+
+      <stop offset="45%" stop-color="#00E5FF"
+            stop-opacity="1"/>
+
+      <stop offset="70%" stop-color="#8B5CF6"
+            stop-opacity="1"/>
+
+      <stop offset="100%" stop-color="#39FF88"
+            stop-opacity="0"/>
+
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!--                    BACKGROUND                     -->
+  <!-- ================================================= -->
+
+  <rect width="1000"
+        height="430"
+        rx="20"
+        fill="url(#bg)"/>
+
+  <rect x="1.5"
+        y="1.5"
+        width="997"
+        height="427"
+        rx="19"
+        fill="none"
+        stroke="url(#border)"
+        stroke-width="3"
+        opacity="0.9"/>
+
+  <rect width="1000"
+        height="430"
+        rx="20"
+        fill="url(#grid)"
+        opacity="0.48"/>
+
+
+  <!-- ================================================= -->
+  <!--              DECORATIVE PCB TRACES               -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke-linecap="round">
+
+    <!-- left traces -->
+
+    <path d="M0 78 H85 L110 103 H175"
+          stroke="#00E5FF"
+          stroke-width="2"
+          opacity="0.7"/>
+
+    <circle cx="175"
+            cy="103"
+            r="5"
+            fill="#00E5FF"
+            filter="url(#glowCyan)"/>
+
+    <path d="M0 112 H60 L92 144 H155"
+          stroke="#8B5CF6"
+          stroke-width="2"
+          opacity="0.55"/>
+
+    <circle cx="155"
+            cy="144"
+            r="4"
+            fill="#8B5CF6"/>
+
+    <path d="M0 348 H75 L102 321 H170"
+          stroke="#39FF88"
+          stroke-width="2"
+          opacity="0.6"/>
+
+    <circle cx="170"
+            cy="321"
+            r="5"
+            fill="#39FF88"
+            filter="url(#glowCyan)"/>
+
+
+    <!-- right traces -->
+
+    <path d="M1000 78 H915 L890 103 H825"
+          stroke="#39FF88"
+          stroke-width="2"
+          opacity="0.65"/>
+
+    <circle cx="825"
+            cy="103"
+            r="5"
+            fill="#39FF88"
+            filter="url(#glowCyan)"/>
+
+    <path d="M1000 350 H920 L890 320 H830"
+          stroke="#00E5FF"
+          stroke-width="2"
+          opacity="0.6"/>
+
+    <circle cx="830"
+            cy="320"
+            r="5"
+            fill="#00E5FF"
+            filter="url(#glowCyan)"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                    HEADER                         -->
+  <!-- ================================================= -->
+
+  <text x="500"
+        y="48"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="14"
+        font-weight="bold"
+        letter-spacing="4"
+        fill="#00E5FF">
+
+    ◈ HARDWARE COMMUNICATION LINK
+
+  </text>
+
+
+  <text x="500"
+        y="83"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="30"
+        font-weight="bold"
+        letter-spacing="2"
+        fill="#E6EDF3">
+
+    LET'S CONNECT
+
+  </text>
+
+
+  <text x="500"
+        y="108"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="12"
+        fill="#8B9BB4">
+
+    OPEN TO VLSI • ASIC • RTL DESIGN • VERIFICATION • COLLABORATION
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                MAIN SIGNAL PATH                   -->
+  <!-- ================================================= -->
+
+  <g font-family="monospace"
+     font-weight="bold"
+     font-size="12"
+     text-anchor="middle">
+
+    <!-- RTL -->
+
+    <rect x="120"
+          y="145"
+          width="110"
+          height="42"
+          rx="8"
+          fill="#0C1220"
+          stroke="#00E5FF"
+          stroke-width="2"/>
+
+    <text x="175"
+          y="171"
+          fill="#00E5FF">
+
+      RTL
+
+    </text>
+
+
+    <!-- VERIFY -->
+
+    <rect x="285"
+          y="145"
+          width="110"
+          height="42"
+          rx="8"
+          fill="#0C1220"
+          stroke="#8B5CF6"
+          stroke-width="2"/>
+
+    <text x="340"
+          y="171"
+          fill="#8B5CF6">
+
+      VERIFY
+
+    </text>
+
+
+    <!-- SYNTHESIZE -->
+
+    <rect x="450"
+          y="145"
+          width="120"
+          height="42"
+          rx="8"
+          fill="#0C1220"
+          stroke="#00E5FF"
+          stroke-width="2"/>
+
+    <text x="510"
+          y="171"
+          fill="#00E5FF">
+
+      SYNTHESIZE
+
+    </text>
+
+
+    <!-- OPTIMIZE -->
+
+    <rect x="625"
+          y="145"
+          width="110"
+          height="42"
+          rx="8"
+          fill="#0C1220"
+          stroke="#8B5CF6"
+          stroke-width="2"/>
+
+    <text x="680"
+          y="171"
+          fill="#8B5CF6">
+
+      OPTIMIZE
+
+    </text>
+
+
+    <!-- IMPLEMENT -->
+
+    <rect x="790"
+          y="145"
+          width="110"
+          height="42"
+          rx="8"
+          fill="#0C1220"
+          stroke="#39FF88"
+          stroke-width="2"/>
+
+    <text x="845"
+          y="171"
+          fill="#39FF88">
+
+      IMPLEMENT
+
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--              ANIMATED SIGNAL LINE                -->
+  <!-- ================================================= -->
+
+  <path d="M80 210
+           H150
+           L170 190
+           H240
+           L260 210
+           H325
+           L345 190
+           H410
+           L430 210
+           H500
+           L520 190
+           H585
+           L605 210
+           H675
+           L695 190
+           H760
+           L780 210
+           H920"
+
+        fill="none"
+        stroke="#172334"
+        stroke-width="3"/>
+
+
+  <!-- moving signal -->
+
+  <path d="M80 210
+           H150
+           L170 190
+           H240
+           L260 210
+           H325
+           L345 190
+           H410
+           L430 210
+           H500
+           L520 190
+           H585
+           L605 210
+           H675
+           L695 190
+           H760
+           L780 210
+           H920"
+
+        fill="none"
+        stroke="url(#movingSignal)"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-dasharray="90 900"
+        filter="url(#glowCyan)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      from="990"
+      to="0"
+      dur="3.5s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ================================================= -->
+  <!--                PULSING NODES                     -->
+  <!-- ================================================= -->
+
+  <g>
+
+    <circle cx="175"
+            cy="210"
+            r="5"
+            fill="#00E5FF"
+            filter="url(#glowCyan)">
+
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="1;0.45;1"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="340"
+            cy="210"
+            r="5"
+            fill="#8B5CF6"
+            filter="url(#glowCyan)">
+
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="1.7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="510"
+            cy="210"
+            r="5"
+            fill="#00E5FF"
+            filter="url(#glowCyan)">
+
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="1.4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="680"
+            cy="210"
+            r="5"
+            fill="#8B5CF6"
+            filter="url(#glowCyan)">
+
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="845"
+            cy="210"
+            r="5"
+            fill="#39FF88"
+            filter="url(#glowStrong)">
+
+      <animate
+        attributeName="r"
+        values="4;9;4"
+        dur="1.6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                 CONNECTION NODES                  -->
+  <!-- ================================================= -->
+
+  <g font-family="monospace"
+     font-size="12"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <!-- LinkedIn -->
+
+    <g>
+
+      <rect x="145"
+            y="255"
+            width="190"
+            height="55"
+            rx="10"
+            fill="#0C1220"
+            stroke="#00E5FF"
+            stroke-width="2"/>
+
+      <circle cx="175"
+              cy="282"
+              r="13"
+              fill="none"
+              stroke="#00E5FF"
+              stroke-width="2">
+
+        <animate
+          attributeName="r"
+          values="11;14;11"
+          dur="2s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+      <text x="245"
+            y="287"
+            fill="#E6EDF3">
+
+        LINKEDIN
+
+      </text>
+
+      <circle cx="175"
+              cy="282"
+              r="4"
+              fill="#00E5FF"
+              filter="url(#glowCyan)"/>
+
+    </g>
+
+
+    <!-- Email -->
+
+    <g>
+
+      <rect x="405"
+            y="255"
+            width="190"
+            height="55"
+            rx="10"
+            fill="#0C1220"
+            stroke="#8B5CF6"
+            stroke-width="2"/>
+
+      <circle cx="435"
+              cy="282"
+              r="13"
+              fill="none"
+              stroke="#8B5CF6"
+              stroke-width="2">
+
+        <animate
+          attributeName="r"
+          values="11;14;11"
+          dur="2.2s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+      <text x="505"
+            y="287"
+            fill="#E6EDF3">
+
+        EMAIL
+
+      </text>
+
+      <circle cx="435"
+              cy="282"
+              r="4"
+              fill="#8B5CF6"
+              filter="url(#glowCyan)"/>
+
+    </g>
+
+
+    <!-- GitHub -->
+
+    <g>
+
+      <rect x="665"
+            y="255"
+            width="190"
+            height="55"
+            rx="10"
+            fill="#0C1220"
+            stroke="#39FF88"
+            stroke-width="2"/>
+
+      <circle cx="695"
+              cy="282"
+              r="13"
+              fill="none"
+              stroke="#39FF88"
+              stroke-width="2">
+
+        <animate
+          attributeName="r"
+          values="11;14;11"
+          dur="1.8s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+      <text x="765"
+            y="287"
+            fill="#E6EDF3">
+
+        GITHUB
+
+      </text>
+
+      <circle cx="695"
+              cy="282"
+              r="4"
+              fill="#39FF88"
+              filter="url(#glowStrong)"/>
+
+    </g>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--             CONNECTION TRACES                    -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke-width="2"
+     stroke-linecap="round">
+
+    <path d="M175 230 V255"
+          stroke="#00E5FF"
+          stroke-dasharray="6 6">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="12"
+        to="0"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+
+    <path d="M510 230 V255"
+          stroke="#8B5CF6"
+          stroke-dasharray="6 6">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="12"
+        to="0"
+        dur="0.9s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+
+    <path d="M845 230 V255"
+          stroke="#39FF88"
+          stroke-dasharray="6 6">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="12"
+        to="0"
+        dur="0.75s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                    TAGLINE                        -->
+  <!-- ================================================= -->
+
+  <text x="500"
+        y="350"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        font-style="italic"
+        fill="#E6EDF3">
+
+    "Designing reliable hardware, one RTL block at a time."
+
+    <animate
+      attributeName="opacity"
+      values="0.55;1;0.55"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                  FOOTER LINE                      -->
+  <!-- ================================================= -->
+
+  <line x1="250"
+        y1="375"
+        x2="750"
+        y2="375"
+        stroke="url(#border)"
+        stroke-width="1"
+        opacity="0.7"/>
+
+
+  <text x="500"
+        y="400"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="3"
+        fill="#718096">
+
+    DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--              ANIMATED CORNER SIGNAL              -->
+  <!-- ================================================= -->
+
+  <circle cx="25"
+          cy="25"
+          r="5"
+          fill="#00E5FF"
+          filter="url(#glowCyan)">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="975"
+          cy="405"
+          r="5"
+          fill="#39FF88"
+          filter="url(#glowStrong)">
+
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
