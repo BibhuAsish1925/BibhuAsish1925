@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 320"
+     width="1200"
+     height="320">
+
+  <defs>
+
+    <linearGradient id="bg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="55%" stop-color="#0C1220"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <pattern id="grid"
+             width="30"
+             height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-opacity="0.055"
+            stroke-width="0.8"/>
+    </pattern>
+
+  </defs>
+
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200"
+        height="320"
+        rx="18"
+        fill="url(#bg)"/>
+
+  <rect width="1200"
+        height="320"
+        rx="18"
+        fill="url(#grid)"/>
+
+
+  <!-- BORDER -->
+
+  <rect x="1"
+        y="1"
+        width="1198"
+        height="318"
+        rx="18"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-width="1.5"
+        stroke-opacity="0.35"/>
+
+
+  <!-- LEFT CIRCUIT -->
+
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1.5"
+     opacity="0.35">
+
+    <path d="M0 75 H130 V100 H185"/>
+    <path d="M0 110 H90 V135 H150"/>
+    <path d="M0 245 H120 V220 H180"/>
+
+  </g>
+
+  <g fill="#00E5FF" opacity="0.7">
+    <circle cx="130" cy="75" r="3"/>
+    <circle cx="90" cy="110" r="3"/>
+    <circle cx="120" cy="245" r="3"/>
+  </g>
+
+
+  <!-- RIGHT CIRCUIT -->
+
+  <g fill="none"
+     stroke="#8B5CF6"
+     stroke-width="1.5"
+     opacity="0.35">
+
+    <path d="M1200 75 H1070 V100 H1015"/>
+    <path d="M1200 110 H1110 V135 H1050"/>
+    <path d="M1200 245 H1080 V220 H1020"/>
+
+  </g>
+
+  <g fill="#8B5CF6" opacity="0.7">
+    <circle cx="1070" cy="75" r="3"/>
+    <circle cx="1110" cy="110" r="3"/>
+    <circle cx="1080" cy="245" r="3"/>
+  </g>
+
+
+  <!-- IC CHIP -->
+
+  <g transform="translate(105 125)"
+     stroke="#8B5CF6"
+     fill="none">
+
+    <rect width="72"
+          height="72"
+          rx="8"
+          stroke-width="2"/>
+
+    <rect x="18"
+          y="18"
+          width="36"
+          height="36"
+          rx="4"
+          stroke-width="1"/>
+
+    <path d="M0 18H-14 M0 36H-14 M0 54H-14"/>
+    <path d="M72 18H86 M72 36H86 M72 54H86"/>
+
+    <path d="M18 0V-14 M36 0V-14 M54 0V-14"/>
+    <path d="M18 72V86 M36 72V86 M54 72V86"/>
+
+  </g>
+
+
+  <!-- MAIN NAME -->
+
+  <text x="600"
+        y="105"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="42"
+        font-weight="700"
+        letter-spacing="3"
+        fill="#E6EDF3">
+
+    BIBHU ASISH PANDA
+
+  </text>
+
+
+  <!-- ACCENT LINE -->
+
+  <rect x="390"
+        y="125"
+        width="420"
+        height="3"
+        rx="2"
+        fill="url(#accent)"/>
+
+
+  <!-- MAIN TITLE -->
+
+  <text x="600"
+        y="175"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="20"
+        font-weight="600"
+        letter-spacing="1"
+        fill="#00E5FF">
+
+    RTL DESIGN  •  ASIC  •  MEMORY  •  VERIFICATION
+
+  </text>
+
+
+  <!-- SUBTITLE -->
+
+  <text x="600"
+        y="207"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="15"
+        fill="#9AA4B2">
+
+    Designing reliable hardware from RTL to silicon
+
+  </text>
+
+
+  <!-- DIGITAL WAVEFORM -->
+
+  <g fill="none"
+     stroke="#39FF88"
+     stroke-width="2.5"
+     opacity="0.85">
+
+    <path d="
+      M350 250
+      H390
+      V230
+      H430
+      V250
+      H470
+      V230
+      H510
+      V250
+      H550
+      V230
+      H590
+      V250
+      H630
+      V230
+      H670
+      V250
+      H710
+      V230
+      H750
+      V250
+      H790
+      V230
+      H830
+      V250
+      H870
+    "/>
+
+  </g>
+
+
+  <!-- WAVEFORM LABELS -->
+
+  <g font-family="Consolas, monospace"
+     font-size="11"
+     fill="#7D8795">
+
+    <text x="330" y="280">RTL</text>
+    <text x="575" y="280">VERIFY</text>
+    <text x="825" y="280">SILICON</text>
+
+  </g>
+
+
+  <!-- SMALL TECH LABELS -->
+
+  <g font-family="Consolas, monospace"
+     font-size="10"
+     fill="#00E5FF"
+     opacity="0.65">
+
+    <text x="205" y="95">ASIC</text>
+    <text x="965" y="95">VLSI</text>
+
+  </g>
+
+</svg>
