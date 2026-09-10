@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 580 300"
+     width="580"
+     height="300">
+
+  <defs>
+
+    <linearGradient id="bg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="65%" stop-color="#0D1422"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <pattern id="grid"
+             width="25"
+             height="25"
+             patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-opacity="0.045"/>
+    </pattern>
+
+  </defs>
+
+
+  <!-- Background -->
+
+  <rect width="580"
+        height="300"
+        rx="18"
+        fill="url(#bg)"/>
+
+  <rect width="580"
+        height="300"
+        rx="18"
+        fill="url(#grid)"/>
+
+
+  <!-- Border -->
+
+  <rect x="1"
+        y="1"
+        width="578"
+        height="298"
+        rx="18"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-opacity="0.45"/>
+
+
+  <!-- Header -->
+
+  <text x="35"
+        y="42"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#00E5FF"
+        letter-spacing="1">
+
+    ◈ RTL / ASIC / VERIFICATION
+
+  </text>
+
+
+  <!-- Title -->
+
+  <text x="35"
+        y="78"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="25"
+        font-weight="700"
+        fill="#E6EDF3">
+
+    AXI4-LITE ASIC RTL
+
+  </text>
+
+  <text x="35"
+        y="108"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="25"
+        font-weight="700"
+        fill="#E6EDF3">
+
+    SUBSYSTEM
+
+  </text>
+
+
+  <!-- Accent -->
+
+  <rect x="35"
+        y="123"
+        width="180"
+        height="2"
+        rx="1"
+        fill="url(#accent)"/>
+
+
+  <!-- Description -->
+
+  <text x="35"
+        y="151"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#9AA4B2">
+
+    RAM + GPIO + ADDRESS DECODING
+
+  </text>
+
+  <text x="35"
+        y="172"
+        font-family="Consolas, monospace"
+        font-size="12"
+        fill="#9AA4B2">
+
+    SYSTEMVERILOG • AXI4-LITE
+
+  </text>
+
+
+  <!-- Tool chips -->
+
+  <g font-family="Consolas, monospace"
+     font-size="10">
+
+    <rect x="35" y="195" width="78" height="23" rx="6"
+          fill="#00E5FF" fill-opacity="0.08"
+          stroke="#00E5FF" stroke-opacity="0.25"/>
+
+    <text x="48" y="211" fill="#00E5FF">
+      VERILATOR
+    </text>
+
+
+    <rect x="122" y="195" width="62" height="23" rx="6"
+          fill="#8B5CF6" fill-opacity="0.08"
+          stroke="#8B5CF6" stroke-opacity="0.25"/>
+
+    <text x="138" y="211" fill="#B8A3FF">
+      VIVADO
+    </text>
+
+
+    <rect x="193" y="195" width="55" height="23" rx="6"
+          fill="#39FF88" fill-opacity="0.08"
+          stroke="#39FF88" stroke-opacity="0.25"/>
+
+    <text x="207" y="211" fill="#39FF88">
+      YOSYS
+    </text>
+
+  </g>
+
+
+  <!-- Results -->
+
+  <text x="35"
+        y="250"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ 11/11 TESTS
+
+  </text>
+
+  <text x="150"
+        y="250"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ LINT PASS
+
+  </text>
+
+  <text x="265"
+        y="250"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#39FF88">
+
+    ✓ SYNTHESIS
+
+  </text>
+
+
+  <!-- CTA -->
+
+  <text x="35"
+        y="280"
+        font-family="Consolas, monospace"
+        font-size="11"
+        font-weight="600"
+        fill="#00E5FF">
+
+    VIEW REPOSITORY →
+
+  </text>
+
+
+  <!-- Circuit decoration -->
+
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1"
+     opacity="0.35">
+
+    <path d="M480 55 H530 V80 H580"/>
+    <path d="M500 95 H550 V120 H580"/>
+    <path d="M465 230 H520 V205 H580"/>
+
+  </g>
+
+  <g fill="#00E5FF" opacity="0.6">
+    <circle cx="530" cy="55" r="2.5"/>
+    <circle cx="550" cy="95" r="2.5"/>
+    <circle cx="520" cy="230" r="2.5"/>
+  </g>
+
+</svg>
