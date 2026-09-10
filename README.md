@@ -279,19 +279,17 @@ Browse my complete collection of<br/>
 
 ---
 
-## 🧰 Technical Skills
+<div align="center">
 
-🔹 **HDL & Programming:** Verilog, SystemVerilog (Basics), C/C++, Python, TCL (Basics), Perl (Basics)
+<h2>🧰 TECHNICAL SKILLS</h2>
 
-🔹 **Digital VLSI & RTL:** RTL Design, Combinational & Sequential Logic, FSMs, Memory Design, Arithmetic Circuits, Testbench Development, Simulation & Waveform Analysis
+<img src="assets/technical-skills.svg"
+     alt="Bibhu Asish Panda - Technical Skills and VLSI Toolchain"
+     width="100%"/>
 
-🔹 **ASIC & EDA Tools:** Xilinx Vivado, Icarus Verilog, Verilator, Yosys, Cadence Virtuoso, Netgen, Magic, KiCAD
+</div>
 
-🔹 **Analog & Mixed-Signal:** Analog IC Design, MEMS Microphone Front-End, CMOS Circuits, Xschem, Ngspice, LTSpice, SkyWater 130 nm PDK
-
-🔹 **Embedded & IoT:** ESP32, Arduino, Raspberry Pi, Arduino IDE, Blynk, Sensors & Robotics
-
-🔹 **Other:** MATLAB, Git/GitHub, Linux, AutoCAD, Siliwiz
+<br/>
 
 ---
 
