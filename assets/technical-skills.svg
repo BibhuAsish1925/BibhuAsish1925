@@ -1,0 +1,527 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080B12"/>
+    <stop offset="55%" stop-color="#0C1220"/>
+    <stop offset="100%" stop-color="#17102A"/>
+  </linearGradient>
+
+  <linearGradient id="cyanViolet" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00E5FF"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <linearGradient id="greenCyan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#39FF88"/>
+    <stop offset="100%" stop-color="#00E5FF"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+
+
+<!-- ================= BACKGROUND ================= -->
+
+<rect width="900" height="900" rx="24" fill="url(#bg)"/>
+
+<!-- PCB GRID -->
+
+<g opacity="0.12" stroke="#00E5FF">
+
+  <path d="M0 60H900"/>
+  <path d="M0 120H900"/>
+  <path d="M0 180H900"/>
+  <path d="M0 240H900"/>
+  <path d="M0 300H900"/>
+  <path d="M0 360H900"/>
+  <path d="M0 420H900"/>
+  <path d="M0 480H900"/>
+  <path d="M0 540H900"/>
+  <path d="M0 600H900"/>
+  <path d="M0 660H900"/>
+  <path d="M0 720H900"/>
+  <path d="M0 780H900"/>
+  <path d="M0 840H900"/>
+
+  <path d="M60 0V900"/>
+  <path d="M120 0V900"/>
+  <path d="M180 0V900"/>
+  <path d="M240 0V900"/>
+  <path d="M300 0V900"/>
+  <path d="M360 0V900"/>
+  <path d="M420 0V900"/>
+  <path d="M480 0V900"/>
+  <path d="M540 0V900"/>
+  <path d="M600 0V900"/>
+  <path d="M660 0V900"/>
+  <path d="M720 0V900"/>
+  <path d="M780 0V900"/>
+  <path d="M840 0V900"/>
+
+</g>
+
+
+<!-- ================= BORDER ================= -->
+
+<rect x="8" y="8" width="884" height="884"
+      rx="22"
+      fill="none"
+      stroke="url(#cyanViolet)"
+      stroke-width="2"/>
+
+
+<!-- ================= HEADER ================= -->
+
+<text x="50" y="58"
+      fill="#00E5FF"
+      font-family="monospace"
+      font-size="14"
+      font-weight="bold">
+
+◈ VLSI ENGINEERING TOOLCHAIN
+
+</text>
+
+<text x="50" y="100"
+      fill="#E6EDF3"
+      font-family="sans-serif"
+      font-size="30"
+      font-weight="bold">
+
+TECHNICAL SKILLS
+
+</text>
+
+<text x="50" y="128"
+      fill="#8B5CF6"
+      font-family="monospace"
+      font-size="12">
+
+RTL → VERIFY → SYNTHESIZE → IMPLEMENT → SILICON
+
+</text>
+
+
+<!-- ================= HDL & PROGRAMMING ================= -->
+
+<rect x="40" y="155" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#00E5FF"
+      stroke-width="1.5"/>
+
+<text x="65" y="185"
+      fill="#00E5FF"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ HDL &amp; PROGRAMMING
+
+</text>
+
+<text x="65" y="215"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• VERILOG    • SYSTEMVERILOG
+
+</text>
+
+<text x="65" y="242"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• C / C++    • PYTHON
+
+</text>
+
+<text x="65" y="269"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• TCL (BASICS)    • PERL (BASICS)
+
+</text>
+
+<text x="65" y="296"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• BASH / SHELL    • MAKEFILE
+
+</text>
+
+<circle cx="410" cy="310" r="5"
+        fill="#39FF88"
+        filter="url(#glow)"/>
+
+
+<!-- ================= DIGITAL VLSI ================= -->
+
+<rect x="460" y="155" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#8B5CF6"
+      stroke-width="1.5"/>
+
+<text x="485" y="185"
+      fill="#8B5CF6"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ DIGITAL VLSI &amp; RTL
+
+</text>
+
+<text x="485" y="215"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• RTL DESIGN    • FSMs
+
+</text>
+
+<text x="485" y="242"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• PIPELINED DATAPATHS    • MEMORY
+
+</text>
+
+<text x="485" y="269"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• ARITHMETIC    • AXI4-LITE
+
+</text>
+
+<text x="485" y="296"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• UART    • I²C    • SPI
+
+</text>
+
+<circle cx="830" cy="310" r="5"
+        fill="#00E5FF"
+        filter="url(#glow)"/>
+
+
+<!-- ================= VERIFICATION ================= -->
+
+<rect x="40" y="360" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#39FF88"
+      stroke-width="1.5"/>
+
+<text x="65" y="390"
+      fill="#39FF88"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ VERIFICATION
+
+</text>
+
+<text x="65" y="420"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• TESTBENCH DEVELOPMENT
+
+</text>
+
+<text x="65" y="447"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• SYSTEMVERILOG INTERFACES
+
+</text>
+
+<text x="65" y="474"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• ASSERTIONS / SVA    • UVM (BASICS)
+
+</text>
+
+<text x="65" y="501"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• RANDOMIZED TESTING    • COVERAGE
+
+</text>
+
+<text x="65" y="528"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• RTL LINT    • WAVEFORM ANALYSIS
+
+</text>
+
+<circle cx="410" cy="515" r="5"
+        fill="#39FF88"
+        filter="url(#glow)"/>
+
+
+<!-- ================= ASIC / PD ================= -->
+
+<rect x="460" y="360" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#00E5FF"
+      stroke-width="1.5"/>
+
+<text x="485" y="390"
+      fill="#00E5FF"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ ASIC &amp; PHYSICAL DESIGN
+
+</text>
+
+<text x="485" y="420"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• RTL → GDSII
+
+</text>
+
+<text x="485" y="447"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• SYNTHESIS    • FLOORPLANNING
+
+</text>
+
+<text x="485" y="474"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• PLACEMENT    • CTS    • ROUTING
+
+</text>
+
+<text x="485" y="501"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• STA    • POWER ANALYSIS
+
+</text>
+
+<text x="485" y="528"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• DRC    • LVS    • ANTENNA    • GDSII
+
+</text>
+
+<circle cx="830" cy="515" r="5"
+        fill="#8B5CF6"
+        filter="url(#glow)"/>
+
+
+<!-- ================= EDA TOOLS ================= -->
+
+<rect x="40" y="565" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#8B5CF6"
+      stroke-width="1.5"/>
+
+<text x="65" y="595"
+      fill="#8B5CF6"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ EDA &amp; DEVELOPMENT TOOLS
+
+</text>
+
+<text x="65" y="625"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• VIVADO    • VERILATOR    • YOSYS
+
+</text>
+
+<text x="65" y="652"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• LIBRELANE / OPENLANE    • OPENROAD
+
+</text>
+
+<text x="65" y="679"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• CADENCE VIRTUOSO    • GENUS (BASICS)
+
+</text>
+
+<text x="65" y="706"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• INNOVUS (BASICS)    • MAGIC    • NETGEN
+
+</text>
+
+<text x="65" y="733"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• GTKWAVE    • EDA PLAYGROUND    • DOCKER
+
+</text>
+
+<circle cx="410" cy="720" r="5"
+        fill="#00E5FF"
+        filter="url(#glow)"/>
+
+
+<!-- ================= MEMORY / ANALOG / EMBEDDED ================= -->
+
+<rect x="460" y="565" width="400" height="185"
+      rx="16"
+      fill="#0A101B"
+      stroke="#39FF88"
+      stroke-width="1.5"/>
+
+<text x="485" y="595"
+      fill="#39FF88"
+      font-family="monospace"
+      font-size="13"
+      font-weight="bold">
+
+▸ MEMORY • ANALOG • EMBEDDED
+
+</text>
+
+<text x="485" y="625"
+      fill="#E6EDF3"
+      font-family="monospace"
+      font-size="12">
+
+• SRAM    • 6T / 7T CELLS    • MEMORY DESIGN
+
+</text>
+
+<text x="485" y="652"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• LOW-POWER VLSI    • APPROXIMATE COMPUTING
+
+</text>
+
+<text x="485" y="679"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• ANALOG IC    • MEMS FRONT-END
+
+</text>
+
+<text x="485" y="706"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• XSCHEM    • NGSPICE    • LTSPICE
+
+</text>
+
+<text x="485" y="733"
+      fill="#A5B4C7"
+      font-family="monospace"
+      font-size="12">
+
+• ESP32    • ARDUINO    • ROBOTICS
+
+</text>
+
+<circle cx="830" cy="720" r="5"
+        fill="#39FF88"
+        filter="url(#glow)"/>
+
+
+<!-- ================= BOTTOM SIGNAL ================= -->
+
+<path d="M100 805 H220 L240 785 L260 825 L280 785 L300 805 H420"
+      fill="none"
+      stroke="#00E5FF"
+      stroke-width="2"/>
+
+<path d="M480 805 H590 L610 785 L630 825 L650 785 L670 805 H800"
+      fill="none"
+      stroke="#8B5CF6"
+      stroke-width="2"/>
+
+<text x="450" y="855"
+      text-anchor="middle"
+      fill="#39FF88"
+      font-family="monospace"
+      font-size="12"
+      font-weight="bold">
+
+DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
+
+</text>
+
+</svg>
