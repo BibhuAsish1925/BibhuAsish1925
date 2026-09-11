@@ -5,6 +5,10 @@
 
   <defs>
 
+    <!-- ================================================= -->
+    <!--                    BACKGROUND                     -->
+    <!-- ================================================= -->
+
     <linearGradient id="bg"
                     x1="0%" y1="0%"
                     x2="100%" y2="100%">
@@ -12,6 +16,11 @@
       <stop offset="55%" stop-color="#0C1220"/>
       <stop offset="100%" stop-color="#17102A"/>
     </linearGradient>
+
+
+    <!-- ================================================= -->
+    <!--                  ACCENT GRADIENT                 -->
+    <!-- ================================================= -->
 
     <linearGradient id="accent"
                     x1="0%" y1="0%"
@@ -21,21 +30,101 @@
       <stop offset="100%" stop-color="#39FF88"/>
     </linearGradient>
 
+
+    <!-- ================================================= -->
+    <!--                    PCB GRID                       -->
+    <!-- ================================================= -->
+
     <pattern id="grid"
              width="30"
              height="30"
              patternUnits="userSpaceOnUse">
+
       <path d="M30 0H0V30"
             fill="none"
             stroke="#00E5FF"
             stroke-opacity="0.055"
             stroke-width="0.8"/>
+
     </pattern>
+
+
+    <!-- ================================================= -->
+    <!--                     GLOW                          -->
+    <!-- ================================================= -->
+
+    <filter id="glow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+
+      <feGaussianBlur stdDeviation="3"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <filter id="strongGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+
+      <feGaussianBlur stdDeviation="5"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- ================================================= -->
+    <!--              MOVING SIGNAL GRADIENT              -->
+    <!-- ================================================= -->
+
+    <linearGradient id="signalGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
+      <stop offset="0%"
+            stop-color="#00E5FF"
+            stop-opacity="0"/>
+
+      <stop offset="35%"
+            stop-color="#00E5FF"
+            stop-opacity="1"/>
+
+      <stop offset="55%"
+            stop-color="#8B5CF6"
+            stop-opacity="1"/>
+
+      <stop offset="75%"
+            stop-color="#39FF88"
+            stop-opacity="1"/>
+
+      <stop offset="100%"
+            stop-color="#39FF88"
+            stop-opacity="0"/>
+
+    </linearGradient>
 
   </defs>
 
 
-  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+  <!--                    BACKGROUND                     -->
+  <!-- ================================================= -->
 
   <rect width="1200"
         height="320"
@@ -48,7 +137,9 @@
         fill="url(#grid)"/>
 
 
-  <!-- BORDER -->
+  <!-- ================================================= -->
+  <!--                     BORDER                        -->
+  <!-- ================================================= -->
 
   <rect x="1"
         y="1"
@@ -58,15 +149,17 @@
         fill="none"
         stroke="url(#accent)"
         stroke-width="1.5"
-        stroke-opacity="0.35"/>
+        stroke-opacity="0.55"/>
 
 
-  <!-- LEFT CIRCUIT -->
+  <!-- ================================================= -->
+  <!--                LEFT PCB TRACES                    -->
+  <!-- ================================================= -->
 
   <g fill="none"
      stroke="#00E5FF"
      stroke-width="1.5"
-     opacity="0.35">
+     opacity="0.4">
 
     <path d="M0 75 H130 V100 H185"/>
     <path d="M0 110 H90 V135 H150"/>
@@ -74,19 +167,26 @@
 
   </g>
 
-  <g fill="#00E5FF" opacity="0.7">
+
+  <g fill="#00E5FF"
+     filter="url(#glow)"
+     opacity="0.85">
+
     <circle cx="130" cy="75" r="3"/>
     <circle cx="90" cy="110" r="3"/>
     <circle cx="120" cy="245" r="3"/>
+
   </g>
 
 
-  <!-- RIGHT CIRCUIT -->
+  <!-- ================================================= -->
+  <!--                RIGHT PCB TRACES                   -->
+  <!-- ================================================= -->
 
   <g fill="none"
      stroke="#8B5CF6"
      stroke-width="1.5"
-     opacity="0.35">
+     opacity="0.4">
 
     <path d="M1200 75 H1070 V100 H1015"/>
     <path d="M1200 110 H1110 V135 H1050"/>
@@ -94,14 +194,21 @@
 
   </g>
 
-  <g fill="#8B5CF6" opacity="0.7">
+
+  <g fill="#8B5CF6"
+     filter="url(#glow)"
+     opacity="0.85">
+
     <circle cx="1070" cy="75" r="3"/>
     <circle cx="1110" cy="110" r="3"/>
     <circle cx="1080" cy="245" r="3"/>
+
   </g>
 
 
-  <!-- IC CHIP -->
+  <!-- ================================================= -->
+  <!--                    IC CHIP                        -->
+  <!-- ================================================= -->
 
   <g transform="translate(105 125)"
      stroke="#8B5CF6"
@@ -110,7 +217,8 @@
     <rect width="72"
           height="72"
           rx="8"
-          stroke-width="2"/>
+          stroke-width="2"
+          filter="url(#glow)"/>
 
     <rect x="18"
           y="18"
@@ -128,7 +236,64 @@
   </g>
 
 
-  <!-- MAIN NAME -->
+  <!-- ================================================= -->
+  <!--                 CHIP PULSE                       -->
+  <!-- ================================================= -->
+
+  <rect x="141"
+        y="161"
+        width="36"
+        height="36"
+        rx="4"
+        fill="none"
+        stroke="#00E5FF"
+        stroke-width="2"
+        opacity="0.8">
+
+    <animate
+      attributeName="opacity"
+      values="0.35;1;0.35"
+      dur="1.8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!--                    ASIC LABEL                     -->
+  <!-- ================================================= -->
+
+  <text x="205"
+        y="95"
+        font-family="Consolas, monospace"
+        font-size="10"
+        fill="#00E5FF"
+        opacity="0.7">
+
+    ASIC
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                    VLSI LABEL                     -->
+  <!-- ================================================= -->
+
+  <text x="965"
+        y="95"
+        font-family="Consolas, monospace"
+        font-size="10"
+        fill="#39FF88"
+        opacity="0.7">
+
+    VLSI
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                   MAIN NAME                       -->
+  <!-- ================================================= -->
 
   <text x="600"
         y="105"
@@ -144,17 +309,22 @@
   </text>
 
 
-  <!-- ACCENT LINE -->
+  <!-- ================================================= -->
+  <!--                  ACCENT LINE                      -->
+  <!-- ================================================= -->
 
   <rect x="390"
         y="125"
         width="420"
         height="3"
         rx="2"
-        fill="url(#accent)"/>
+        fill="url(#accent)"
+        filter="url(#glow)"/>
 
 
-  <!-- MAIN TITLE -->
+  <!-- ================================================= -->
+  <!--                  MAIN TITLE                       -->
+  <!-- ================================================= -->
 
   <text x="600"
         y="175"
@@ -170,7 +340,9 @@
   </text>
 
 
-  <!-- SUBTITLE -->
+  <!-- ================================================= -->
+  <!--                   SUBTITLE                        -->
+  <!-- ================================================= -->
 
   <text x="600"
         y="207"
@@ -184,68 +356,222 @@
   </text>
 
 
-  <!-- DIGITAL WAVEFORM -->
+  <!-- ================================================= -->
+  <!--             RTL → VERIFY → SILICON               -->
+  <!--                 SIGNAL PATH                       -->
+  <!-- ================================================= -->
 
-  <g fill="none"
-     stroke="#39FF88"
-     stroke-width="2.5"
-     opacity="0.85">
+  <!-- Static waveform -->
 
-    <path d="
-      M350 250
-      H390
+  <path d="
+      M330 250
+      H370
       V230
-      H430
+      H410
       V250
-      H470
+      H450
       V230
-      H510
+      H490
       V250
-      H550
+      H530
       V230
-      H590
+      H570
       V250
-      H630
+      H610
       V230
-      H670
+      H650
       V250
-      H710
+      H690
       V230
-      H750
+      H730
       V250
-      H790
+      H770
       V230
-      H830
+      H810
       V250
       H870
-    "/>
+    "
+    fill="none"
+    stroke="#263448"
+    stroke-width="3"
+    stroke-linecap="round"/>
+
+
+  <!-- ================================================= -->
+  <!--               ANIMATED WAVEFORM                   -->
+  <!-- ================================================= -->
+
+  <path d="
+      M330 250
+      H370
+      V230
+      H410
+      V250
+      H450
+      V230
+      H490
+      V250
+      H530
+      V230
+      H570
+      V250
+      H610
+      V230
+      H650
+      V250
+      H690
+      V230
+      H730
+      V250
+      H770
+      V230
+      H810
+      V250
+      H870
+    "
+    fill="none"
+    stroke="url(#signalGradient)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-dasharray="75 550"
+    filter="url(#strongGlow)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      from="625"
+      to="0"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ================================================= -->
+  <!--               SIGNAL TRAVEL DOT                  -->
+  <!-- ================================================= -->
+
+  <circle cx="330"
+          cy="250"
+          r="4"
+          fill="#00E5FF"
+          filter="url(#strongGlow)">
+
+    <animate
+      attributeName="cx"
+      values="330;370;410;450;490;530;570;610;650;690;730;770;810;870"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="cy"
+      values="250;230;250;230;250;230;250;230;250;230;250;230;250;250"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="fill"
+      values="#00E5FF;#00E5FF;#8B5CF6;#8B5CF6;#8B5CF6;#8B5CF6;#39FF88;#39FF88;#39FF88"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!--                 WAVEFORM NODES                   -->
+  <!-- ================================================= -->
+
+  <g filter="url(#glow)">
+
+    <circle cx="330" cy="250" r="3" fill="#00E5FF"/>
+    <circle cx="530" cy="250" r="3" fill="#8B5CF6"/>
+    <circle cx="690" cy="250" r="3" fill="#8B5CF6"/>
+    <circle cx="870" cy="250" r="3" fill="#39FF88"/>
 
   </g>
 
 
-  <!-- WAVEFORM LABELS -->
+  <!-- ================================================= -->
+  <!--                 SIGNAL LABELS                    -->
+  <!-- ================================================= -->
 
   <g font-family="Consolas, monospace"
      font-size="11"
-     fill="#7D8795">
+     text-anchor="middle">
 
-    <text x="330" y="280">RTL</text>
-    <text x="575" y="280">VERIFY</text>
-    <text x="825" y="280">SILICON</text>
+    <text x="350"
+          y="280"
+          fill="#00E5FF">
+
+      RTL
+
+    </text>
+
+
+    <text x="600"
+          y="280"
+          fill="#8B5CF6">
+
+      VERIFY
+
+    </text>
+
+
+    <text x="850"
+          y="280"
+          fill="#39FF88">
+
+      SILICON
+
+    </text>
 
   </g>
 
 
-  <!-- SMALL TECH LABELS -->
+  <!-- ================================================= -->
+  <!--              SIGNAL FLOW UNDERLINE               -->
+  <!-- ================================================= -->
 
-  <g font-family="Consolas, monospace"
-     font-size="10"
-     fill="#00E5FF"
-     opacity="0.65">
+  <line x1="330"
+        y1="288"
+        x2="870"
+        y2="288"
+        stroke="url(#accent)"
+        stroke-width="1"
+        opacity="0.45"/>
 
-    <text x="205" y="95">ASIC</text>
-    <text x="965" y="95">VLSI</text>
 
-  </g>
+  <!-- ================================================= -->
+  <!--                 CORNER NODES                     -->
+  <!-- ================================================= -->
+
+  <circle cx="25"
+          cy="25"
+          r="4"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1175"
+          cy="295"
+          r="4"
+          fill="#39FF88"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+
+  </circle>
 
 </svg>
