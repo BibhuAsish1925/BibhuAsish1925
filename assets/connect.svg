@@ -1,4 +1,4 @@
-<svg width="1000" height="430" viewBox="0 0 1000 430"
+<svg width="1000" height="350" viewBox="0 0 1000 350"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
@@ -8,20 +8,44 @@
     <!-- ================================================= -->
 
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080B12"/>
-      <stop offset="55%" stop-color="#0C1220"/>
+      <stop offset="0%" stop-color="#050914"/>
+      <stop offset="35%" stop-color="#081426"/>
+      <stop offset="70%" stop-color="#0D1228"/>
       <stop offset="100%" stop-color="#17102A"/>
     </linearGradient>
 
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="22%" stop-color="#38BDF8"/>
+      <stop offset="48%" stop-color="#8B5CF6"/>
+      <stop offset="72%" stop-color="#F472B6"/>
+      <stop offset="88%" stop-color="#FACC15"/>
       <stop offset="100%" stop-color="#39FF88"/>
     </linearGradient>
 
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00E5FF"/>
+    <linearGradient id="movingSignal"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00E5FF"/>
       <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="72%" stop-color="#F472B6"/>
+      <stop offset="88%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#39FF88" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanSky" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="violetPink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="yellowGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FACC15"/>
       <stop offset="100%" stop-color="#39FF88"/>
     </linearGradient>
 
@@ -29,30 +53,36 @@
     <!--                     GLOW                         -->
     <!-- ================================================= -->
 
-    <filter id="glowCyan"
+    <filter id="glow"
             x="-50%" y="-50%"
             width="200%" height="200%">
+
       <feGaussianBlur stdDeviation="4"
                       result="blur"/>
+
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
-    <filter id="glowStrong"
+    <filter id="strongGlow"
             x="-50%" y="-50%"
             width="200%" height="200%">
+
       <feGaussianBlur stdDeviation="7"
                       result="blur"/>
+
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
     <!-- ================================================= -->
-    <!--                  PCB GRID                         -->
+    <!--                    PCB GRID                      -->
     <!-- ================================================= -->
 
     <pattern id="grid"
@@ -62,32 +92,29 @@
 
       <path d="M40 0H0V40"
             fill="none"
-            stroke="#1C2638"
+            stroke="#243149"
             stroke-width="1"/>
 
     </pattern>
 
     <!-- ================================================= -->
-    <!--                 SIGNAL DASH                      -->
+    <!--                  SOFT COLOR GLOW                 -->
     <!-- ================================================= -->
 
-    <linearGradient id="movingSignal"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="0%">
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
 
-      <stop offset="0%" stop-color="#00E5FF"
-            stop-opacity="0"/>
+    <radialGradient id="violetGlow">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
 
-      <stop offset="45%" stop-color="#00E5FF"
-            stop-opacity="1"/>
-
-      <stop offset="70%" stop-color="#8B5CF6"
-            stop-opacity="1"/>
-
-      <stop offset="100%" stop-color="#39FF88"
-            stop-opacity="0"/>
-
-    </linearGradient>
+    <radialGradient id="pinkGlow">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
 
   </defs>
 
@@ -97,25 +124,42 @@
   <!-- ================================================= -->
 
   <rect width="1000"
-        height="430"
+        height="350"
         rx="20"
         fill="url(#bg)"/>
+
+  <rect width="1000"
+        height="350"
+        rx="20"
+        fill="url(#grid)"
+        opacity="0.42"/>
+
+  <!-- subtle colorful atmosphere -->
+
+  <circle cx="110"
+          cy="100"
+          r="150"
+          fill="url(#cyanGlow)"/>
+
+  <circle cx="500"
+          cy="170"
+          r="180"
+          fill="url(#violetGlow)"/>
+
+  <circle cx="890"
+          cy="105"
+          r="150"
+          fill="url(#pinkGlow)"/>
 
   <rect x="1.5"
         y="1.5"
         width="997"
-        height="427"
+        height="347"
         rx="19"
         fill="none"
         stroke="url(#border)"
         stroke-width="3"
-        opacity="0.9"/>
-
-  <rect width="1000"
-        height="430"
-        rx="20"
-        fill="url(#grid)"
-        opacity="0.48"/>
+        opacity="0.95"/>
 
 
   <!-- ================================================= -->
@@ -125,64 +169,74 @@
   <g fill="none"
      stroke-linecap="round">
 
-    <!-- left traces -->
+    <!-- left cyan -->
 
-    <path d="M0 78 H85 L110 103 H175"
+    <path d="M0 65 H70 L100 95 H150"
           stroke="#00E5FF"
           stroke-width="2"
-          opacity="0.7"/>
+          opacity="0.8"/>
 
-    <circle cx="175"
-            cy="103"
+    <circle cx="150"
+            cy="95"
             r="5"
             fill="#00E5FF"
-            filter="url(#glowCyan)"/>
+            filter="url(#glow)"/>
 
-    <path d="M0 112 H60 L92 144 H155"
+
+    <!-- left violet -->
+
+    <path d="M0 100 H55 L85 130 H135"
           stroke="#8B5CF6"
-          stroke-width="2"
-          opacity="0.55"/>
-
-    <circle cx="155"
-            cy="144"
-            r="4"
-            fill="#8B5CF6"/>
-
-    <path d="M0 348 H75 L102 321 H170"
-          stroke="#39FF88"
-          stroke-width="2"
-          opacity="0.6"/>
-
-    <circle cx="170"
-            cy="321"
-            r="5"
-            fill="#39FF88"
-            filter="url(#glowCyan)"/>
-
-
-    <!-- right traces -->
-
-    <path d="M1000 78 H915 L890 103 H825"
-          stroke="#39FF88"
           stroke-width="2"
           opacity="0.65"/>
 
-    <circle cx="825"
-            cy="103"
+    <circle cx="135"
+            cy="130"
+            r="4"
+            fill="#8B5CF6"
+            filter="url(#glow)"/>
+
+
+    <!-- left pink -->
+
+    <path d="M0 290 H70 L100 260 H155"
+          stroke="#F472B6"
+          stroke-width="2"
+          opacity="0.65"/>
+
+    <circle cx="155"
+            cy="260"
+            r="4"
+            fill="#F472B6"
+            filter="url(#glow)"/>
+
+
+    <!-- right green -->
+
+    <path d="M1000 65 H930 L900 95 H850"
+          stroke="#39FF88"
+          stroke-width="2"
+          opacity="0.8"/>
+
+    <circle cx="850"
+            cy="95"
             r="5"
             fill="#39FF88"
-            filter="url(#glowCyan)"/>
+            filter="url(#glow)"/>
 
-    <path d="M1000 350 H920 L890 320 H830"
-          stroke="#00E5FF"
+
+    <!-- right yellow -->
+
+    <path d="M1000 290 H930 L900 260 H845"
+          stroke="#FACC15"
           stroke-width="2"
-          opacity="0.6"/>
+          opacity="0.65"/>
 
-    <circle cx="830"
-            cy="320"
-            r="5"
-            fill="#00E5FF"
-            filter="url(#glowCyan)"/>
+    <circle cx="845"
+            cy="260"
+            r="4"
+            fill="#FACC15"
+            filter="url(#glow)"/>
 
   </g>
 
@@ -192,10 +246,10 @@
   <!-- ================================================= -->
 
   <text x="500"
-        y="48"
+        y="45"
         text-anchor="middle"
         font-family="monospace"
-        font-size="14"
+        font-size="13"
         font-weight="bold"
         letter-spacing="4"
         fill="#00E5FF">
@@ -206,7 +260,7 @@
 
 
   <text x="500"
-        y="83"
+        y="78"
         text-anchor="middle"
         font-family="monospace"
         font-size="30"
@@ -220,11 +274,11 @@
 
 
   <text x="500"
-        y="108"
+        y="102"
         text-anchor="middle"
         font-family="monospace"
-        font-size="12"
-        fill="#8B9BB4">
+        font-size="11"
+        fill="#AAB8CC">
 
     OPEN TO VLSI • ASIC • RTL DESIGN • VERIFICATION • COLLABORATION
 
@@ -232,137 +286,26 @@
 
 
   <!-- ================================================= -->
-  <!--                MAIN SIGNAL PATH                   -->
+  <!--              MAIN ANIMATED SIGNAL                -->
   <!-- ================================================= -->
 
-  <g font-family="monospace"
-     font-weight="bold"
-     font-size="12"
-     text-anchor="middle">
-
-    <!-- RTL -->
-
-    <rect x="120"
-          y="145"
-          width="110"
-          height="42"
-          rx="8"
-          fill="#0C1220"
-          stroke="#00E5FF"
-          stroke-width="2"/>
-
-    <text x="175"
-          y="171"
-          fill="#00E5FF">
-
-      RTL
-
-    </text>
-
-
-    <!-- VERIFY -->
-
-    <rect x="285"
-          y="145"
-          width="110"
-          height="42"
-          rx="8"
-          fill="#0C1220"
-          stroke="#8B5CF6"
-          stroke-width="2"/>
-
-    <text x="340"
-          y="171"
-          fill="#8B5CF6">
-
-      VERIFY
-
-    </text>
-
-
-    <!-- SYNTHESIZE -->
-
-    <rect x="450"
-          y="145"
-          width="120"
-          height="42"
-          rx="8"
-          fill="#0C1220"
-          stroke="#00E5FF"
-          stroke-width="2"/>
-
-    <text x="510"
-          y="171"
-          fill="#00E5FF">
-
-      SYNTHESIZE
-
-    </text>
-
-
-    <!-- OPTIMIZE -->
-
-    <rect x="625"
-          y="145"
-          width="110"
-          height="42"
-          rx="8"
-          fill="#0C1220"
-          stroke="#8B5CF6"
-          stroke-width="2"/>
-
-    <text x="680"
-          y="171"
-          fill="#8B5CF6">
-
-      OPTIMIZE
-
-    </text>
-
-
-    <!-- IMPLEMENT -->
-
-    <rect x="790"
-          y="145"
-          width="110"
-          height="42"
-          rx="8"
-          fill="#0C1220"
-          stroke="#39FF88"
-          stroke-width="2"/>
-
-    <text x="845"
-          y="171"
-          fill="#39FF88">
-
-      IMPLEMENT
-
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!--              ANIMATED SIGNAL LINE                -->
-  <!-- ================================================= -->
-
-  <path d="M80 210
+  <path d="M80 130
            H150
-           L170 190
-           H240
-           L260 210
-           H325
-           L345 190
-           H410
-           L430 210
-           H500
-           L520 190
-           H585
-           L605 210
-           H675
-           L695 190
-           H760
-           L780 210
+           L170 112
+           H235
+           L255 130
+           H320
+           L340 112
+           H405
+           L425 130
+           H490
+           L510 112
+           H575
+           L595 130
+           H660
+           L680 112
+           H745
+           L765 130
            H920"
 
         fill="none"
@@ -370,135 +313,88 @@
         stroke-width="3"/>
 
 
-  <!-- moving signal -->
-
-  <path d="M80 210
+  <path d="M80 130
            H150
-           L170 190
-           H240
-           L260 210
-           H325
-           L345 190
-           H410
-           L430 210
-           H500
-           L520 190
-           H585
-           L605 210
-           H675
-           L695 190
-           H760
-           L780 210
+           L170 112
+           H235
+           L255 130
+           H320
+           L340 112
+           H405
+           L425 130
+           H490
+           L510 112
+           H575
+           L595 130
+           H660
+           L680 112
+           H745
+           L765 130
            H920"
 
         fill="none"
         stroke="url(#movingSignal)"
         stroke-width="4"
         stroke-linecap="round"
-        stroke-dasharray="90 900"
-        filter="url(#glowCyan)">
+        stroke-dasharray="100 900"
+        filter="url(#glow)">
 
     <animate
       attributeName="stroke-dashoffset"
-      from="990"
+      from="1000"
       to="0"
-      dur="3.5s"
+      dur="3.2s"
       repeatCount="indefinite"/>
 
   </path>
 
 
   <!-- ================================================= -->
-  <!--                PULSING NODES                     -->
+  <!--                 SIGNAL NODES                     -->
   <!-- ================================================= -->
 
-  <g>
+  <g filter="url(#glow)">
 
-    <circle cx="175"
-            cy="210"
-            r="5"
-            fill="#00E5FF"
-            filter="url(#glowCyan)">
-
-      <animate
-        attributeName="r"
-        values="4;8;4"
-        dur="1.5s"
-        repeatCount="indefinite"/>
-
-      <animate
-        attributeName="opacity"
-        values="1;0.45;1"
-        dur="1.5s"
-        repeatCount="indefinite"/>
-
+    <circle cx="170" cy="130" r="5" fill="#00E5FF">
+      <animate attributeName="r"
+               values="4;8;4"
+               dur="1.4s"
+               repeatCount="indefinite"/>
     </circle>
 
-
-    <circle cx="340"
-            cy="210"
-            r="5"
-            fill="#8B5CF6"
-            filter="url(#glowCyan)">
-
-      <animate
-        attributeName="r"
-        values="4;8;4"
-        dur="1.7s"
-        repeatCount="indefinite"/>
-
+    <circle cx="340" cy="130" r="5" fill="#8B5CF6">
+      <animate attributeName="r"
+               values="4;8;4"
+               dur="1.7s"
+               repeatCount="indefinite"/>
     </circle>
 
-
-    <circle cx="510"
-            cy="210"
-            r="5"
-            fill="#00E5FF"
-            filter="url(#glowCyan)">
-
-      <animate
-        attributeName="r"
-        values="4;8;4"
-        dur="1.4s"
-        repeatCount="indefinite"/>
-
+    <circle cx="510" cy="130" r="5" fill="#F472B6">
+      <animate attributeName="r"
+               values="4;8;4"
+               dur="1.5s"
+               repeatCount="indefinite"/>
     </circle>
 
-
-    <circle cx="680"
-            cy="210"
-            r="5"
-            fill="#8B5CF6"
-            filter="url(#glowCyan)">
-
-      <animate
-        attributeName="r"
-        values="4;8;4"
-        dur="1.8s"
-        repeatCount="indefinite"/>
-
+    <circle cx="680" cy="130" r="5" fill="#FACC15">
+      <animate attributeName="r"
+               values="4;8;4"
+               dur="1.8s"
+               repeatCount="indefinite"/>
     </circle>
 
-
-    <circle cx="845"
-            cy="210"
-            r="5"
-            fill="#39FF88"
-            filter="url(#glowStrong)">
-
-      <animate
-        attributeName="r"
-        values="4;9;4"
-        dur="1.6s"
-        repeatCount="indefinite"/>
-
+    <circle cx="765" cy="130" r="5" fill="#39FF88">
+      <animate attributeName="r"
+               values="4;9;4"
+               dur="1.6s"
+               repeatCount="indefinite"/>
     </circle>
 
   </g>
 
 
   <!-- ================================================= -->
-  <!--                 CONNECTION NODES                  -->
+  <!--                CONNECTION CARDS                  -->
   <!-- ================================================= -->
 
   <g font-family="monospace"
@@ -506,139 +402,190 @@
      font-weight="bold"
      text-anchor="middle">
 
-    <!-- LinkedIn -->
 
-    <g>
+    <!-- ================================================= -->
+    <!--                     LINKEDIN                    -->
+    <!-- ================================================= -->
 
-      <rect x="145"
-            y="255"
-            width="190"
-            height="55"
-            rx="10"
-            fill="#0C1220"
-            stroke="#00E5FF"
-            stroke-width="2"/>
+    <a href="https://www.linkedin.com/in/bibhu-asish-panda-05332b288"
+       target="_blank">
 
-      <circle cx="175"
-              cy="282"
-              r="13"
+      <g>
+
+        <rect x="145"
+              y="175"
+              width="190"
+              height="55"
+              rx="10"
+              fill="#0A1220"
+              stroke="url(#cyanSky)"
+              stroke-width="2.5"/>
+
+        <rect x="147"
+              y="177"
+              width="186"
+              height="51"
+              rx="8"
               fill="none"
               stroke="#00E5FF"
-              stroke-width="2">
+              stroke-width="1"
+              opacity="0.25"/>
 
-        <animate
-          attributeName="r"
-          values="11;14;11"
-          dur="2s"
-          repeatCount="indefinite"/>
+        <circle cx="175"
+                cy="202"
+                r="13"
+                fill="none"
+                stroke="#00E5FF"
+                stroke-width="2">
 
-      </circle>
+          <animate
+            attributeName="r"
+            values="11;15;11"
+            dur="2s"
+            repeatCount="indefinite"/>
 
-      <text x="245"
-            y="287"
-            fill="#E6EDF3">
+        </circle>
 
-        LINKEDIN
+        <circle cx="175"
+                cy="202"
+                r="4"
+                fill="#00E5FF"
+                filter="url(#glow)"/>
 
-      </text>
+        <text x="245"
+              y="207"
+              fill="#E6EDF3">
 
-      <circle cx="175"
-              cy="282"
-              r="4"
-              fill="#00E5FF"
-              filter="url(#glowCyan)"/>
+          LINKEDIN
 
-    </g>
+        </text>
+
+      </g>
+
+    </a>
 
 
-    <!-- Email -->
+    <!-- ================================================= -->
+    <!--                       EMAIL                     -->
+    <!-- ================================================= -->
 
-    <g>
+    <a href="mailto:bibhuap2003@gmail.com">
 
-      <rect x="405"
-            y="255"
-            width="190"
-            height="55"
-            rx="10"
-            fill="#0C1220"
-            stroke="#8B5CF6"
-            stroke-width="2"/>
+      <g>
 
-      <circle cx="435"
-              cy="282"
-              r="13"
+        <rect x="405"
+              y="175"
+              width="190"
+              height="55"
+              rx="10"
+              fill="#0A1220"
+              stroke="url(#violetPink)"
+              stroke-width="2.5"/>
+
+        <rect x="407"
+              y="177"
+              width="186"
+              height="51"
+              rx="8"
               fill="none"
-              stroke="#8B5CF6"
-              stroke-width="2">
+              stroke="#F472B6"
+              stroke-width="1"
+              opacity="0.22"/>
 
-        <animate
-          attributeName="r"
-          values="11;14;11"
-          dur="2.2s"
-          repeatCount="indefinite"/>
+        <circle cx="435"
+                cy="202"
+                r="13"
+                fill="none"
+                stroke="#8B5CF6"
+                stroke-width="2">
 
-      </circle>
+          <animate
+            attributeName="r"
+            values="11;15;11"
+            dur="2.2s"
+            repeatCount="indefinite"/>
 
-      <text x="505"
-            y="287"
-            fill="#E6EDF3">
+        </circle>
 
-        EMAIL
+        <circle cx="435"
+                cy="202"
+                r="4"
+                fill="#F472B6"
+                filter="url(#glow)"/>
 
-      </text>
+        <text x="505"
+              y="207"
+              fill="#E6EDF3">
 
-      <circle cx="435"
-              cy="282"
-              r="4"
-              fill="#8B5CF6"
-              filter="url(#glowCyan)"/>
+          EMAIL
 
-    </g>
+        </text>
+
+      </g>
+
+    </a>
 
 
-    <!-- GitHub -->
+    <!-- ================================================= -->
+    <!--                     GITHUB                      -->
+    <!-- ================================================= -->
 
-    <g>
+    <a href="https://github.com/BibhuAsish1925"
+       target="_blank">
 
-      <rect x="665"
-            y="255"
-            width="190"
-            height="55"
-            rx="10"
-            fill="#0C1220"
-            stroke="#39FF88"
-            stroke-width="2"/>
+      <g>
 
-      <circle cx="695"
-              cy="282"
-              r="13"
+        <rect x="665"
+              y="175"
+              width="190"
+              height="55"
+              rx="10"
+              fill="#0A1220"
+              stroke="url(#yellowGreen)"
+              stroke-width="2.5"/>
+
+        <rect x="667"
+              y="177"
+              width="186"
+              height="51"
+              rx="8"
               fill="none"
               stroke="#39FF88"
-              stroke-width="2">
+              stroke-width="1"
+              opacity="0.22"/>
 
-        <animate
-          attributeName="r"
-          values="11;14;11"
-          dur="1.8s"
-          repeatCount="indefinite"/>
+        <circle cx="695"
+                cy="202"
+                r="13"
+                fill="none"
+                stroke="#39FF88"
+                stroke-width="2">
 
-      </circle>
+          <animate
+            attributeName="r"
+            values="11;15;11"
+            dur="1.8s"
+            repeatCount="indefinite"/>
 
-      <text x="765"
-            y="287"
-            fill="#E6EDF3">
+        </circle>
 
-        GITHUB
+        <circle cx="695"
+                cy="202"
+                r="4"
+                fill="#39FF88"
+                filter="url(#strongGlow)"/>
 
-      </text>
+        <text x="765"
+              y="207"
+              fill="#E6EDF3">
 
-      <circle cx="695"
-              cy="282"
-              r="4"
-              fill="#39FF88"
-              filter="url(#glowStrong)"/>
+          GITHUB
 
-    </g>
+        </text>
+
+      </g>
+
+    </a>
 
   </g>
 
@@ -651,7 +598,7 @@
      stroke-width="2"
      stroke-linecap="round">
 
-    <path d="M175 230 V255"
+    <path d="M175 150 V175"
           stroke="#00E5FF"
           stroke-dasharray="6 6">
 
@@ -665,8 +612,8 @@
     </path>
 
 
-    <path d="M510 230 V255"
-          stroke="#8B5CF6"
+    <path d="M500 150 V175"
+          stroke="#F472B6"
           stroke-dasharray="6 6">
 
       <animate
@@ -679,7 +626,7 @@
     </path>
 
 
-    <path d="M845 230 V255"
+    <path d="M825 150 V175"
           stroke="#39FF88"
           stroke-dasharray="6 6">
 
@@ -696,14 +643,14 @@
 
 
   <!-- ================================================= -->
-  <!--                    TAGLINE                        -->
+  <!--                    TAGLINE                       -->
   <!-- ================================================= -->
 
   <text x="500"
-        y="350"
+        y="275"
         text-anchor="middle"
         font-family="monospace"
-        font-size="15"
+        font-size="14"
         font-style="italic"
         fill="#E6EDF3">
 
@@ -719,29 +666,16 @@
 
 
   <!-- ================================================= -->
-  <!--                  FOOTER LINE                      -->
+  <!--                 COLOR ACCENT LINE                -->
   <!-- ================================================= -->
 
   <line x1="250"
-        y1="375"
+        y1="300"
         x2="750"
-        y2="375"
+        y2="300"
         stroke="url(#border)"
-        stroke-width="1"
-        opacity="0.7"/>
-
-
-  <text x="500"
-        y="400"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="10"
-        letter-spacing="3"
-        fill="#718096">
-
-    DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
-
-  </text>
+        stroke-width="2"
+        opacity="0.75"/>
 
 
   <!-- ================================================= -->
@@ -752,7 +686,7 @@
           cy="25"
           r="5"
           fill="#00E5FF"
-          filter="url(#glowCyan)">
+          filter="url(#glow)">
 
     <animate
       attributeName="opacity"
@@ -764,10 +698,10 @@
 
 
   <circle cx="975"
-          cy="405"
+          cy="325"
           r="5"
           fill="#39FF88"
-          filter="url(#glowStrong)">
+          filter="url(#strongGlow)">
 
     <animate
       attributeName="opacity"
@@ -776,5 +710,6 @@
       repeatCount="indefinite"/>
 
   </circle>
+
 
 </svg>
