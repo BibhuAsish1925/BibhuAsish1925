@@ -10,26 +10,6 @@
 
 </div>
 
-<br/>
-
-<p align="center">
-
-  <a href="https://github.com/BibhuAsish1925">
-    <img src="https://img.shields.io/github/followers/BibhuAsish1925?style=social" alt="GitHub Followers">
-  </a>
-
-  <a href="https://www.linkedin.com/in/bibhu-asish-panda-05332b288/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
-  </a>
-
-  <a href="https://github.com/BibhuAsish1925?tab=repositories">
-    <img src="https://badges.pufler.dev/repos/BibhuAsish1925" alt="Total Repositories">
-  </a>
-
-  <img src="https://komarev.com/ghpvc/?username=BibhuAsish1925&label=Profile%20views&color=9f2db4&style=flat" alt="BibhuAsish1925">
-
-</p>
-
 <!-- ========================================================= -->
 <!--                         ABOUT ME                          -->
 <!-- ========================================================= -->
@@ -62,8 +42,6 @@
 </tr>
 </table>
 
-<br/>
-
 <!-- ========================================================= -->
 <!--                    SECTION TRANSITION                     -->
 <!-- ========================================================= -->
@@ -75,9 +53,6 @@
      alt="Section separator"/>
 
 </div>
-
-<br/>
-
 
 <!-- ========================================================= -->
 <!--                    FEATURED PROJECTS                      -->
@@ -234,8 +209,6 @@
 
 </table>
 
-<br/>
-
 <!-- ========================================================= -->
 <!--                    SECTION TRANSITION                     -->
 <!-- ========================================================= -->
@@ -247,8 +220,6 @@
      alt="Section separator"/>
 
 </div>
-
-<br/>
 
 <!-- ========================================================= -->
 <!--                  TECHNICAL SKILLS                         -->
@@ -262,8 +233,6 @@
 
 </div>
 
-<br/>
-
 <!-- ========================================================= -->
 <!--                    SECTION TRANSITION                     -->
 <!-- ========================================================= -->
@@ -275,8 +244,6 @@
      alt="Section separator"/>
 
 </div>
-
-<br/>
 
 <!-- ========================================================= -->
 <!--                     LET'S CONNECT                         -->
