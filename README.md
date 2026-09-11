@@ -34,7 +34,10 @@
 
 </div>
 
-<table width="100%">
+<br/>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+
 <tr>
 
 <!-- ===================== PROJECT 1 ===================== -->
@@ -45,7 +48,8 @@
 
 <img src="assets/project-alu.svg"
      alt="64-bit 5-Stage Pipelined ALU"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -59,7 +63,8 @@
 
 <img src="assets/project-axi.svg"
      alt="AXI4-Lite ASIC RTL Subsystem"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -77,7 +82,8 @@
 
 <img src="assets/project-sram.svg"
      alt="16x8 7T SRAM Array"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -91,7 +97,8 @@
 
 <img src="assets/project-multiplier.svg"
      alt="Power Efficient Approximate Multiplier"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -109,7 +116,8 @@
 
 <img src="assets/project-mems.svg"
      alt="MEMS Microphone Analog Front-End"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -123,7 +131,8 @@
 
 <img src="assets/project-robot.svg"
      alt="Dual Ultrasonic Obstacle Avoidance Robot"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -141,7 +150,8 @@
 
 <img src="assets/project-health.svg"
      alt="ESP32 Health Monitoring System"
-     width="100%"/>
+     width="100%"
+     style="display:block;"/>
 
 </a>
 
@@ -151,26 +161,22 @@
 
 <td width="50%" align="center" valign="middle">
 
-<div align="center">
-
-<h3>🚀 EXPLORE ALL PROJECTS</h3>
-
-<br/>
-
 <a href="https://github.com/BibhuAsish1925?tab=repositories">
 
 <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"
-     alt="View All Projects"/>
+     alt="View All Projects"
+     width="80%"
+     style="display:block;margin:auto;"/>
 
 </a>
-
-</div>
 
 </td>
 
 </tr>
 
 </table>
+
+<br/>
 
 <!-- ========================================================= -->
 <!--                    SECTION TRANSITION                     -->
