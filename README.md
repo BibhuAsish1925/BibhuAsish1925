@@ -36,20 +36,22 @@
 
 <br/>
 
-<table width="100%" cellspacing="0" cellpadding="0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0"
+       style="border-collapse:collapse;border-spacing:0;">
 
 <tr>
 
 <!-- ===================== PROJECT 1 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/Designing-and-Optimizing-a-5-Stage-Pipelined-64-Bit-ALU-from-RTL-to-GDSII">
 
 <img src="assets/project-alu.svg"
      alt="64-bit 5-Stage Pipelined ALU"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -57,14 +59,15 @@
 
 <!-- ===================== PROJECT 2 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/AXI4-Lite-ASIC-RTL-Subsystem-with-RAM-and-GPIO-Peripherals">
 
 <img src="assets/project-axi.svg"
      alt="AXI4-Lite ASIC RTL Subsystem"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -76,14 +79,15 @@
 
 <!-- ===================== PROJECT 3 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/Power-Efficient-16x8-SRAM-Array-Design-and-Layout-Implementation-using-a-Low-Power-7T-SRAM-Cell">
 
 <img src="assets/project-sram.svg"
      alt="16x8 7T SRAM Array"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -91,14 +95,15 @@
 
 <!-- ===================== PROJECT 4 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/Power-efficient-Approximate-Multiplier-via-Clock-gating">
 
 <img src="assets/project-multiplier.svg"
      alt="Power Efficient Approximate Multiplier"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -110,14 +115,15 @@
 
 <!-- ===================== PROJECT 5 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/MEMS-Microphone-Analog-Front-End-IC-Design">
 
 <img src="assets/project-mems.svg"
      alt="MEMS Microphone Analog Front-End"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -125,14 +131,15 @@
 
 <!-- ===================== PROJECT 6 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/Dual-Ultrasonic-sensor-based-Obstacle-detection-and-avoidance-robot">
 
 <img src="assets/project-robot.svg"
      alt="Dual Ultrasonic Obstacle Avoidance Robot"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -144,14 +151,15 @@
 
 <!-- ===================== PROJECT 7 ===================== -->
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925/ESP-32-based-Health-Monitoring-Mini-Project-">
 
 <img src="assets/project-health.svg"
      alt="ESP32 Health Monitoring System"
      width="100%"
-     style="display:block;"/>
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
@@ -159,14 +167,15 @@
 
 <!-- ===================== EXPLORE ALL ===================== -->
 
-<td width="50%" align="center" valign="middle">
+<td width="50%" valign="top"
+    style="padding:0 !important;margin:0;line-height:0;">
 
 <a href="https://github.com/BibhuAsish1925?tab=repositories">
 
-<img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"
-     alt="View All Projects"
-     width="80%"
-     style="display:block;margin:auto;"/>
+<img src="assets/explore-projects.svg"
+     alt="Explore All Projects"
+     width="100%"
+     style="display:block;margin:0;padding:0;"/>
 
 </a>
 
