@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 320"
+     viewBox="0 0 1200 400"
      width="1200"
-     height="320">
+     height="400">
 
   <defs>
 
@@ -50,7 +50,7 @@
 
 
     <!-- ================================================= -->
-    <!--                     GLOW                          -->
+    <!--                      GLOW                         -->
     <!-- ================================================= -->
 
     <filter id="glow"
@@ -101,11 +101,11 @@
             stop-color="#00E5FF"
             stop-opacity="0"/>
 
-      <stop offset="35%"
+      <stop offset="30%"
             stop-color="#00E5FF"
             stop-opacity="1"/>
 
-      <stop offset="55%"
+      <stop offset="52%"
             stop-color="#8B5CF6"
             stop-opacity="1"/>
 
@@ -127,24 +127,24 @@
   <!-- ================================================= -->
 
   <rect width="1200"
-        height="320"
+        height="400"
         rx="18"
         fill="url(#bg)"/>
 
   <rect width="1200"
-        height="320"
+        height="400"
         rx="18"
         fill="url(#grid)"/>
 
 
   <!-- ================================================= -->
-  <!--                     BORDER                        -->
+  <!--                      BORDER                       -->
   <!-- ================================================= -->
 
   <rect x="1"
         y="1"
         width="1198"
-        height="318"
+        height="398"
         rx="18"
         fill="none"
         stroke="url(#accent)"
@@ -163,7 +163,7 @@
 
     <path d="M0 75 H130 V100 H185"/>
     <path d="M0 110 H90 V135 H150"/>
-    <path d="M0 245 H120 V220 H180"/>
+    <path d="M0 290 H120 V265 H180"/>
 
   </g>
 
@@ -174,7 +174,7 @@
 
     <circle cx="130" cy="75" r="3"/>
     <circle cx="90" cy="110" r="3"/>
-    <circle cx="120" cy="245" r="3"/>
+    <circle cx="120" cy="290" r="3"/>
 
   </g>
 
@@ -190,7 +190,7 @@
 
     <path d="M1200 75 H1070 V100 H1015"/>
     <path d="M1200 110 H1110 V135 H1050"/>
-    <path d="M1200 245 H1080 V220 H1020"/>
+    <path d="M1200 290 H1080 V265 H1020"/>
 
   </g>
 
@@ -201,7 +201,7 @@
 
     <circle cx="1070" cy="75" r="3"/>
     <circle cx="1110" cy="110" r="3"/>
-    <circle cx="1080" cy="245" r="3"/>
+    <circle cx="1080" cy="290" r="3"/>
 
   </g>
 
@@ -237,7 +237,7 @@
 
 
   <!-- ================================================= -->
-  <!--                 CHIP PULSE                       -->
+  <!--                  CHIP PULSE                       -->
   <!-- ================================================= -->
 
   <rect x="141"
@@ -252,7 +252,7 @@
 
     <animate
       attributeName="opacity"
-      values="0.35;1;0.35"
+      values="0.3;1;0.3"
       dur="1.8s"
       repeatCount="indefinite"/>
 
@@ -260,7 +260,7 @@
 
 
   <!-- ================================================= -->
-  <!--                    ASIC LABEL                     -->
+  <!--                  ASIC / VLSI                     -->
   <!-- ================================================= -->
 
   <text x="205"
@@ -275,10 +275,6 @@
   </text>
 
 
-  <!-- ================================================= -->
-  <!--                    VLSI LABEL                     -->
-  <!-- ================================================= -->
-
   <text x="965"
         y="95"
         font-family="Consolas, monospace"
@@ -292,7 +288,7 @@
 
 
   <!-- ================================================= -->
-  <!--                   MAIN NAME                       -->
+  <!--                  MAIN NAME                        -->
   <!-- ================================================= -->
 
   <text x="600"
@@ -345,7 +341,7 @@
   <!-- ================================================= -->
 
   <text x="600"
-        y="207"
+        y="204"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
         font-size="15"
@@ -357,39 +353,119 @@
 
 
   <!-- ================================================= -->
-  <!--             RTL → VERIFY → SILICON               -->
-  <!--                 SIGNAL PATH                       -->
+  <!--       RTL → VERIFY → SYNTHESIS → OPTIMIZE         -->
+  <!--       → IMPLEMENT → GDSII                         -->
   <!-- ================================================= -->
 
-  <!-- Static waveform -->
+  <!-- Stage labels ABOVE the signal -->
+
+  <g font-family="Consolas, monospace"
+     font-size="11"
+     font-weight="600"
+     text-anchor="middle">
+
+    <text x="325"
+          y="235"
+          fill="#00E5FF">
+
+      RTL
+
+    </text>
+
+    <text x="435"
+          y="235"
+          fill="#00E5FF">
+
+      VERIFY
+
+    </text>
+
+    <text x="550"
+          y="235"
+          fill="#8B5CF6">
+
+      SYNTHESIS
+
+    </text>
+
+    <text x="665"
+          y="235"
+          fill="#8B5CF6">
+
+      OPTIMIZE
+
+    </text>
+
+    <text x="780"
+          y="235"
+          fill="#39FF88">
+
+      IMPLEMENT
+
+    </text>
+
+    <text x="890"
+          y="235"
+          fill="#39FF88">
+
+      GDSII
+
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                 STATIC SIGNAL                     -->
+  <!-- ================================================= -->
 
   <path d="
-      M330 250
-      H370
-      V230
-      H410
-      V250
-      H450
-      V230
+      M270 260
+      H295
+      V242
+      H325
+      V260
+      H350
+      V242
+      H380
+      V260
+      H405
+      V242
+      H435
+      V260
+      H460
+      V242
       H490
-      V250
-      H530
-      V230
-      H570
-      V250
-      H610
-      V230
-      H650
-      V250
+      V260
+      H515
+      V242
+      H550
+      V260
+      H575
+      V242
+      H605
+      V260
+      H630
+      V242
+      H665
+      V260
       H690
-      V230
-      H730
-      V250
-      H770
-      V230
-      H810
-      V250
-      H870
+      V242
+      H720
+      V260
+      H745
+      V242
+      H780
+      V260
+      H805
+      V242
+      H835
+      V260
+      H860
+      V242
+      H890
+      V260
+      H930
     "
     fill="none"
     stroke="#263448"
@@ -398,130 +474,201 @@
 
 
   <!-- ================================================= -->
-  <!--               ANIMATED WAVEFORM                   -->
+  <!--                ANIMATED SIGNAL                    -->
   <!-- ================================================= -->
 
   <path d="
-      M330 250
-      H370
-      V230
-      H410
-      V250
-      H450
-      V230
+      M270 260
+      H295
+      V242
+      H325
+      V260
+      H350
+      V242
+      H380
+      V260
+      H405
+      V242
+      H435
+      V260
+      H460
+      V242
       H490
-      V250
-      H530
-      V230
-      H570
-      V250
-      H610
-      V230
-      H650
-      V250
+      V260
+      H515
+      V242
+      H550
+      V260
+      H575
+      V242
+      H605
+      V260
+      H630
+      V242
+      H665
+      V260
       H690
-      V230
-      H730
-      V250
-      H770
-      V230
-      H810
-      V250
-      H870
+      V242
+      H720
+      V260
+      H745
+      V242
+      H780
+      V260
+      H805
+      V242
+      H835
+      V260
+      H860
+      V242
+      H890
+      V260
+      H930
     "
     fill="none"
     stroke="url(#signalGradient)"
     stroke-width="3"
     stroke-linecap="round"
-    stroke-dasharray="75 550"
+    stroke-dasharray="80 650"
     filter="url(#strongGlow)">
 
     <animate
       attributeName="stroke-dashoffset"
-      from="625"
+      from="730"
       to="0"
-      dur="3.2s"
+      dur="3.5s"
       repeatCount="indefinite"/>
 
   </path>
 
 
   <!-- ================================================= -->
-  <!--               SIGNAL TRAVEL DOT                  -->
+  <!--              TRAVELLING SIGNAL DOT               -->
   <!-- ================================================= -->
 
-  <circle cx="330"
-          cy="250"
+  <circle cx="270"
+          cy="260"
           r="4"
           fill="#00E5FF"
           filter="url(#strongGlow)">
 
     <animate
       attributeName="cx"
-      values="330;370;410;450;490;530;570;610;650;690;730;770;810;870"
-      dur="3.2s"
+      values="
+      270;
+      295;
+      325;
+      350;
+      380;
+      405;
+      435;
+      460;
+      490;
+      515;
+      550;
+      575;
+      605;
+      630;
+      665;
+      690;
+      720;
+      745;
+      780;
+      805;
+      835;
+      860;
+      890;
+      930"
+      dur="3.5s"
       repeatCount="indefinite"/>
 
     <animate
       attributeName="cy"
-      values="250;230;250;230;250;230;250;230;250;230;250;230;250;250"
-      dur="3.2s"
-      repeatCount="indefinite"/>
-
-    <animate
-      attributeName="fill"
-      values="#00E5FF;#00E5FF;#8B5CF6;#8B5CF6;#8B5CF6;#8B5CF6;#39FF88;#39FF88;#39FF88"
-      dur="3.2s"
+      values="
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      242;
+      260;
+      260"
+      dur="3.5s"
       repeatCount="indefinite"/>
 
   </circle>
 
 
   <!-- ================================================= -->
-  <!--                 WAVEFORM NODES                   -->
+  <!--                 SIGNAL NODES                      -->
   <!-- ================================================= -->
 
   <g filter="url(#glow)">
 
-    <circle cx="330" cy="250" r="3" fill="#00E5FF"/>
-    <circle cx="530" cy="250" r="3" fill="#8B5CF6"/>
-    <circle cx="690" cy="250" r="3" fill="#8B5CF6"/>
-    <circle cx="870" cy="250" r="3" fill="#39FF88"/>
+    <circle cx="270" cy="260" r="3" fill="#00E5FF"/>
+    <circle cx="435" cy="260" r="3" fill="#00E5FF"/>
+    <circle cx="550" cy="260" r="3" fill="#8B5CF6"/>
+    <circle cx="665" cy="260" r="3" fill="#8B5CF6"/>
+    <circle cx="780" cy="260" r="3" fill="#39FF88"/>
+    <circle cx="930" cy="260" r="3" fill="#39FF88"/>
 
   </g>
 
 
   <!-- ================================================= -->
-  <!--                 SIGNAL LABELS                    -->
+  <!--              DOMAIN / TECHNOLOGY                  -->
   <!-- ================================================= -->
 
   <g font-family="Consolas, monospace"
-     font-size="11"
+     font-size="12"
+     font-weight="600"
      text-anchor="middle">
 
-    <text x="350"
-          y="280"
+    <text x="400"
+          y="315"
           fill="#00E5FF">
 
-      RTL
+      IOT
 
     </text>
 
-
-    <text x="600"
-          y="280"
+    <text x="535"
+          y="315"
           fill="#8B5CF6">
 
-      VERIFY
+      MEMORY
 
     </text>
 
+    <text x="670"
+          y="315"
+          fill="#8B5CF6">
 
-    <text x="850"
-          y="280"
+      ASIC
+
+    </text>
+
+    <text x="805"
+          y="315"
           fill="#39FF88">
 
-      SILICON
+      ANALOG
 
     </text>
 
@@ -529,20 +676,37 @@
 
 
   <!-- ================================================= -->
-  <!--              SIGNAL FLOW UNDERLINE               -->
+  <!--               DOMAIN UNDERLINE                    -->
   <!-- ================================================= -->
 
-  <line x1="330"
-        y1="288"
-        x2="870"
-        y2="288"
+  <line x1="350"
+        y1="328"
+        x2="850"
+        y2="328"
         stroke="url(#accent)"
         stroke-width="1"
         opacity="0.45"/>
 
 
   <!-- ================================================= -->
-  <!--                 CORNER NODES                     -->
+  <!--              FINAL ENGINEERING FLOW               -->
+  <!-- ================================================= -->
+
+  <text x="600"
+        y="360"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="10"
+        letter-spacing="3"
+        fill="#718096">
+
+    DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                  CORNER NODES                     -->
   <!-- ================================================= -->
 
   <circle cx="25"
@@ -561,7 +725,7 @@
 
 
   <circle cx="1175"
-          cy="295"
+          cy="375"
           r="4"
           fill="#39FF88"
           filter="url(#glow)">
@@ -573,5 +737,18 @@
       repeatCount="indefinite"/>
 
   </circle>
+
+
+  <!-- ================================================= -->
+  <!--               FINAL SIGNAL PULSE                  -->
+  <!-- ================================================= -->
+
+  <line x1="275"
+        y1="378"
+        x2="925"
+        y2="378"
+        stroke="url(#accent)"
+        stroke-width="1"
+        opacity="0.25"/>
 
 </svg>
