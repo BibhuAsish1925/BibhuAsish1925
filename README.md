@@ -30,8 +30,6 @@
 
 </p>
 
----
-
 <!-- ========================= -->
 <!--         ABOUT ME           -->
 <!-- ========================= -->
@@ -104,22 +102,6 @@ to Vivado, Verilator, Icarus Verilog and open-source ASIC design flows.
 </table>
 
 <br/>
-
----
-
----
-
-## 👋 About Me
-
-🎓 Electronics and Communication Engineering graduate focused on **Digital VLSI, RTL Design, and ASIC Design Verification**, with hands-on experience in Verilog-based digital system design, FSM modeling, and simulation-driven verification.
-
-🔧 Experienced in developing and analyzing **RTL architectures, memory systems, arithmetic circuits, and control logic**, with practical exposure to **Verilog/SystemVerilog, Vivado, Icarus Verilog, Verilator, and open-source ASIC design flows**.
-
-🔬 Alongside digital VLSI, I have hands-on experience in **analog IC design and custom layout**, including SRAM cell and array design, analog front-end development, and transistor-level simulation using **Cadence Virtuoso, Xschem, Ngspice, and SkyWater 130 nm PDK**.
-
-🚀 My interests lie in **RTL Design, Design Verification, ASIC Design, Memory Design, and Analog IC Design**, with a strong focus on developing reliable, power-efficient, and implementation-oriented hardware architectures.
-
----
 
 <!-- ========================================================= -->
 <!--                    FEATURED PROJECTS                      -->
