@@ -165,25 +165,23 @@
 
 </td>
 
-<!-- ===================== EXPLORE ALL ===================== -->
+<!-- ===================== EXPLORE ALL ===================== --> 
 
-<td width="50%" valign="top"
-    style="padding:0 !important;margin:0;line-height:0;">
+<td width="50%" align="center" valign="middle"> 
+     
+<a href="https://github.com/BibhuAsish1925?tab=repositories"> 
 
-<a href="https://github.com/BibhuAsish1925?tab=repositories">
+<img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12" 
+     alt="View All Projects" 
+     width="80%" 
+     style="display:block;margin:auto;"/> 
+</a> 
 
-<img src="assets/explore-projects.svg"
-     alt="Explore All Projects"
-     width="100%"
-     style="display:block;margin:0;padding:0;"/>
+</td> 
 
-</a>
+</tr> 
 
-</td>
-
-</tr>
-
-</table>
+</table> 
 
 <br/>
 
