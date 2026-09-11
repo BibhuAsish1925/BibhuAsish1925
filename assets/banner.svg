@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 400"
+     viewBox="0 0 1200 500"
      width="1200"
-     height="400">
+     height="500">
 
   <defs>
 
@@ -92,10 +92,8 @@
     <!-- ================================================= -->
 
     <linearGradient id="signalGradient"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%">
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
 
       <stop offset="0%"
             stop-color="#00E5FF"
@@ -127,12 +125,12 @@
   <!-- ================================================= -->
 
   <rect width="1200"
-        height="400"
+        height="500"
         rx="18"
         fill="url(#bg)"/>
 
   <rect width="1200"
-        height="400"
+        height="500"
         rx="18"
         fill="url(#grid)"/>
 
@@ -144,7 +142,7 @@
   <rect x="1"
         y="1"
         width="1198"
-        height="398"
+        height="498"
         rx="18"
         fill="none"
         stroke="url(#accent)"
@@ -161,20 +159,19 @@
      stroke-width="1.5"
      opacity="0.4">
 
-    <path d="M0 75 H130 V100 H185"/>
-    <path d="M0 110 H90 V135 H150"/>
-    <path d="M0 290 H120 V265 H180"/>
+    <path d="M0 90 H130 V115 H185"/>
+    <path d="M0 135 H90 V160 H150"/>
+    <path d="M0 380 H120 V355 H180"/>
 
   </g>
-
 
   <g fill="#00E5FF"
      filter="url(#glow)"
      opacity="0.85">
 
-    <circle cx="130" cy="75" r="3"/>
-    <circle cx="90" cy="110" r="3"/>
-    <circle cx="120" cy="290" r="3"/>
+    <circle cx="130" cy="90" r="3"/>
+    <circle cx="90" cy="135" r="3"/>
+    <circle cx="120" cy="380" r="3"/>
 
   </g>
 
@@ -188,20 +185,19 @@
      stroke-width="1.5"
      opacity="0.4">
 
-    <path d="M1200 75 H1070 V100 H1015"/>
-    <path d="M1200 110 H1110 V135 H1050"/>
-    <path d="M1200 290 H1080 V265 H1020"/>
+    <path d="M1200 90 H1070 V115 H1015"/>
+    <path d="M1200 135 H1110 V160 H1050"/>
+    <path d="M1200 380 H1080 V355 H1020"/>
 
   </g>
-
 
   <g fill="#8B5CF6"
      filter="url(#glow)"
      opacity="0.85">
 
-    <circle cx="1070" cy="75" r="3"/>
-    <circle cx="1110" cy="110" r="3"/>
-    <circle cx="1080" cy="290" r="3"/>
+    <circle cx="1070" cy="90" r="3"/>
+    <circle cx="1110" cy="135" r="3"/>
+    <circle cx="1080" cy="380" r="3"/>
 
   </g>
 
@@ -210,7 +206,7 @@
   <!--                    IC CHIP                        -->
   <!-- ================================================= -->
 
-  <g transform="translate(105 125)"
+  <g transform="translate(105 170)"
      stroke="#8B5CF6"
      fill="none">
 
@@ -241,7 +237,7 @@
   <!-- ================================================= -->
 
   <rect x="141"
-        y="161"
+        y="206"
         width="36"
         height="36"
         rx="4"
@@ -264,7 +260,7 @@
   <!-- ================================================= -->
 
   <text x="205"
-        y="95"
+        y="110"
         font-family="Consolas, monospace"
         font-size="10"
         fill="#00E5FF"
@@ -274,9 +270,8 @@
 
   </text>
 
-
   <text x="965"
-        y="95"
+        y="110"
         font-family="Consolas, monospace"
         font-size="10"
         fill="#39FF88"
@@ -292,10 +287,10 @@
   <!-- ================================================= -->
 
   <text x="600"
-        y="105"
+        y="125"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
-        font-size="42"
+        font-size="46"
         font-weight="700"
         letter-spacing="3"
         fill="#E6EDF3">
@@ -309,9 +304,9 @@
   <!--                  ACCENT LINE                      -->
   <!-- ================================================= -->
 
-  <rect x="390"
-        y="125"
-        width="420"
+  <rect x="375"
+        y="147"
+        width="450"
         height="3"
         rx="2"
         fill="url(#accent)"
@@ -323,10 +318,10 @@
   <!-- ================================================= -->
 
   <text x="600"
-        y="175"
+        y="195"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="20"
+        font-size="21"
         font-weight="600"
         letter-spacing="1"
         fill="#00E5FF">
@@ -341,10 +336,10 @@
   <!-- ================================================= -->
 
   <text x="600"
-        y="204"
+        y="228"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
-        font-size="15"
+        font-size="16"
         fill="#9AA4B2">
 
     Designing reliable hardware from RTL to silicon
@@ -353,63 +348,36 @@
 
 
   <!-- ================================================= -->
-  <!--       RTL → VERIFY → SYNTHESIS → OPTIMIZE         -->
-  <!--       → IMPLEMENT → GDSII                         -->
+  <!--                 PROCESS LABELS                    -->
   <!-- ================================================= -->
 
-  <!-- Stage labels ABOVE the signal -->
-
   <g font-family="Consolas, monospace"
-     font-size="11"
+     font-size="12"
      font-weight="600"
      text-anchor="middle">
 
-    <text x="325"
-          y="235"
-          fill="#00E5FF">
-
+    <text x="325" y="270" fill="#00E5FF">
       RTL
-
     </text>
 
-    <text x="435"
-          y="235"
-          fill="#00E5FF">
-
+    <text x="435" y="270" fill="#00E5FF">
       VERIFY
-
     </text>
 
-    <text x="550"
-          y="235"
-          fill="#8B5CF6">
-
+    <text x="550" y="270" fill="#8B5CF6">
       SYNTHESIS
-
     </text>
 
-    <text x="665"
-          y="235"
-          fill="#8B5CF6">
-
+    <text x="665" y="270" fill="#8B5CF6">
       OPTIMIZE
-
     </text>
 
-    <text x="780"
-          y="235"
-          fill="#39FF88">
-
+    <text x="780" y="270" fill="#39FF88">
       IMPLEMENT
-
     </text>
 
-    <text x="890"
-          y="235"
-          fill="#39FF88">
-
+    <text x="890" y="270" fill="#39FF88">
       GDSII
-
     </text>
 
   </g>
@@ -420,51 +388,51 @@
   <!-- ================================================= -->
 
   <path d="
-      M270 260
+      M270 300
       H295
-      V242
+      V280
       H325
-      V260
+      V300
       H350
-      V242
+      V280
       H380
-      V260
+      V300
       H405
-      V242
+      V280
       H435
-      V260
+      V300
       H460
-      V242
+      V280
       H490
-      V260
+      V300
       H515
-      V242
+      V280
       H550
-      V260
+      V300
       H575
-      V242
+      V280
       H605
-      V260
+      V300
       H630
-      V242
+      V280
       H665
-      V260
+      V300
       H690
-      V242
+      V280
       H720
-      V260
+      V300
       H745
-      V242
+      V280
       H780
-      V260
+      V300
       H805
-      V242
+      V280
       H835
-      V260
+      V300
       H860
-      V242
+      V280
       H890
-      V260
+      V300
       H930
     "
     fill="none"
@@ -478,51 +446,51 @@
   <!-- ================================================= -->
 
   <path d="
-      M270 260
+      M270 300
       H295
-      V242
+      V280
       H325
-      V260
+      V300
       H350
-      V242
+      V280
       H380
-      V260
+      V300
       H405
-      V242
+      V280
       H435
-      V260
+      V300
       H460
-      V242
+      V280
       H490
-      V260
+      V300
       H515
-      V242
+      V280
       H550
-      V260
+      V300
       H575
-      V242
+      V280
       H605
-      V260
+      V300
       H630
-      V242
+      V280
       H665
-      V260
+      V300
       H690
-      V242
+      V280
       H720
-      V260
+      V300
       H745
-      V242
+      V280
       H780
-      V260
+      V300
       H805
-      V242
+      V280
       H835
-      V260
+      V300
       H860
-      V242
+      V280
       H890
-      V260
+      V300
       H930
     "
     fill="none"
@@ -547,7 +515,7 @@
   <!-- ================================================= -->
 
   <circle cx="270"
-          cy="260"
+          cy="300"
           r="4"
           fill="#00E5FF"
           filter="url(#strongGlow)">
@@ -555,60 +523,20 @@
     <animate
       attributeName="cx"
       values="
-      270;
-      295;
-      325;
-      350;
-      380;
-      405;
-      435;
-      460;
-      490;
-      515;
-      550;
-      575;
-      605;
-      630;
-      665;
-      690;
-      720;
-      745;
-      780;
-      805;
-      835;
-      860;
-      890;
-      930"
+      270;295;325;350;380;405;
+      435;460;490;515;550;575;
+      605;630;665;690;720;745;
+      780;805;835;860;890;930"
       dur="3.5s"
       repeatCount="indefinite"/>
 
     <animate
       attributeName="cy"
       values="
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      242;
-      260;
-      260"
+      300;280;300;280;300;280;
+      300;280;300;280;300;280;
+      300;280;300;280;300;280;
+      300;280;300;280;300;300"
       dur="3.5s"
       repeatCount="indefinite"/>
 
@@ -621,12 +549,12 @@
 
   <g filter="url(#glow)">
 
-    <circle cx="270" cy="260" r="3" fill="#00E5FF"/>
-    <circle cx="435" cy="260" r="3" fill="#00E5FF"/>
-    <circle cx="550" cy="260" r="3" fill="#8B5CF6"/>
-    <circle cx="665" cy="260" r="3" fill="#8B5CF6"/>
-    <circle cx="780" cy="260" r="3" fill="#39FF88"/>
-    <circle cx="930" cy="260" r="3" fill="#39FF88"/>
+    <circle cx="270" cy="300" r="3" fill="#00E5FF"/>
+    <circle cx="435" cy="300" r="3" fill="#00E5FF"/>
+    <circle cx="550" cy="300" r="3" fill="#8B5CF6"/>
+    <circle cx="665" cy="300" r="3" fill="#8B5CF6"/>
+    <circle cx="780" cy="300" r="3" fill="#39FF88"/>
+    <circle cx="930" cy="300" r="3" fill="#39FF88"/>
 
   </g>
 
@@ -636,12 +564,12 @@
   <!-- ================================================= -->
 
   <g font-family="Consolas, monospace"
-     font-size="12"
+     font-size="13"
      font-weight="600"
      text-anchor="middle">
 
     <text x="400"
-          y="315"
+          y="350"
           fill="#00E5FF">
 
       IOT
@@ -649,7 +577,7 @@
     </text>
 
     <text x="535"
-          y="315"
+          y="350"
           fill="#8B5CF6">
 
       MEMORY
@@ -657,7 +585,7 @@
     </text>
 
     <text x="670"
-          y="315"
+          y="350"
           fill="#8B5CF6">
 
       ASIC
@@ -665,7 +593,7 @@
     </text>
 
     <text x="805"
-          y="315"
+          y="350"
           fill="#39FF88">
 
       ANALOG
@@ -680,29 +608,53 @@
   <!-- ================================================= -->
 
   <line x1="350"
-        y1="328"
+        y1="365"
         x2="850"
-        y2="328"
+        y2="365"
         stroke="url(#accent)"
         stroke-width="1"
         opacity="0.45"/>
 
 
   <!-- ================================================= -->
-  <!--              FINAL ENGINEERING FLOW               -->
+  <!--              ENGINEERING FLOW                     -->
   <!-- ================================================= -->
 
   <text x="600"
-        y="360"
+        y="405"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="10"
+        font-size="11"
         letter-spacing="3"
         fill="#718096">
 
     DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
 
   </text>
+
+
+  <!-- ================================================= -->
+  <!--                  LOWER CIRCUIT                    -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1.2"
+     opacity="0.25">
+
+    <path d="M120 425 H260 V445 H360"/>
+    <path d="M1080 425 H940 V445 H840"/>
+
+  </g>
+
+
+  <g fill="#00E5FF"
+     opacity="0.55">
+
+    <circle cx="260" cy="425" r="3"/>
+    <circle cx="940" cy="425" r="3"/>
+
+  </g>
 
 
   <!-- ================================================= -->
@@ -725,7 +677,7 @@
 
 
   <circle cx="1175"
-          cy="375"
+          cy="475"
           r="4"
           fill="#39FF88"
           filter="url(#glow)">
@@ -744,9 +696,9 @@
   <!-- ================================================= -->
 
   <line x1="275"
-        y1="378"
+        y1="465"
         x2="925"
-        y2="378"
+        y2="465"
         stroke="url(#accent)"
         stroke-width="1"
         opacity="0.25"/>
