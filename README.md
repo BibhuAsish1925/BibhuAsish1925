@@ -70,11 +70,9 @@
 
 <div align="center">
 
-<h2>⭐ FEATURED PROJECTS</h2>
-
-<p>
-Selected projects across <b>RTL Design, ASIC, Memory, Verification, Analog IC & Embedded Systems</b>
-</p>
+<img src="assets/projects-header.svg"
+     alt="Bibhu Asish Panda - Featured Hardware Projects"
+     width="100%"/>
 
 </div>
 
@@ -193,24 +191,29 @@ Selected projects across <b>RTL Design, ASIC, Memory, Verification, Analog IC & 
 
 </td>
 
-<!-- ===================== VIEW ALL PROJECTS ===================== -->
+<!-- ===================== EXPLORE ALL ===================== -->
 
 <td width="50%" align="center" valign="middle">
+
+<div align="center">
 
 <h3>🚀 EXPLORE ALL PROJECTS</h3>
 
 <p>
-Browse my complete collection of<br/>
-<b>VLSI, RTL, ASIC & Embedded</b> projects.
+<b>RTL</b> → <b>ASIC</b> → <b>MEMORY</b> → <b>VERIFICATION</b><br/>
+<b>ANALOG</b> → <b>EMBEDDED</b>
 </p>
 
 <br/>
 
 <a href="https://github.com/BibhuAsish1925?tab=repositories">
 
-<img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"/>
+<img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-080B12?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080B12"
+     alt="View All Projects"/>
 
 </a>
+
+</div>
 
 </td>
 
@@ -219,6 +222,24 @@ Browse my complete collection of<br/>
 </table>
 
 <br/>
+
+<!-- ========================================================= -->
+<!--                    SECTION TRANSITION                     -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00E5FF&height=2&section=header"
+     width="70%"
+     alt="Section separator"/>
+
+</div>
+
+<br/>
+
+<!-- ========================================================= -->
+<!--                  TECHNICAL SKILLS                         -->
+<!-- ========================================================= -->
 
 <div align="center">
 
