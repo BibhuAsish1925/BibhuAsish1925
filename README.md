@@ -155,11 +155,6 @@
 
 <h3>🚀 EXPLORE ALL PROJECTS</h3>
 
-<p>
-<b>RTL</b> → <b>ASIC</b> → <b>MEMORY</b> → <b>VERIFICATION</b><br/>
-<b>ANALOG</b> → <b>EMBEDDED</b>
-</p>
-
 <br/>
 
 <a href="https://github.com/BibhuAsish1925?tab=repositories">
