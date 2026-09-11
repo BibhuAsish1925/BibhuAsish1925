@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 190"
+     width="1200"
+     height="190">
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!--                    BACKGROUND                     -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="55%" stop-color="#0C1220"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+
+    <!-- ================================================= -->
+    <!--                     ACCENT                       -->
+    <!-- ================================================= -->
+
+    <linearGradient id="accent"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+
+    <!-- ================================================= -->
+    <!--                       GRID                        -->
+    <!-- ================================================= -->
+
+    <pattern id="grid"
+             width="30"
+             height="30"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M30 0H0V30"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-opacity="0.05"
+            stroke-width="0.8"/>
+
+    </pattern>
+
+
+    <!-- ================================================= -->
+    <!--                       GLOW                        -->
+    <!-- ================================================= -->
+
+    <filter id="glow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+
+      <feGaussianBlur stdDeviation="3"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!--                    BACKGROUND                     -->
+  <!-- ================================================= -->
+
+  <rect x="5"
+        y="5"
+        width="1190"
+        height="180"
+        rx="20"
+        fill="url(#bg)"/>
+
+  <rect x="5"
+        y="5"
+        width="1190"
+        height="180"
+        rx="20"
+        fill="url(#grid)"/>
+
+
+  <!-- ================================================= -->
+  <!--                     BORDER                        -->
+  <!-- ================================================= -->
+
+  <rect x="5"
+        y="5"
+        width="1190"
+        height="180"
+        rx="20"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-width="2"
+        stroke-opacity="0.7"/>
+
+
+  <!-- ================================================= -->
+  <!--                  LEFT CIRCUIT                     -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1.5"
+     opacity="0.5">
+
+    <path d="M5 65 H75 V85 H130"/>
+    <path d="M5 125 H50 V105 H100"/>
+
+  </g>
+
+  <g fill="#00E5FF"
+     filter="url(#glow)">
+
+    <circle cx="75"
+            cy="65"
+            r="3"/>
+
+    <circle cx="50"
+            cy="125"
+            r="3"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                  RIGHT CIRCUIT                    -->
+  <!-- ================================================= -->
+
+  <g fill="none"
+     stroke="#8B5CF6"
+     stroke-width="1.5"
+     opacity="0.5">
+
+    <path d="M1195 65 H1125 V85 H1070"/>
+    <path d="M1195 125 H1150 V105 H1100"/>
+
+  </g>
+
+  <g fill="#8B5CF6"
+     filter="url(#glow)">
+
+    <circle cx="1125"
+            cy="65"
+            r="3"/>
+
+    <circle cx="1150"
+            cy="125"
+            r="3"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                     TITLE                         -->
+  <!-- ================================================= -->
+
+  <text x="600"
+        y="78"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="32"
+        font-weight="700"
+        letter-spacing="3"
+        fill="#E6EDF3">
+
+    ⭐ FEATURED PROJECTS
+
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                RUNNING SIGNAL                     -->
+  <!-- ================================================= -->
+
+  <!-- Static signal -->
+
+  <path d="
+      M220 135
+      H260
+      V122
+      H300
+      V135
+      H340
+      V122
+      H380
+      V135
+      H420
+      V122
+      H460
+      V135
+      H500
+      V122
+      H540
+      V135
+      H580
+      V122
+      H620
+      V135
+      H660
+      V122
+      H700
+      V135
+      H740
+      V122
+      H780
+      V135
+      H820
+      V122
+      H860
+      V135
+      H900
+      V122
+      H940
+      V135
+      H980
+    "
+    fill="none"
+    stroke="#263448"
+    stroke-width="3"
+    stroke-linecap="round"/>
+
+
+  <!-- Animated signal -->
+
+  <path d="
+      M220 135
+      H260
+      V122
+      H300
+      V135
+      H340
+      V122
+      H380
+      V135
+      H420
+      V122
+      H460
+      V135
+      H500
+      V122
+      H540
+      V135
+      H580
+      V122
+      H620
+      V135
+      H660
+      V122
+      H700
+      V135
+      H740
+      V122
+      H780
+      V135
+      H820
+      V122
+      H860
+      V135
+      H900
+      V122
+      H940
+      V135
+      H980
+    "
+    fill="none"
+    stroke="url(#accent)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-dasharray="70 500"
+    filter="url(#glow)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      from="570"
+      to="0"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ================================================= -->
+  <!--                  MOVING NODE                      -->
+  <!-- ================================================= -->
+
+  <circle cx="220"
+          cy="135"
+          r="4"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="cx"
+      values="
+      220;260;300;340;380;
+      420;460;500;540;580;
+      620;660;700;740;780;
+      820;860;900;940;980"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="cy"
+      values="
+      135;122;135;122;135;
+      122;135;122;135;122;
+      135;122;135;122;135;
+      122;135;122;135;135"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!--                  CORNER PULSES                    -->
+  <!-- ================================================= -->
+
+  <circle cx="25"
+          cy="25"
+          r="3"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1175"
+          cy="165"
+          r="3"
+          fill="#39FF88"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="1.7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
