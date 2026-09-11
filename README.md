@@ -1,46 +1,14 @@
-<!-- ========================= -->
-<!--        HERO BANNER         -->
-<!-- ========================= -->
-
-<div align="center">
-
-<img src="assets/banner.svg"
-     alt="Bibhu Asish Panda - RTL Design, ASIC and VLSI"
-     width="100%"/>
-
-</div>
-
 <!-- ========================================================= -->
-<!--                         ABOUT ME                          -->
+<!--                  HERO + ABOUT PROFILE                     -->
 <!-- ========================================================= -->
 
 <div align="center">
 
+<img src="assets/hero-profile.svg"
+     alt="Bibhu Asish Panda - VLSI Engineer Profile"
+     width="100%"/>
+
 </div>
-
-<br/>
-
-<table width="100%">
-<tr>
-
-<td width="38%" align="center" valign="middle">
-
-<img src="assets/id_card.svg"
-     alt="Bibhu Asish Panda - VLSI Engineering ID"
-     width="100%"/>
-
-</td>
-
-<td width="62%" align="center" valign="middle">
-
-<img src="assets/about-details.svg"
-     alt="Bibhu Asish Panda - Electronics and VLSI Engineering Profile"
-     width="100%"/>
-
-</td>
-
-</tr>
-</table>
 
 <!-- ========================================================= -->
 <!--                    SECTION TRANSITION                     -->
