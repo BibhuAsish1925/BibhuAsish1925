@@ -36,12 +36,6 @@
 
 <div align="center">
 
-<h2>👋 ABOUT ME</h2>
-
-<p>
-<b>Electronics & VLSI Engineering • RTL Design • ASIC • Verification</b>
-</p>
-
 </div>
 
 <br/>
@@ -51,7 +45,7 @@
 
 <td width="38%" align="center" valign="middle">
 
-<img src="assets/id-card.svg"
+<img src="assets/id_card.svg"
      alt="Bibhu Asish Panda - VLSI Engineering ID"
      width="100%"/>
 
