@@ -65,6 +65,21 @@
 <br/>
 
 <!-- ========================================================= -->
+<!--                    SECTION TRANSITION                     -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00E5FF&height=2&section=header"
+     width="70%"
+     alt="Section separator"/>
+
+</div>
+
+<br/>
+
+
+<!-- ========================================================= -->
 <!--                    FEATURED PROJECTS                      -->
 <!-- ========================================================= -->
 
@@ -75,8 +90,6 @@
      width="100%"/>
 
 </div>
-
-<br/>
 
 <table width="100%">
 <tr>
@@ -246,6 +259,20 @@
 <img src="assets/technical-skills.svg"
      alt="Bibhu Asish Panda - Technical Skills and VLSI Toolchain"
      width="100%"/>
+
+</div>
+
+<br/>
+
+<!-- ========================================================= -->
+<!--                    SECTION TRANSITION                     -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00E5FF&height=2&section=header"
+     width="70%"
+     alt="Section separator"/>
 
 </div>
 
