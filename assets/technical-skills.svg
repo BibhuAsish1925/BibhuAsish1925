@@ -1,527 +1,1172 @@
-<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
-
-<defs>
+<svg width="900"
+     height="900"
+     viewBox="0 0 900 900"
+     xmlns="http://www.w3.org/2000/svg">
 
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#080B12"/>
-    <stop offset="55%" stop-color="#0C1220"/>
-    <stop offset="100%" stop-color="#17102A"/>
-  </linearGradient>
-
-  <linearGradient id="cyanViolet" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#00E5FF"/>
-    <stop offset="100%" stop-color="#8B5CF6"/>
-  </linearGradient>
+  <defs>
 
-  <linearGradient id="greenCyan" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#39FF88"/>
-    <stop offset="100%" stop-color="#00E5FF"/>
-  </linearGradient>
+    <!-- ========================================================= -->
+    <!--                         BACKGROUND                         -->
+    <!-- ========================================================= -->
 
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="4" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
+    <linearGradient id="bg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
 
-</defs>
+      <stop offset="0%"   stop-color="#050914"/>
+      <stop offset="42%"  stop-color="#081426"/>
+      <stop offset="72%"  stop-color="#0D1228"/>
+      <stop offset="100%" stop-color="#17102A"/>
 
+    </linearGradient>
 
-<!-- ================= BACKGROUND ================= -->
 
-<rect width="900" height="900" rx="24" fill="url(#bg)"/>
+    <linearGradient id="panel"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
 
-<!-- PCB GRID -->
+      <stop offset="0%"   stop-color="#071323"/>
+      <stop offset="55%"  stop-color="#09182B"/>
+      <stop offset="100%" stop-color="#11142D"/>
 
-<g opacity="0.12" stroke="#00E5FF">
+    </linearGradient>
 
-  <path d="M0 60H900"/>
-  <path d="M0 120H900"/>
-  <path d="M0 180H900"/>
-  <path d="M0 240H900"/>
-  <path d="M0 300H900"/>
-  <path d="M0 360H900"/>
-  <path d="M0 420H900"/>
-  <path d="M0 480H900"/>
-  <path d="M0 540H900"/>
-  <path d="M0 600H900"/>
-  <path d="M0 660H900"/>
-  <path d="M0 720H900"/>
-  <path d="M0 780H900"/>
-  <path d="M0 840H900"/>
 
-  <path d="M60 0V900"/>
-  <path d="M120 0V900"/>
-  <path d="M180 0V900"/>
-  <path d="M240 0V900"/>
-  <path d="M300 0V900"/>
-  <path d="M360 0V900"/>
-  <path d="M420 0V900"/>
-  <path d="M480 0V900"/>
-  <path d="M540 0V900"/>
-  <path d="M600 0V900"/>
-  <path d="M660 0V900"/>
-  <path d="M720 0V900"/>
-  <path d="M780 0V900"/>
-  <path d="M840 0V900"/>
+    <!-- ========================================================= -->
+    <!--                    MASTER COLOR GRADIENT                  -->
+    <!-- ========================================================= -->
 
-</g>
+    <linearGradient id="accent"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
 
+      <stop offset="0%"   stop-color="#00E5FF"/>
+      <stop offset="22%"  stop-color="#38BDF8"/>
+      <stop offset="45%"  stop-color="#8B5CF6"/>
+      <stop offset="65%"  stop-color="#F472B6"/>
+      <stop offset="82%"  stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#39FF88"/>
 
-<!-- ================= BORDER ================= -->
+    </linearGradient>
 
-<rect x="8" y="8" width="884" height="884"
-      rx="22"
-      fill="none"
-      stroke="url(#cyanViolet)"
-      stroke-width="2"/>
 
+    <linearGradient id="cyanViolet"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
 
-<!-- ================= HEADER ================= -->
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
 
-<text x="50" y="58"
-      fill="#00E5FF"
-      font-family="monospace"
-      font-size="14"
-      font-weight="bold">
+    </linearGradient>
 
-◈ VLSI ENGINEERING TOOLCHAIN
 
-</text>
+    <linearGradient id="violetPink"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
 
-<text x="50" y="100"
-      fill="#E6EDF3"
-      font-family="sans-serif"
-      font-size="30"
-      font-weight="bold">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F472B6"/>
 
-TECHNICAL SKILLS
+    </linearGradient>
 
-</text>
 
-<text x="50" y="128"
-      fill="#8B5CF6"
-      font-family="monospace"
-      font-size="12">
+    <linearGradient id="greenCyan"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
 
-RTL → VERIFY → SYNTHESIZE → IMPLEMENT → SILICON
+      <stop offset="0%" stop-color="#39FF88"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
 
-</text>
+    </linearGradient>
 
 
-<!-- ================= HDL & PROGRAMMING ================= -->
+    <!-- ========================================================= -->
+    <!--                       VIOLET → GREEN                       -->
+    <!-- ========================================================= -->
 
-<rect x="40" y="155" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#00E5FF"
-      stroke-width="1.5"/>
+    <linearGradient id="violetGreen"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
 
-<text x="65" y="185"
-      fill="#00E5FF"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="48%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#39FF88"/>
 
-▸ HDL &amp; PROGRAMMING
+    </linearGradient>
 
-</text>
 
-<text x="65" y="215"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
+    <!-- ========================================================= -->
+    <!--                            GRID                            -->
+    <!-- ========================================================= -->
 
-• VERILOG    • SYSTEMVERILOG
+    <pattern id="grid"
+             width="30"
+             height="30"
+             patternUnits="userSpaceOnUse">
 
-</text>
+      <path d="M30 0H0V30"
+            fill="none"
+            stroke="#38BDF8"
+            stroke-opacity="0.055"
+            stroke-width="0.8"/>
 
-<text x="65" y="242"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+    </pattern>
 
-• C / C++    • PYTHON
 
-</text>
+    <!-- ========================================================= -->
+    <!--                             GLOW                           -->
+    <!-- ========================================================= -->
 
-<text x="65" y="269"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+    <filter id="glow"
+            x="-80%"
+            y="-80%"
+            width="260%"
+            height="260%">
 
-• TCL (BASICS)    • PERL (BASICS)
+      <feGaussianBlur stdDeviation="3"
+                      result="blur"/>
 
-</text>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
 
-<text x="65" y="296"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+    </filter>
 
-• BASH / SHELL    • MAKEFILE
 
-</text>
+    <filter id="strongGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
 
-<circle cx="410" cy="310" r="5"
-        fill="#39FF88"
-        filter="url(#glow)"/>
+      <feGaussianBlur stdDeviation="6"
+                      result="blur"/>
 
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
 
-<!-- ================= DIGITAL VLSI ================= -->
+    </filter>
 
-<rect x="460" y="155" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#8B5CF6"
-      stroke-width="1.5"/>
+  </defs>
 
-<text x="485" y="185"
-      fill="#8B5CF6"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
 
-▸ DIGITAL VLSI &amp; RTL
+  <!-- ========================================================= -->
+  <!--                       MAIN BACKGROUND                       -->
+  <!-- ========================================================= -->
 
-</text>
+  <rect width="900"
+        height="900"
+        rx="24"
+        fill="#050914"/>
 
-<text x="485" y="215"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
+  <rect x="8"
+        y="8"
+        width="884"
+        height="884"
+        rx="22"
+        fill="url(#bg)"/>
 
-• RTL DESIGN    • FSMs
+  <rect x="8"
+        y="8"
+        width="884"
+        height="884"
+        rx="22"
+        fill="url(#grid)"/>
 
-</text>
 
-<text x="485" y="242"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+  <!-- ========================================================= -->
+  <!--                       OUTER BORDER                         -->
+  <!-- ========================================================= -->
 
-• PIPELINED DATAPATHS    • MEMORY
+  <rect x="8"
+        y="8"
+        width="884"
+        height="884"
+        rx="22"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-width="2"
+        stroke-opacity="0.9"/>
 
-</text>
 
-<text x="485" y="269"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+  <!-- ========================================================= -->
+  <!--                       CORNER CIRCUITS                      -->
+  <!-- ========================================================= -->
 
-• ARITHMETIC    • AXI4-LITE
+  <!-- TOP LEFT -->
 
-</text>
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1.4"
+     opacity="0.7">
 
-<text x="485" y="296"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+    <path d="M8 75 H55 V55 H95 V75 H135"/>
+    <path d="M8 110 H40 V95 H75"/>
+    <path d="M55 55 V35 H105"/>
 
-• UART    • I²C    • SPI
+  </g>
 
-</text>
+  <g fill="#00E5FF"
+     filter="url(#glow)">
 
-<circle cx="830" cy="310" r="5"
+    <circle cx="25" cy="75" r="3"/>
+    <circle cx="55" cy="55" r="3"/>
+    <circle cx="135" cy="75" r="3"/>
+
+  </g>
+
+
+  <!-- TOP RIGHT -->
+
+  <g fill="none"
+     stroke="#8B5CF6"
+     stroke-width="1.4"
+     opacity="0.7">
+
+    <path d="M892 75 H845 V55 H805 V75 H765"/>
+    <path d="M892 110 H860 V95 H825"/>
+    <path d="M845 55 V35 H795"/>
+
+  </g>
+
+  <g fill="#8B5CF6"
+     filter="url(#glow)">
+
+    <circle cx="875" cy="75" r="3"/>
+    <circle cx="845" cy="55" r="3"/>
+    <circle cx="765" cy="75" r="3"/>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!--                         HEADER                             -->
+  <!-- ========================================================= -->
+
+  <text x="450"
+        y="65"
+        text-anchor="middle"
         fill="#00E5FF"
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="2">
+
+    ◈ VLSI ENGINEERING TOOLCHAIN
+
+  </text>
+
+
+  <text x="450"
+        y="105"
+        text-anchor="middle"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="31"
+        font-weight="800"
+        letter-spacing="2">
+
+    TECHNICAL SKILLS
+
+  </text>
+
+
+  <!-- HEADER ACCENT -->
+
+  <rect x="245"
+        y="122"
+        width="410"
+        height="3"
+        rx="2"
+        fill="url(#accent)"
         filter="url(#glow)"/>
 
 
-<!-- ================= VERIFICATION ================= -->
+  <!-- ========================================================= -->
+  <!--                     HEADER SIGNAL                          -->
+  <!-- ========================================================= -->
+
+  <path d="
+      M190 145
+      H220 V134
+      H245 V145
+      H270 V134
+      H295 V145
+      H320 V134
+      H345 V145
+      H370 V134
+      H395 V145
+      H420 V134
+      H445 V145
+      H470 V134
+      H495 V145
+      H520 V134
+      H545 V145
+      H570 V134
+      H595 V145
+      H620 V134
+      H645 V145
+      H670 V134
+      H695 V145
+      H710
+    "
+    fill="none"
+    stroke="#263448"
+    stroke-width="2.5"
+    stroke-linecap="round"/>
+
+
+  <path d="
+      M190 145
+      H220 V134
+      H245 V145
+      H270 V134
+      H295 V145
+      H320 V134
+      H345 V145
+      H370 V134
+      H395 V145
+      H420 V134
+      H445 V145
+      H470 V134
+      H495 V145
+      H520 V134
+      H545 V145
+      H570 V134
+      H595 V145
+      H620 V134
+      H645 V145
+      H670 V134
+      H695 V145
+      H710
+    "
+    fill="none"
+    stroke="url(#accent)"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-dasharray="70 420"
+    filter="url(#glow)">
+
+    <animate attributeName="stroke-dashoffset"
+             from="490"
+             to="0"
+             dur="3s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ========================================================= -->
+  <!--                  CARD 1 : HDL                              -->
+  <!-- ========================================================= -->
+
+  <rect x="40"
+        y="165"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#00E5FF"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
+
+  <rect x="48"
+        y="173"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+
+  <path d="M55 205 H95 V190 H130"
+        fill="none"
+        stroke="#00E5FF"
+        stroke-width="1.2"
+        opacity="0.6"/>
 
-<rect x="40" y="360" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#39FF88"
-      stroke-width="1.5"/>
+  <circle cx="95"
+          cy="190"
+          r="3"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
 
-<text x="65" y="390"
-      fill="#39FF88"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
 
-▸ VERIFICATION
-
-</text>
-
-<text x="65" y="420"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
-
-• TESTBENCH DEVELOPMENT
-
-</text>
-
-<text x="65" y="447"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• SYSTEMVERILOG INTERFACES
-
-</text>
-
-<text x="65" y="474"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• ASSERTIONS / SVA    • UVM (BASICS)
-
-</text>
-
-<text x="65" y="501"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• RANDOMIZED TESTING    • COVERAGE
-
-</text>
-
-<text x="65" y="528"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• RTL LINT    • WAVEFORM ANALYSIS
-
-</text>
-
-<circle cx="410" cy="515" r="5"
-        fill="#39FF88"
-        filter="url(#glow)"/>
-
-
-<!-- ================= ASIC / PD ================= -->
-
-<rect x="460" y="360" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#00E5FF"
-      stroke-width="1.5"/>
-
-<text x="485" y="390"
-      fill="#00E5FF"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
-
-▸ ASIC &amp; PHYSICAL DESIGN
-
-</text>
-
-<text x="485" y="420"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
-
-• RTL → GDSII
-
-</text>
-
-<text x="485" y="447"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• SYNTHESIS    • FLOORPLANNING
-
-</text>
-
-<text x="485" y="474"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• PLACEMENT    • CTS    • ROUTING
-
-</text>
-
-<text x="485" y="501"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• STA    • POWER ANALYSIS
-
-</text>
-
-<text x="485" y="528"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• DRC    • LVS    • ANTENNA    • GDSII
-
-</text>
-
-<circle cx="830" cy="515" r="5"
-        fill="#8B5CF6"
-        filter="url(#glow)"/>
-
-
-<!-- ================= EDA TOOLS ================= -->
-
-<rect x="40" y="565" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#8B5CF6"
-      stroke-width="1.5"/>
-
-<text x="65" y="595"
-      fill="#8B5CF6"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
-
-▸ EDA &amp; DEVELOPMENT TOOLS
-
-</text>
-
-<text x="65" y="625"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
-
-• VIVADO    • VERILATOR    • YOSYS
-
-</text>
-
-<text x="65" y="652"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• LIBRELANE / OPENLANE    • OPENROAD
-
-</text>
-
-<text x="65" y="679"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• CADENCE VIRTUOSO    • GENUS (BASICS)
-
-</text>
-
-<text x="65" y="706"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• INNOVUS (BASICS)    • MAGIC    • NETGEN
-
-</text>
-
-<text x="65" y="733"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
-
-• GTKWAVE    • EDA PLAYGROUND    • DOCKER
-
-</text>
-
-<circle cx="410" cy="720" r="5"
+  <text x="65"
+        y="200"
         fill="#00E5FF"
-        filter="url(#glow)"/>
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="0.5">
+
+    HDL &amp; PROGRAMMING
+
+  </text>
 
 
-<!-- ================= MEMORY / ANALOG / EMBEDDED ================= -->
+  <text x="65"
+        y="230"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-<rect x="460" y="565" width="400" height="185"
-      rx="16"
-      fill="#0A101B"
-      stroke="#39FF88"
-      stroke-width="1.5"/>
+    • VERILOG    • SYSTEMVERILOG
 
-<text x="485" y="595"
-      fill="#39FF88"
-      font-family="monospace"
-      font-size="13"
-      font-weight="bold">
+  </text>
 
-▸ MEMORY • ANALOG • EMBEDDED
+  <text x="65"
+        y="257"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-</text>
+    • C / C++    • PYTHON
 
-<text x="485" y="625"
-      fill="#E6EDF3"
-      font-family="monospace"
-      font-size="12">
+  </text>
 
-• SRAM    • 6T / 7T CELLS    • MEMORY DESIGN
+  <text x="65"
+        y="284"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-</text>
+    • TCL (BASICS)    • PERL (BASICS)
 
-<text x="485" y="652"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+  </text>
 
-• LOW-POWER VLSI    • APPROXIMATE COMPUTING
+  <text x="65"
+        y="311"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-</text>
+    • BASH / SHELL    • MAKEFILE
 
-<text x="485" y="679"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+  </text>
 
-• ANALOG IC    • MEMS FRONT-END
+  <circle cx="410"
+          cy="320"
+          r="5"
+          fill="#39FF88"
+          filter="url(#glow)"/>
 
-</text>
 
-<text x="485" y="706"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
+  <!-- ========================================================= -->
+  <!--                  CARD 2 : DIGITAL VLSI                     -->
+  <!-- ========================================================= -->
 
-• XSCHEM    • NGSPICE    • LTSPICE
+  <rect x="460"
+        y="165"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#8B5CF6"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
 
-</text>
+  <rect x="468"
+        y="173"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
 
-<text x="485" y="733"
-      fill="#A5B4C7"
-      font-family="monospace"
-      font-size="12">
 
-• ESP32    • ARDUINO    • ROBOTICS
+  <path d="M475 205 H515 V190 H550"
+        fill="none"
+        stroke="#8B5CF6"
+        stroke-width="1.2"
+        opacity="0.6"/>
 
-</text>
+  <circle cx="515"
+          cy="190"
+          r="3"
+          fill="#8B5CF6"
+          filter="url(#glow)"/>
 
-<circle cx="830" cy="720" r="5"
+
+  <text x="485"
+        y="200"
+        fill="#A78BFA"
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700">
+
+    DIGITAL VLSI &amp; RTL
+
+  </text>
+
+
+  <text x="485"
+        y="230"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • RTL DESIGN    • FSMs
+
+  </text>
+
+  <text x="485"
+        y="257"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • PIPELINED DATAPATHS    • MEMORY
+
+  </text>
+
+  <text x="485"
+        y="284"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • ARITHMETIC    • AXI4-LITE
+
+  </text>
+
+  <text x="485"
+        y="311"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • UART    • I²C    • SPI
+
+  </text>
+
+  <circle cx="830"
+          cy="320"
+          r="5"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                  CARD 3 : VERIFICATION                     -->
+  <!-- ========================================================= -->
+
+  <rect x="40"
+        y="370"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#39FF88"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
+
+  <rect x="48"
+        y="378"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+
+  <path d="M55 410 H95 V395 H130"
+        fill="none"
+        stroke="#39FF88"
+        stroke-width="1.2"
+        opacity="0.6"/>
+
+  <circle cx="95"
+          cy="395"
+          r="3"
+          fill="#39FF88"
+          filter="url(#glow)"/>
+
+
+  <text x="65"
+        y="405"
         fill="#39FF88"
-        filter="url(#glow)"/>
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700">
+
+    VERIFICATION
+
+  </text>
 
 
-<!-- ================= BOTTOM SIGNAL ================= -->
+  <text x="65"
+        y="435"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-<path d="M100 805 H220 L240 785 L260 825 L280 785 L300 805 H420"
-      fill="none"
-      stroke="#00E5FF"
-      stroke-width="2"/>
+    • TESTBENCH DEVELOPMENT
 
-<path d="M480 805 H590 L610 785 L630 825 L650 785 L670 805 H800"
-      fill="none"
-      stroke="#8B5CF6"
-      stroke-width="2"/>
+  </text>
 
-<text x="450" y="855"
-      text-anchor="middle"
-      fill="#39FF88"
-      font-family="monospace"
-      font-size="12"
-      font-weight="bold">
+  <text x="65"
+        y="462"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
 
-DESIGN • VERIFY • SYNTHESIZE • OPTIMIZE • IMPLEMENT
+    • SYSTEMVERILOG INTERFACES
 
-</text>
+  </text>
+
+  <text x="65"
+        y="489"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • ASSERTIONS / SVA    • UVM (BASICS)
+
+  </text>
+
+  <text x="65"
+        y="516"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • RANDOMIZED TESTING    • COVERAGE
+
+  </text>
+
+  <text x="65"
+        y="543"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • RTL LINT    • WAVEFORM ANALYSIS
+
+  </text>
+
+  <circle cx="410"
+          cy="530"
+          r="5"
+          fill="#39FF88"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                  CARD 4 : ASIC / PD                        -->
+  <!-- ========================================================= -->
+
+  <rect x="460"
+        y="370"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#00E5FF"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
+
+  <rect x="468"
+        y="378"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+
+  <path d="M475 410 H515 V395 H550"
+        fill="none"
+        stroke="#00E5FF"
+        stroke-width="1.2"
+        opacity="0.6"/>
+
+  <circle cx="515"
+          cy="395"
+          r="3"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
+
+
+  <text x="485"
+        y="405"
+        fill="#00E5FF"
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700">
+
+    ASIC &amp; PHYSICAL DESIGN
+
+  </text>
+
+
+  <text x="485"
+        y="435"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • RTL → GDSII
+
+  </text>
+
+  <text x="485"
+        y="462"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • SYNTHESIS    • FLOORPLANNING
+
+  </text>
+
+  <text x="485"
+        y="489"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • PLACEMENT    • CTS    • ROUTING
+
+  </text>
+
+  <text x="485"
+        y="516"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • STA    • POWER ANALYSIS
+
+  </text>
+
+  <text x="485"
+        y="543"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • DRC    • LVS    • ANTENNA    • GDSII
+
+  </text>
+
+  <circle cx="830"
+          cy="530"
+          r="5"
+          fill="#8B5CF6"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                  CARD 5 : EDA TOOLS                        -->
+  <!-- ========================================================= -->
+
+  <rect x="40"
+        y="575"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#8B5CF6"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
+
+  <rect x="48"
+        y="583"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+
+  <path d="M55 615 H95 V600 H130"
+        fill="none"
+        stroke="#8B5CF6"
+        stroke-width="1.2"
+        opacity="0.6"/>
+
+  <circle cx="95"
+          cy="600"
+          r="3"
+          fill="#8B5CF6"
+          filter="url(#glow)"/>
+
+
+  <text x="65"
+        y="610"
+        fill="#C084FC"
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700">
+
+    EDA &amp; DEVELOPMENT TOOLS
+
+  </text>
+
+
+  <text x="65"
+        y="640"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • VIVADO    • VERILATOR    • YOSYS
+
+  </text>
+
+  <text x="65"
+        y="667"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • LIBRELANE / OPENLANE    • OPENROAD
+
+  </text>
+
+  <text x="65"
+        y="694"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • CADENCE VIRTUOSO    • GENUS (BASICS)
+
+  </text>
+
+  <text x="65"
+        y="721"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • INNOVUS (BASICS)    • MAGIC    • NETGEN
+
+  </text>
+
+  <text x="65"
+        y="748"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • GTKWAVE    • EDA PLAYGROUND    • DOCKER
+
+  </text>
+
+  <circle cx="410"
+          cy="735"
+          r="5"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--              CARD 6 : MEMORY / ANALOG / EMBEDDED          -->
+  <!-- ========================================================= -->
+
+  <rect x="460"
+        y="575"
+        width="400"
+        height="185"
+        rx="17"
+        fill="url(#panel)"
+        stroke="#39FF88"
+        stroke-width="1.7"
+        stroke-opacity="0.95"/>
+
+  <rect x="468"
+        y="583"
+        width="384"
+        height="169"
+        rx="13"
+        fill="url(#grid)"
+        opacity="0.45"/>
+
+
+  <path d="M475 615 H515 V600 H550"
+        fill="none"
+        stroke="#39FF88"
+        stroke-width="1.2"
+        opacity="0.6"/>
+
+  <circle cx="515"
+          cy="600"
+          r="3"
+          fill="#39FF88"
+          filter="url(#glow)"/>
+
+
+  <text x="485"
+        y="610"
+        fill="#39FF88"
+        font-family="Consolas, monospace"
+        font-size="13"
+        font-weight="700">
+
+    MEMORY • ANALOG • EMBEDDED
+
+  </text>
+
+
+  <text x="485"
+        y="640"
+        fill="#E6EDF3"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • SRAM    • 6T / 7T CELLS    • MEMORY DESIGN
+
+  </text>
+
+  <text x="485"
+        y="667"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • LOW-POWER VLSI    • APPROXIMATE COMPUTING
+
+  </text>
+
+  <text x="485"
+        y="694"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • ANALOG IC    • MEMS FRONT-END
+
+  </text>
+
+  <text x="485"
+        y="721"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • XSCHEM    • NGSPICE    • LTSPICE
+
+  </text>
+
+  <text x="485"
+        y="748"
+        fill="#B8C7D9"
+        font-family="Consolas, monospace"
+        font-size="12">
+
+    • ESP32    • ARDUINO    • ROBOTICS
+
+  </text>
+
+  <circle cx="830"
+          cy="735"
+          r="5"
+          fill="#39FF88"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                     BOTTOM SIGNALS                         -->
+  <!-- ========================================================= -->
+
+  <!-- LEFT SIGNAL BASE -->
+
+  <path d="
+      M100 805
+      H220
+      L240 785
+      L260 825
+      L280 785
+      L300 805
+      H420
+    "
+    fill="none"
+    stroke="#263448"
+    stroke-width="2.5"
+    stroke-linecap="round"/>
+
+
+  <!-- RIGHT SIGNAL BASE -->
+
+  <path d="
+      M480 805
+      H590
+      L610 785
+      L630 825
+      L650 785
+      L670 805
+      H800
+    "
+    fill="none"
+    stroke="#263448"
+    stroke-width="2.5"
+    stroke-linecap="round"/>
+
+
+  <!-- ========================================================= -->
+  <!--                  ANIMATED SIGNAL LEFT                      -->
+  <!-- ========================================================= -->
+
+  <path d="
+      M100 805
+      H220
+      L240 785
+      L260 825
+      L280 785
+      L300 805
+      H420
+    "
+    fill="none"
+    stroke="url(#cyanViolet)"
+    stroke-width="2.8"
+    stroke-linecap="round"
+    stroke-dasharray="70 330"
+    filter="url(#strongGlow)">
+
+    <animate attributeName="stroke-dashoffset"
+             from="400"
+             to="0"
+             dur="2.8s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ========================================================= -->
+  <!--                  ANIMATED SIGNAL RIGHT                     -->
+  <!-- ========================================================= -->
+
+  <path d="
+      M480 805
+      H590
+      L610 785
+      L630 825
+      L650 785
+      L670 805
+      H800
+    "
+    fill="none"
+    stroke="url(#violetGreen)"
+    stroke-width="2.8"
+    stroke-linecap="round"
+    stroke-dasharray="70 330"
+    filter="url(#strongGlow)">
+
+    <animate attributeName="stroke-dashoffset"
+             from="400"
+             to="0"
+             dur="2.8s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ========================================================= -->
+  <!--                  SIGNAL END NODES                          -->
+  <!-- ========================================================= -->
+
+  <circle cx="100"
+          cy="805"
+          r="3.5"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
+
+  <circle cx="420"
+          cy="805"
+          r="3.5"
+          fill="#8B5CF6"
+          filter="url(#glow)"/>
+
+  <circle cx="480"
+          cy="805"
+          r="3.5"
+          fill="#8B5CF6"
+          filter="url(#glow)"/>
+
+  <circle cx="800"
+          cy="805"
+          r="3.5"
+          fill="#39FF88"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                  CORNER STATUS NODES                      -->
+  <!-- ========================================================= -->
+
+  <circle cx="27"
+          cy="27"
+          r="3.5"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0.2;1"
+             dur="1.4s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="873"
+          cy="873"
+          r="3.5"
+          fill="#39FF88"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="0.2;1;0.2"
+             dur="1.7s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="100"
+          cy="28"
+          r="2.5"
+          fill="#FACC15"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="0.3;1;0.3"
+             dur="1.8s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="800"
+          cy="28"
+          r="2.5"
+          fill="#F472B6"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
 
 </svg>
