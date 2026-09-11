@@ -30,13 +30,17 @@
 
 </p>
 
-<!-- ========================= -->
-<!--         ABOUT ME           -->
-<!-- ========================= -->
+<!-- ========================================================= -->
+<!--                         ABOUT ME                          -->
+<!-- ========================================================= -->
 
 <div align="center">
 
 <h2>👋 ABOUT ME</h2>
+
+<p>
+<b>Electronics & VLSI Engineering • RTL Design • ASIC • Verification</b>
+</p>
 
 </div>
 
@@ -47,54 +51,17 @@
 
 <td width="38%" align="center" valign="middle">
 
-<img src="assets/id_card.svg"
+<img src="assets/id-card.svg"
      alt="Bibhu Asish Panda - VLSI Engineering ID"
-     width="330"/>
+     width="100%"/>
 
 </td>
 
-<td width="62%" valign="middle">
+<td width="62%" align="center" valign="middle">
 
-<h2>⚡ Electronics & VLSI Engineer</h2>
-
-<p>
-I'm an <b>Electronics and Communication Engineering graduate</b>
-focused on <b>Digital VLSI, RTL Design, ASIC Design and Verification</b>,
-with hands-on experience in Verilog-based digital system design,
-FSM modeling, memory architectures and simulation-driven verification.
-</p>
-
-<p>
-My work spans <b>RTL development, memory systems, arithmetic circuits,
-control logic and SystemVerilog verification</b>, with practical exposure
-to Vivado, Verilator, Icarus Verilog and open-source ASIC design flows.
-</p>
-
-<h3>🔬 Engineering Focus</h3>
-
-<table>
-
-<tr>
-<td>🔹 <b>RTL Design</b></td>
-<td>🔹 <b>Design Verification</b></td>
-</tr>
-
-<tr>
-<td>🔹 <b>Memory Design</b></td>
-<td>🔹 <b>ASIC Design</b></td>
-</tr>
-
-<tr>
-<td>🔹 <b>SystemVerilog</b></td>
-<td>🔹 <b>Analog IC Design</b></td>
-</tr>
-
-</table>
-
-<p>
-<b>Current Focus:</b><br/>
-<code>RTL → Verification → Synthesis → Physical Implementation</code>
-</p>
+<img src="assets/about-details.svg"
+     alt="Bibhu Asish Panda - Electronics and VLSI Engineering Profile"
+     width="100%"/>
 
 </td>
 
