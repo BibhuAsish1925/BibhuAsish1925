@@ -1,0 +1,928 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 670"
+     width="1200"
+     height="670">
+
+  <defs>
+
+    <!-- ========================================================= -->
+    <!--                         BACKGROUND                         -->
+    <!-- ========================================================= -->
+
+    <linearGradient id="bg"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#050914"/>
+      <stop offset="42%"  stop-color="#081426"/>
+      <stop offset="72%"  stop-color="#0D1228"/>
+      <stop offset="100%" stop-color="#17102A"/>
+    </linearGradient>
+
+    <linearGradient id="panel"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#071323"/>
+      <stop offset="55%"  stop-color="#09182B"/>
+      <stop offset="100%" stop-color="#11142D"/>
+    </linearGradient>
+
+
+    <!-- ========================================================= -->
+    <!--                     MULTI-COLOR ACCENTS                   -->
+    <!-- ========================================================= -->
+
+    <linearGradient id="accent"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00E5FF"/>
+      <stop offset="25%"  stop-color="#38BDF8"/>
+      <stop offset="48%"  stop-color="#8B5CF6"/>
+      <stop offset="70%"  stop-color="#F472B6"/>
+      <stop offset="86%"  stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#38BDF8"/>
+      <stop offset="30%"  stop-color="#00E5FF"/>
+      <stop offset="50%"  stop-color="#C084FC"/>
+      <stop offset="72%"  stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#39FF88"/>
+    </linearGradient>
+
+    <linearGradient id="cyanViolet"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+
+    <!-- ========================================================= -->
+    <!--                            GRID                            -->
+    <!-- ========================================================= -->
+
+    <pattern id="grid"
+             width="28"
+             height="28"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M28 0H0V28"
+            fill="none"
+            stroke="#38BDF8"
+            stroke-opacity="0.055"
+            stroke-width="0.8"/>
+
+    </pattern>
+
+
+    <!-- ========================================================= -->
+    <!--                             GLOW                           -->
+    <!-- ========================================================= -->
+
+    <filter id="glow"
+            x="-80%"
+            y="-80%"
+            width="260%"
+            height="260%">
+
+      <feGaussianBlur stdDeviation="3"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+    <filter id="strongGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+
+      <feGaussianBlur stdDeviation="6"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ========================================================= -->
+  <!--                       MAIN BACKGROUND                       -->
+  <!-- ========================================================= -->
+
+  <rect x="0"
+        y="0"
+        width="1200"
+        height="670"
+        fill="#050914"/>
+
+  <rect x="8"
+        y="8"
+        width="1184"
+        height="654"
+        rx="24"
+        fill="url(#bg)"/>
+
+  <rect x="8"
+        y="8"
+        width="1184"
+        height="654"
+        rx="24"
+        fill="url(#grid)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                       OUTER BORDER                         -->
+  <!-- ========================================================= -->
+
+  <rect x="8"
+        y="8"
+        width="1184"
+        height="654"
+        rx="24"
+        fill="none"
+        stroke="url(#accent)"
+        stroke-width="2"
+        stroke-opacity="0.85"/>
+
+
+  <!-- ========================================================= -->
+  <!--                        TOP HERO                            -->
+  <!-- ========================================================= -->
+
+  <rect x="20"
+        y="20"
+        width="1160"
+        height="180"
+        rx="20"
+        fill="#061020"
+        fill-opacity="0.78"
+        stroke="url(#accent)"
+        stroke-width="1.8"
+        stroke-opacity="0.85"/>
+
+
+  <!-- ========================================================= -->
+  <!--                     LEFT HERO CIRCUITS                     -->
+  <!-- ========================================================= -->
+
+  <g fill="none"
+     stroke="#00E5FF"
+     stroke-width="1.5"
+     opacity="0.8">
+
+    <path d="M20 72 H70 V92 H128 V112 H175"/>
+    <path d="M20 128 H62 V108 H110"/>
+    <path d="M70 92 H96 V64 H140"/>
+    <path d="M110 108 H150 V128 H188"/>
+
+  </g>
+
+  <g fill="#00E5FF"
+     filter="url(#glow)">
+
+    <circle cx="44" cy="44" r="3.5"/>
+    <circle cx="44" cy="72" r="2.5"/>
+    <circle cx="44" cy="128" r="2.5"/>
+    <circle cx="70" cy="92" r="3"/>
+    <circle cx="175" cy="112" r="3"/>
+
+  </g>
+
+  <text x="155"
+        y="82"
+        font-family="Consolas, monospace"
+        font-size="12"
+        font-weight="700"
+        fill="#00E5FF"
+        letter-spacing="2">
+    ASIC
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                     RIGHT HERO CIRCUITS                    -->
+  <!-- ========================================================= -->
+
+  <g fill="none"
+     stroke="#8B5CF6"
+     stroke-width="1.5"
+     opacity="0.8">
+
+    <path d="M1180 72 H1130 V92 H1070 V112 H1025"/>
+    <path d="M1180 128 H1138 V108 H1090"/>
+    <path d="M1130 92 H1100 V64 H1060"/>
+    <path d="M1090 108 H1050 V128 H1010"/>
+
+  </g>
+
+  <g fill="#8B5CF6"
+     filter="url(#glow)">
+
+    <circle cx="1156" cy="44" r="3.5"/>
+    <circle cx="1156" cy="72" r="2.5"/>
+    <circle cx="1156" cy="128" r="2.5"/>
+    <circle cx="1130" cy="92" r="3"/>
+    <circle cx="1025" cy="112" r="3"/>
+
+  </g>
+
+  <text x="1040"
+        y="82"
+        font-family="Consolas, monospace"
+        font-size="12"
+        font-weight="700"
+        fill="#39FF88"
+        letter-spacing="2">
+    VLSI
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                         HERO NAME                          -->
+  <!-- ========================================================= -->
+
+  <text x="600"
+        y="72"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="39"
+        font-weight="800"
+        letter-spacing="4"
+        fill="url(#nameGradient)">
+
+    BIBHU ASHISH PANDA
+
+  </text>
+
+  <rect x="320"
+        y="87"
+        width="560"
+        height="3"
+        rx="2"
+        fill="url(#accent)"
+        filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                         HERO TITLE                         -->
+  <!-- ========================================================= -->
+
+  <text x="600"
+        y="118"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="20"
+        font-weight="700"
+        letter-spacing="2">
+
+    <tspan fill="#00E5FF">RTL DESIGN</tspan>
+    <tspan fill="#E6EDF3"> • </tspan>
+    <tspan fill="#A78BFA">ASIC</tspan>
+    <tspan fill="#E6EDF3"> • </tspan>
+    <tspan fill="#FACC15">MEMORY</tspan>
+    <tspan fill="#E6EDF3"> • </tspan>
+    <tspan fill="#39FF88">VERIFICATION</tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                         HERO TAGLINE                       -->
+  <!-- ========================================================= -->
+
+  <text x="600"
+        y="145"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        letter-spacing="1"
+        fill="#D7E5F5">
+
+    Designing reliable hardware from RTL to silicon
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                       HERO WAVEFORM                        -->
+  <!-- ========================================================= -->
+
+  <path d="
+      M250 175
+      H275 V162 H305 V175
+      H335 V162 H365 V175
+      H395 V162 H425 V175
+      H455 V162 H485 V175
+      H515 V162 H545 V175
+      H575 V162 H605 V175
+      H635 V162 H665 V175
+      H695 V162 H725 V175
+      H755 V162 H785 V175
+      H815 V162 H845 V175
+      H875 V162 H905 V175
+      H935 V162 H965 V175
+      H995 V162 H1025
+    "
+    fill="none"
+    stroke="#24344A"
+    stroke-width="3"
+    stroke-linecap="round"/>
+
+  <path d="
+      M250 175
+      H275 V162 H305 V175
+      H335 V162 H365 V175
+      H395 V162 H425 V175
+      H455 V162 H485 V175
+      H515 V162 H545 V175
+      H575 V162 H605 V175
+      H635 V162 H665 V175
+      H695 V162 H725 V175
+      H755 V162 H785 V175
+      H815 V162 H845 V175
+      H875 V162 H905 V175
+      H935 V162 H965 V175
+      H995 V162 H1025
+    "
+    fill="none"
+    stroke="url(#accent)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-dasharray="90 620"
+    filter="url(#glow)">
+
+    <animate attributeName="stroke-dashoffset"
+             from="710"
+             to="0"
+             dur="3.4s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+
+  <!-- ========================================================= -->
+  <!--                    HERO MOVING NODE                        -->
+  <!-- ========================================================= -->
+
+  <circle cx="250"
+          cy="175"
+          r="4"
+          fill="#00E5FF"
+          filter="url(#strongGlow)">
+
+    <animate attributeName="cx"
+             values="250;275;305;335;365;395;425;455;485;515;545;575;605;635;665;695;725;755;785;815;845;875;905;935;965;995;1025"
+             dur="3.4s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="cy"
+             values="175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;175;162;162"
+             dur="3.4s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ========================================================= -->
+  <!--                  PROFILE MASTER PANEL                     -->
+  <!-- ========================================================= -->
+
+  <rect x="20"
+        y="215"
+        width="1160"
+        height="425"
+        rx="22"
+        fill="url(#panel)"
+        fill-opacity="0.88"
+        stroke="url(#accent)"
+        stroke-width="1.8"
+        stroke-opacity="0.8"/>
+
+
+  <!-- ========================================================= -->
+  <!--                       LEFT ID CARD                         -->
+  <!-- ========================================================= -->
+
+  <rect x="35"
+        y="230"
+        width="375"
+        height="395"
+        rx="20"
+        fill="#061323"
+        stroke="#00E5FF"
+        stroke-width="1.8"
+        stroke-opacity="0.9"/>
+
+  <rect x="46"
+        y="241"
+        width="353"
+        height="373"
+        rx="15"
+        fill="url(#grid)"
+        opacity="0.65"/>
+
+
+  <!-- ID HEADER -->
+
+  <rect x="55"
+        y="250"
+        width="335"
+        height="58"
+        rx="15"
+        fill="#071A2B"
+        stroke="url(#cyanViolet)"
+        stroke-width="1.5"/>
+
+
+  <!-- CHIP ICON -->
+
+  <g transform="translate(72 266)"
+     fill="none"
+     stroke="#00E5FF"
+     stroke-width="2">
+
+    <rect x="9"
+          y="9"
+          width="22"
+          height="22"
+          rx="3"/>
+
+    <path d="M15 0V9 M25 0V9 M35 0V9"/>
+    <path d="M15 31V40 M25 31V40 M35 31V40"/>
+    <path d="M0 15H9 M0 25H9"/>
+    <path d="M31 15H40 M31 25H40"/>
+
+  </g>
+
+  <text x="125"
+        y="274"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#7DD3FC"
+        letter-spacing="1">
+    DIGITAL VLSI
+  </text>
+
+  <text x="125"
+        y="295"
+        font-family="Consolas, monospace"
+        font-size="16"
+        font-weight="700"
+        fill="#00E5FF"
+        letter-spacing="1">
+    ENGINEERING ID
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                         ID CHIP                            -->
+  <!-- ========================================================= -->
+
+  <circle cx="222"
+          cy="365"
+          r="60"
+          fill="#071224"
+          stroke="url(#accent)"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+  <circle cx="222"
+          cy="365"
+          r="48"
+          fill="none"
+          stroke="#8B5CF6"
+          stroke-width="1"
+          stroke-dasharray="8 8"/>
+
+
+  <g transform="translate(197 340)"
+     fill="none"
+     stroke="#A855F7"
+     stroke-width="2.5">
+
+    <rect x="10"
+          y="10"
+          width="30"
+          height="30"
+          rx="4"/>
+
+    <path d="M15 0V10 M25 0V10 M35 0V10"/>
+    <path d="M15 40V50 M25 40V50 M35 40V50"/>
+    <path d="M0 15H10 M0 25H10 M0 35H10"/>
+    <path d="M40 15H50 M40 25H50 M40 35H50"/>
+
+  </g>
+
+
+  <!-- NAME -->
+
+  <text x="222"
+        y="443"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="19"
+        font-weight="800"
+        fill="#E6EDF3"
+        letter-spacing="1">
+    BIBHU ASISH PANDA
+  </text>
+
+  <rect x="105"
+        y="457"
+        width="235"
+        height="3"
+        rx="2"
+        fill="url(#accent)"
+        filter="url(#glow)"/>
+
+  <text x="222"
+        y="485"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#00E5FF">
+    RTL • ASIC • MEMORY
+  </text>
+
+  <text x="222"
+        y="506"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#39FF88">
+    VERIFICATION • VLSI
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                     ID INFORMATION                        -->
+  <!-- ========================================================= -->
+
+  <line x1="62"
+        y1="522"
+        x2="382"
+        y2="522"
+        stroke="#00E5FF"
+        stroke-opacity="0.45"/>
+
+  <text x="100"
+        y="546"
+        font-family="Consolas, monospace"
+        font-size="10"
+        fill="#38BDF8"
+        letter-spacing="1">
+    SPECIALIZATION
+  </text>
+
+  <text x="100"
+        y="564"
+        font-family="Consolas, monospace"
+        font-size="11"
+        fill="#D7E5F5">
+    DIGITAL VLSI &amp; ASIC DESIGN
+  </text>
+
+  <line x1="62"
+        y1="578"
+        x2="382"
+        y2="578"
+        stroke="#8B5CF6"
+        stroke-opacity="0.35"/>
+
+  <text x="100"
+        y="600"
+        font-family="Consolas, monospace"
+        font-size="10"
+        fill="#A78BFA"
+        letter-spacing="1">
+    CORE
+  </text>
+
+  <text x="100"
+        y="617"
+        font-family="Consolas, monospace"
+        font-size="10"
+        fill="#D7E5F5">
+    VERILOG • SYSTEMVERILOG • MEMORY
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                         ABOUT ME                           -->
+  <!-- ========================================================= -->
+
+  <rect x="425"
+        y="230"
+        width="740"
+        height="395"
+        rx="20"
+        fill="#061323"
+        stroke="#8B5CF6"
+        stroke-width="1.8"
+        stroke-opacity="0.9"/>
+
+  <rect x="437"
+        y="242"
+        width="716"
+        height="371"
+        rx="15"
+        fill="url(#grid)"
+        opacity="0.5"/>
+
+
+  <!-- ABOUT HEADER -->
+
+  <g fill="#00E5FF"
+     filter="url(#glow)">
+    <circle cx="462"
+            cy="261"
+            r="4"/>
+  </g>
+
+  <text x="485"
+        y="274"
+        font-family="Consolas, monospace"
+        font-size="27"
+        font-weight="800"
+        fill="#E6EDF3"
+        letter-spacing="2">
+    ABOUT ME
+  </text>
+
+  <rect x="635"
+        y="261"
+        width="390"
+        height="2"
+        fill="url(#accent)"/>
+
+
+  <!-- ABOUT TITLE -->
+
+  <text x="485"
+        y="313"
+        font-family="Consolas, monospace"
+        font-size="18"
+        font-weight="700">
+
+    <tspan fill="#00E5FF">Electronics</tspan>
+    <tspan fill="#E6EDF3"> &amp; </tspan>
+    <tspan fill="#A78BFA">VLSI</tspan>
+    <tspan fill="#E6EDF3"> </tspan>
+    <tspan fill="#39FF88">Engineer</tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                    ABOUT DESCRIPTION                       -->
+  <!-- ========================================================= -->
+
+  <text x="485"
+        y="338"
+        font-family="Consolas, monospace"
+        font-size="11.5"
+        fill="#D7E5F5">
+
+    <tspan x="485" dy="0">
+      I’m an Electronics and Communication Engineering graduate
+    </tspan>
+
+    <tspan x="485" dy="18">
+      focused on
+      <tspan fill="#00E5FF"> Digital VLSI</tspan>,
+      <tspan fill="#39FF88"> RTL Design</tspan>,
+      <tspan fill="#A78BFA"> ASIC Design</tspan> and
+    </tspan>
+
+    <tspan x="485" dy="18">
+      <tspan fill="#00E5FF">Verification</tspan>, with hands-on experience in Verilog-based
+    </tspan>
+
+    <tspan x="485" dy="18">
+      digital system design, FSM modeling, memory architectures
+    </tspan>
+
+    <tspan x="485" dy="18">
+      and simulation-driven verification.
+    </tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                    SECOND PARAGRAPH                       -->
+  <!-- ========================================================= -->
+
+  <text x="485"
+        y="452"
+        font-family="Consolas, monospace"
+        font-size="11.5"
+        fill="#D7E5F5">
+
+    <tspan x="485" dy="0">
+      My work spans
+      <tspan fill="#00E5FF"> RTL development</tspan>,
+      <tspan fill="#39FF88"> memory systems</tspan>,
+      arithmetic circuits,
+    </tspan>
+
+    <tspan x="485" dy="18">
+      control logic and
+      <tspan fill="#00E5FF"> SystemVerilog verification</tspan>, with practical
+    </tspan>
+
+    <tspan x="485" dy="18">
+      exposure to Vivado, Verilator, Icarus Verilog and open-source
+    </tspan>
+
+    <tspan x="485" dy="18">
+      ASIC design flows.
+    </tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                    ENGINEERING FOCUS                      -->
+  <!-- ========================================================= -->
+
+  <text x="485"
+        y="545"
+        font-family="Consolas, monospace"
+        font-size="17"
+        font-weight="700"
+        fill="#C084FC">
+    ⚡ Engineering Focus
+  </text>
+
+
+  <!-- FOCUS CARD 1 -->
+
+  <rect x="475"
+        y="560"
+        width="205"
+        height="34"
+        rx="14"
+        fill="#07172A"
+        stroke="#00E5FF"
+        stroke-width="1.5"/>
+
+  <text x="578"
+        y="582"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="11"
+        font-weight="700"
+        fill="#00E5FF">
+    ▸ RTL DESIGN
+  </text>
+
+
+  <!-- FOCUS CARD 2 -->
+
+  <rect x="695"
+        y="560"
+        width="205"
+        height="34"
+        rx="14"
+        fill="#07172A"
+        stroke="#8B5CF6"
+        stroke-width="1.5"/>
+
+  <text x="797"
+        y="582"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="11"
+        font-weight="700"
+        fill="#A78BFA">
+    ▸ VERIFICATION
+  </text>
+
+
+  <!-- FOCUS CARD 3 -->
+
+  <rect x="915"
+        y="560"
+        width="205"
+        height="34"
+        rx="14"
+        fill="#07172A"
+        stroke="#39FF88"
+        stroke-width="1.5"/>
+
+  <text x="1017"
+        y="582"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="11"
+        font-weight="700"
+        fill="#39FF88">
+    ▸ MEMORY DESIGN
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                         FINAL SIGNAL                       -->
+  <!-- ========================================================= -->
+
+  <path d="M410 430 H425"
+        stroke="url(#accent)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <circle cx="410"
+          cy="430"
+          r="3"
+          fill="#00E5FF"
+          filter="url(#glow)"/>
+
+
+  <!-- ========================================================= -->
+  <!--                    CORNER STATUS NODES                    -->
+  <!-- ========================================================= -->
+
+  <circle cx="28"
+          cy="28"
+          r="3.5"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0.25;1"
+             dur="1.4s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1172"
+          cy="642"
+          r="3.5"
+          fill="#39FF88"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="0.25;1;0.25"
+             dur="1.7s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="102"
+          cy="31"
+          r="2"
+          fill="#FACC15"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="0.3;1;0.3"
+             dur="1.8s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1095"
+          cy="32"
+          r="2"
+          fill="#F472B6"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1170"
+          cy="180"
+          r="2.5"
+          fill="#39FF88"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="0.2;1;0.2"
+             dur="1.6s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
