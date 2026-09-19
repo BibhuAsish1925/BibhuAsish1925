@@ -560,18 +560,18 @@
 
 <rect x="60"
       y="495"
-      width="325"
+      width="245"
       height="42"
       rx="14"
       fill="#07172A"
       stroke="#00E5FF"
       stroke-width="1.5"/>
 
-<text x="222"
+<text x="182"
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="12"
+      font-size="11.5"
       font-weight="700"
       fill="#00E5FF">
 
@@ -584,20 +584,20 @@
 <!--                       FOCUS CARD 2                         -->
 <!-- ========================================================= -->
 
-<rect x="402"
+<rect x="320"
       y="495"
-      width="325"
+      width="245"
       height="42"
       rx="14"
       fill="#07172A"
       stroke="#8B5CF6"
       stroke-width="1.5"/>
 
-<text x="565"
+<text x="442"
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="12"
+      font-size="11.5"
       font-weight="700"
       fill="#A78BFA">
 
@@ -610,24 +610,50 @@
 <!--                       FOCUS CARD 3                         -->
 <!-- ========================================================= -->
 
-<rect x="744"
+<rect x="580"
       y="495"
-      width="325"
+      width="245"
       height="42"
       rx="14"
       fill="#07172A"
       stroke="#39FF88"
       stroke-width="1.5"/>
 
-<text x="906"
+<text x="702"
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="12"
+      font-size="11.5"
       font-weight="700"
       fill="#39FF88">
 
   ▸ PHYSICAL DESIGN
+
+</text>
+
+
+<!-- ========================================================= -->
+<!--                       FOCUS CARD 4                         -->
+<!-- ========================================================= -->
+
+<rect x="840"
+      y="495"
+      width="245"
+      height="42"
+      rx="14"
+      fill="#07172A"
+      stroke="#F472B6"
+      stroke-width="1.5"/>
+
+<text x="962"
+      y="521"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11.5"
+      font-weight="700"
+      fill="#F472B6">
+
+  ▸ RTL-to-GDSII
 
 </text>
 
