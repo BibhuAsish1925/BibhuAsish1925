@@ -287,13 +287,13 @@
         font-weight="700"
         letter-spacing="2">
 
-    <tspan fill="#00E5FF">RTL DESIGN</tspan>
+    <tspan fill="#00E5FF">ASIC</tspan>
     <tspan fill="#E6EDF3"> • </tspan>
-    <tspan fill="#A78BFA">ASIC</tspan>
+    <tspan fill="#A78BFA">RTL DESIGN</tspan>
     <tspan fill="#E6EDF3"> • </tspan>
-    <tspan fill="#FACC15">MEMORY</tspan>
+    <tspan fill="#FACC15">VERIFICATION</tspan>
     <tspan fill="#E6EDF3"> • </tspan>
-    <tspan fill="#39FF88">VERIFICATION</tspan>
+    <tspan fill="#39FF88">PHYSICAL DESIGN</tspan>
 
   </text>
 
@@ -627,7 +627,7 @@
       font-weight="700"
       fill="#39FF88">
 
-  ▸ MEMORY DESIGN
+  ▸ PHYSICAL DESIGN
 
 </text>
 
