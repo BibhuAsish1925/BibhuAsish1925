@@ -486,194 +486,246 @@
 
 
   <!-- ========================================================= -->
-  <!--                    ABOUT DESCRIPTION                       -->
-  <!-- ========================================================= -->
+<!--                    ABOUT DESCRIPTION                      -->
+<!-- ========================================================= -->
 
-  <text x="70"
-        y="340"
-        font-family="Consolas, monospace"
-        font-size="11.5"
-        fill="#D7E5F5">
+<text x="70"
+      y="340"
+      font-family="Consolas, monospace"
+      font-size="11.5"
+      fill="#D7E5F5">
 
-    <tspan x="70" dy="0">
-      I’m an Electronics and Communication Engineering graduate focused on
-      <tspan fill="#00E5FF"> Digital VLSI</tspan>,
-      <tspan fill="#39FF88"> RTL Design</tspan>,
-      <tspan fill="#A78BFA"> ASIC Design</tspan> and
-      <tspan fill="#00E5FF"> Verification</tspan>.
-    </tspan>
+  <tspan x="70" dy="0">
+    I’m an Electronics and Communication Engineering graduate focused on
+    <tspan fill="#00E5FF"> VLSI Design</tspan>,
+    <tspan fill="#39FF88"> RTL Design</tspan> and
+    <tspan fill="#A78BFA"> Functional Verification</tspan>.
+  </tspan>
 
-    <tspan x="70" dy="19">
-      I have hands-on experience in Verilog-based digital system design,
-      FSM modeling, memory architectures and simulation-driven verification.
-    </tspan>
+  <tspan x="70" dy="19">
+    I have hands-on experience in Verilog/SystemVerilog RTL,
+    <tspan fill="#39FF88"> memory architectures</tspan>,
+    SRAM design and simulation-based verification.
+  </tspan>
 
-  </text>
-
-
-  <!-- ========================================================= -->
-  <!--                    SECOND PARAGRAPH                       -->
-  <!-- ========================================================= -->
-
-  <text x="70"
-        y="402"
-        font-family="Consolas, monospace"
-        font-size="11.5"
-        fill="#D7E5F5">
-
-    <tspan x="70" dy="0">
-      My work spans
-      <tspan fill="#00E5FF"> RTL development</tspan>,
-      <tspan fill="#39FF88"> memory systems</tspan>,
-      arithmetic circuits, control logic and
-      <tspan fill="#A78BFA"> SystemVerilog verification</tspan>.
-    </tspan>
-
-    <tspan x="70" dy="19">
-      I also have practical exposure to Vivado, Verilator, Icarus Verilog
-      and open-source ASIC design flows.
-    </tspan>
-
-  </text>
+</text>
 
 
-  <!-- ========================================================= -->
-  <!--                    ENGINEERING FOCUS                      -->
-  <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!--                    SECOND PARAGRAPH                       -->
+<!-- ========================================================= -->
 
-  <text x="70"
-        y="478"
-        font-family="Consolas, monospace"
-        font-size="17"
-        font-weight="700"
-        fill="#C084FC">
+<text x="70"
+      y="402"
+      font-family="Consolas, monospace"
+      font-size="11.5"
+      fill="#D7E5F5">
 
-    ⚡ Engineering Focus
+  <tspan x="70" dy="0">
+    My work spans
+    <tspan fill="#00E5FF"> digital design</tspan>,
+    <tspan fill="#39FF88"> ASIC physical implementation</tspan>
+    and full-custom IC layout.
+  </tspan>
 
-  </text>
+  <tspan x="70" dy="19">
+    I have practical exposure to
+    <tspan fill="#A78BFA"> synthesis</tspan>,
+    timing, power analysis, DRC/LVS and
+    <tspan fill="#00E5FF"> RTL-to-GDSII flows</tspan>.
+  </tspan>
 
-
-  <!-- ========================================================= -->
-  <!--                       FOCUS CARD 1                         -->
-  <!-- ========================================================= -->
-
-  <rect x="60"
-        y="495"
-        width="325"
-        height="42"
-        rx="14"
-        fill="#07172A"
-        stroke="#00E5FF"
-        stroke-width="1.5"/>
-
-  <text x="222"
-        y="521"
-        text-anchor="middle"
-        font-family="Consolas, monospace"
-        font-size="12"
-        font-weight="700"
-        fill="#00E5FF">
-
-    ▸ RTL DESIGN
-
-  </text>
+</text>
 
 
-  <!-- ========================================================= -->
-  <!--                       FOCUS CARD 2                         -->
-  <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!--                    ENGINEERING FOCUS                      -->
+<!-- ========================================================= -->
 
-  <rect x="402"
-        y="495"
-        width="325"
-        height="42"
-        rx="14"
-        fill="#07172A"
-        stroke="#8B5CF6"
-        stroke-width="1.5"/>
+<text x="70"
+      y="478"
+      font-family="Consolas, monospace"
+      font-size="17"
+      font-weight="700"
+      fill="#C084FC">
 
-  <text x="565"
-        y="521"
-        text-anchor="middle"
-        font-family="Consolas, monospace"
-        font-size="12"
-        font-weight="700"
-        fill="#A78BFA">
+  ⚡ Engineering Focus
 
-    ▸ VERIFICATION
-
-  </text>
+</text>
 
 
-  <!-- ========================================================= -->
-  <!--                       FOCUS CARD 3                         -->
-  <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!--                       FOCUS CARD 1                         -->
+<!-- ========================================================= -->
 
-  <rect x="744"
-        y="495"
-        width="325"
-        height="42"
-        rx="14"
-        fill="#07172A"
-        stroke="#39FF88"
-        stroke-width="1.5"/>
+<rect x="60"
+      y="495"
+      width="325"
+      height="42"
+      rx="14"
+      fill="#07172A"
+      stroke="#00E5FF"
+      stroke-width="1.5"/>
 
-  <text x="906"
-        y="521"
-        text-anchor="middle"
-        font-family="Consolas, monospace"
-        font-size="12"
-        font-weight="700"
-        fill="#39FF88">
+<text x="222"
+      y="521"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="12"
+      font-weight="700"
+      fill="#00E5FF">
 
-    ▸ MEMORY DESIGN
+  ▸ RTL DESIGN
 
-  </text>
+</text>
 
 
-  <!-- ========================================================= -->
-  <!--                     LOWER SIGNAL PATH                      -->
-  <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!--                       FOCUS CARD 2                         -->
+<!-- ========================================================= -->
 
-  <path d="M60 570 H105 V550 H150 V570 H195 V550 H240 V570"
-        fill="none"
-        stroke="url(#cyanViolet)"
-        stroke-width="2"
-        opacity="0.75"
-        filter="url(#glow)"/>
+<rect x="402"
+      y="495"
+      width="325"
+      height="42"
+      rx="14"
+      fill="#07172A"
+      stroke="#8B5CF6"
+      stroke-width="1.5"/>
 
-  <path d="M970 570 H1015 V550 H1060 V570 H1105"
-        fill="none"
-        stroke="#39FF88"
-        stroke-width="2"
-        opacity="0.7"
-        filter="url(#glow)"/>
+<text x="565"
+      y="521"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="12"
+      font-weight="700"
+      fill="#A78BFA">
 
-  <circle cx="60"
-          cy="570"
-          r="3"
-          fill="#00E5FF"
-          filter="url(#glow)">
+  ▸ VERIFICATION
 
-    <animate attributeName="opacity"
-             values="1;0.25;1"
-             dur="1.5s"
-             repeatCount="indefinite"/>
+</text>
 
-  </circle>
 
-  <circle cx="1105"
-          cy="570"
-          r="3"
-          fill="#39FF88"
-          filter="url(#glow)">
+<!-- ========================================================= -->
+<!--                       FOCUS CARD 3                         -->
+<!-- ========================================================= -->
 
-    <animate attributeName="opacity"
-             values="0.25;1;0.25"
-             dur="1.7s"
-             repeatCount="indefinite"/>
+<rect x="744"
+      y="495"
+      width="325"
+      height="42"
+      rx="14"
+      fill="#07172A"
+      stroke="#39FF88"
+      stroke-width="1.5"/>
 
-  </circle>
+<text x="906"
+      y="521"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="12"
+      font-weight="700"
+      fill="#39FF88">
+
+  ▸ MEMORY DESIGN
+
+</text>
+
+
+<!-- ========================================================= -->
+<!--                     LOWER SIGNAL PATH                      -->
+<!-- ========================================================= -->
+
+<!-- LEFT RUNNING SIGNAL -->
+
+<path d="M60 570
+         H105 V550
+         H150 V570
+         H195 V550
+         H240 V570"
+      fill="none"
+      stroke="url(#cyanViolet)"
+      stroke-width="2"
+      opacity="0.75"
+      filter="url(#glow)"/>
+
+<!-- LEFT SIGNAL GLOW -->
+
+<circle r="4"
+        fill="#00E5FF"
+        filter="url(#glow)">
+
+  <animateMotion
+      dur="2.2s"
+      repeatCount="indefinite"
+      path="M60 570
+            H105 V550
+            H150 V570
+            H195 V550
+            H240 V570"/>
+
+</circle>
+
+
+<!-- RIGHT RUNNING SIGNAL -->
+
+<path d="M970 570
+         H1015 V550
+         H1060 V570
+         H1105"
+      fill="none"
+      stroke="#39FF88"
+      stroke-width="2"
+      opacity="0.7"
+      filter="url(#glow)"/>
+
+<!-- RIGHT SIGNAL GLOW -->
+
+<circle r="4"
+        fill="#39FF88"
+        filter="url(#glow)">
+
+  <animateMotion
+      dur="1.8s"
+      repeatCount="indefinite"
+      path="M970 570
+            H1015 V550
+            H1060 V570
+            H1105"/>
+
+</circle>
+
+
+<!-- ========================================================= -->
+<!--                    SIGNAL ENDPOINTS                        -->
+<!-- ========================================================= -->
+
+<circle cx="60"
+        cy="570"
+        r="3"
+        fill="#00E5FF"
+        filter="url(#glow)">
+
+  <animate attributeName="opacity"
+           values="1;0.25;1"
+           dur="1.5s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+
+<circle cx="1105"
+        cy="570"
+        r="3"
+        fill="#39FF88"
+        filter="url(#glow)">
+
+  <animate attributeName="opacity"
+           values="0.25;1;0.25"
+           dur="1.7s"
+           repeatCount="indefinite"/>
+
+</circle>
 
 
   <!-- ========================================================= -->
