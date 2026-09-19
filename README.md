@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="assets/hero-profile.svg"
+<img src="assets/hero-profile2.0.svg"
      alt="Bibhu Asish Panda - VLSI Engineer Profile"
      width="100%"/>
 
