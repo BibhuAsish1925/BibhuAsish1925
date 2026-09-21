@@ -745,159 +745,177 @@
   </path>
 
 
-<!-- ========================================================= -->
-<!--                  SEMICONDUCTOR CHIP                        -->
-<!--                  2.5× LARGER — SAME CENTER                -->
-<!-- ========================================================= -->
+  <!-- ========================================================= -->
+  <!--                  SEMICONDUCTOR CHIP                        -->
+  <!-- ========================================================= -->
 
-<g transform="translate(1105 570) scale(2.5)">
+  <g transform="translate(1105 570)">
 
-  <!-- Outer chip glow -->
+    <!-- Outer chip glow -->
 
-  <rect x="-22"
-        y="-22"
-        width="44"
-        height="44"
-        rx="7"
-        fill="none"
-        stroke="#39FF88"
-        stroke-width="2"
-        opacity="0.35"
-        filter="url(#strongGlow)">
+    <rect x="-22"
+          y="-22"
+          width="44"
+          height="44"
+          rx="7"
+          fill="none"
+          stroke="#39FF88"
+          stroke-width="2"
+          opacity="0.35"
+          filter="url(#strongGlow)">
 
-    <animate attributeName="opacity"
-             values="0.25;0.25;1;0.25;0.25"
-             keyTimes="0;0.84;0.93;0.97;1"
-             dur="2.2s"
-             repeatCount="indefinite"/>
+      <!-- Bright flash when signal arrives -->
 
-  </rect>
+      <animate attributeName="opacity"
+               values="0.25;0.25;1;0.25;0.25"
+               keyTimes="0;0.84;0.93;0.97;1"
+               dur="2.2s"
+               repeatCount="indefinite"/>
 
-
-  <!-- Main semiconductor package -->
-
-  <rect x="-17"
-        y="-17"
-        width="34"
-        height="34"
-        rx="5"
-        fill="#081426"
-        stroke="#39FF88"
-        stroke-width="2"
-        filter="url(#glow)">
-
-    <animate attributeName="stroke-opacity"
-             values="0.65;0.65;1;0.65"
-             keyTimes="0;0.84;0.93;1"
-             dur="2.2s"
-             repeatCount="indefinite"/>
-
-  </rect>
+    </rect>
 
 
-  <!-- Inner silicon die -->
+    <!-- Main semiconductor package -->
 
-  <rect x="-10"
-        y="-10"
-        width="20"
-        height="20"
-        rx="3"
-        fill="#0D1228"
-        stroke="#00E5FF"
-        stroke-width="1.2"/>
+    <rect x="-17"
+          y="-17"
+          width="34"
+          height="34"
+          rx="5"
+          fill="#081426"
+          stroke="#39FF88"
+          stroke-width="2"
+          filter="url(#glow)">
 
+      <animate attributeName="stroke-opacity"
+               values="0.65;0.65;1;0.65"
+               keyTimes="0;0.84;0.93;1"
+               dur="2.2s"
+               repeatCount="indefinite"/>
 
-  <!-- Silicon circuit pattern -->
-
-  <path d="M-6 -5 H6
-           M-6 0 H6
-           M-6 5 H6
-           M-5 -6 V6
-           M0 -6 V6
-           M5 -6 V6"
-        fill="none"
-        stroke="#8B5CF6"
-        stroke-width="0.8"
-        opacity="0.8"/>
+    </rect>
 
 
-  <!-- Chip pins -->
+    <!-- Inner silicon die -->
 
-  <g stroke="#39FF88"
-     stroke-width="1.5"
-     stroke-linecap="round">
+    <rect x="-10"
+          y="-10"
+          width="20"
+          height="20"
+          rx="3"
+          fill="#0D1228"
+          stroke="#00E5FF"
+          stroke-width="1.2"/>
 
-    <path d="M-10 -17 V-23"/>
-    <path d="M0 -17 V-25"/>
-    <path d="M10 -17 V-23"/>
 
-    <path d="M-10 17 V23"/>
-    <path d="M0 17 V25"/>
-    <path d="M10 17 V23"/>
+    <!-- Silicon circuit pattern -->
 
-    <path d="M-17 -10 H-23"/>
-    <path d="M-17 0 H-25"/>
-    <path d="M-17 10 H-23"/>
+    <path d="M-6 -5 H6
+             M-6 0 H6
+             M-6 5 H6
+             M-5 -6 V6
+             M0 -6 V6
+             M5 -6 V6"
+          fill="none"
+          stroke="#8B5CF6"
+          stroke-width="0.8"
+          opacity="0.8"/>
 
-    <path d="M17 -10 H23"/>
-    <path d="M17 0 H25"/>
-    <path d="M17 10 H23"/>
+
+    <!-- Chip pins -->
+
+    <g stroke="#39FF88"
+       stroke-width="1.5"
+       stroke-linecap="round">
+
+      <path d="M-10 -17 V-23"/>
+      <path d="M0 -17 V-25"/>
+      <path d="M10 -17 V-23"/>
+
+      <path d="M-10 17 V23"/>
+      <path d="M0 17 V25"/>
+      <path d="M10 17 V23"/>
+
+      <path d="M-17 -10 H-23"/>
+      <path d="M-17 0 H-25"/>
+      <path d="M-17 10 H-23"/>
+
+      <path d="M17 -10 H23"/>
+      <path d="M17 0 H25"/>
+      <path d="M17 10 H23"/>
+
+    </g>
+
+
+    <!-- Silicon arrival flash -->
+
+    <circle cx="0"
+            cy="0"
+            r="7"
+            fill="#39FF88"
+            opacity="0"
+            filter="url(#strongGlow)">
+
+      <animate attributeName="opacity"
+               values="0;0;0.85;0;0"
+               keyTimes="0;0.84;0.93;0.97;1"
+               dur="2.2s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="r"
+               values="5;5;12;5;5"
+               keyTimes="0;0.84;0.93;0.97;1"
+               dur="2.2s"
+               repeatCount="indefinite"/>
+
+    </circle>
 
   </g>
 
 
-  <!-- Silicon arrival flash -->
+  <!-- ========================================================= -->
+  <!--                  SILICON ARRIVAL PULSE                     -->
+  <!-- ========================================================= -->
 
-  <circle cx="0"
-          cy="0"
-          r="7"
-          fill="#39FF88"
+  <circle cx="1105"
+          cy="570"
+          r="18"
+          fill="none"
+          stroke="#00E5FF"
+          stroke-width="1.5"
           opacity="0"
-          filter="url(#strongGlow)">
+          filter="url(#glow)">
 
-    <animate attributeName="opacity"
-             values="0;0;0.85;0;0"
-             keyTimes="0;0.84;0.93;0.97;1"
+    <animate attributeName="r"
+             values="16;22;30;16"
+             keyTimes="0;0.86;0.95;1"
              dur="2.2s"
              repeatCount="indefinite"/>
 
-    <animate attributeName="r"
-             values="5;5;12;5;5"
-             keyTimes="0;0.84;0.93;0.97;1"
+    <animate attributeName="opacity"
+             values="0;0;0.7;0"
+             keyTimes="0;0.84;0.93;1"
              dur="2.2s"
              repeatCount="indefinite"/>
 
   </circle>
 
-</g>
 
+  <!-- Small permanent silicon status node -->
 
-<!-- ========================================================= -->
-<!--                  SILICON ARRIVAL PULSE                     -->
-<!-- ========================================================= -->
+  <circle cx="1105"
+          cy="570"
+          r="3"
+          fill="#39FF88"
+          filter="url(#glow)">
 
-<circle cx="1105"
-        cy="570"
-        r="38"
-        fill="none"
-        stroke="#00E5FF"
-        stroke-width="2"
-        opacity="0"
-        filter="url(#strongGlow)">
+    <animate attributeName="opacity"
+             values="0.35;0.7;0.35"
+             dur="1.8s"
+             repeatCount="indefinite"/>
 
-  <animate attributeName="r"
-           values="32;48;65;32"
-           keyTimes="0;0.86;0.95;1"
-           dur="2.2s"
-           repeatCount="indefinite"/>
+  </circle>
 
-  <animate attributeName="opacity"
-           values="0;0;0.8;0"
-           keyTimes="0;0.84;0.93;1"
-           dur="2.2s"
-           repeatCount="indefinite"/>
-
-</circle>
 
   <!-- ========================================================= -->
   <!--                       SILICON LABEL                        -->
