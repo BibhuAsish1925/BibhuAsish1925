@@ -290,7 +290,7 @@
         y="125"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
-        font-size="46"
+        font-size="50"
         font-weight="700"
         letter-spacing="3"
         fill="#E6EDF3">
@@ -321,7 +321,7 @@
         y="195"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="21"
+        font-size="24"
         font-weight="600"
         letter-spacing="1"
         fill="#00E5FF">
@@ -352,7 +352,7 @@
   <!-- ================================================= -->
 
   <g font-family="Consolas, monospace"
-     font-size="12"
+     font-size="14"
      font-weight="600"
      text-anchor="middle">
 
@@ -624,7 +624,7 @@
         y="405"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="11"
+        font-size="12"
         letter-spacing="3"
         fill="#718096">
 
