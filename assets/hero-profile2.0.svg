@@ -118,7 +118,7 @@
 
 
   <!-- ========================================================= -->
-  <!--                       MAIN BACKGROUND                       -->
+  <!--                       MAIN BACKGROUND                      -->
   <!-- ========================================================= -->
 
   <rect x="0"
@@ -262,7 +262,7 @@
         letter-spacing="4"
         fill="url(#nameGradient)">
 
-    BIBHU ASISH PANDA
+    BIBHU ASHISH PANDA
 
   </text>
 
@@ -486,276 +486,439 @@
 
 
   <!-- ========================================================= -->
-<!--                    ABOUT DESCRIPTION                      -->
-<!-- ========================================================= -->
+  <!--                    ABOUT DESCRIPTION                       -->
+  <!-- ========================================================= -->
 
-<text x="70"
-      y="340"
-      font-family="Consolas, monospace"
-      font-size="14"
-      fill="#D7E5F5">
+  <text x="70"
+        y="340"
+        font-family="Consolas, monospace"
+        font-size="14"
+        fill="#D7E5F5">
 
-  <tspan x="70" dy="0">
-    I’m an Electronics and Communication Engineering graduate focused on
-    <tspan fill="#00E5FF"> VLSI Design</tspan>,
-    <tspan fill="#39FF88"> RTL Design</tspan> and
-    <tspan fill="#A78BFA"> Functional Verification</tspan>.
-  </tspan>
+    <tspan x="70" dy="0">
+      I’m an Electronics and Communication Engineering graduate focused on
+      <tspan fill="#00E5FF"> VLSI Design</tspan>,
+      <tspan fill="#39FF88"> RTL Design</tspan> and
+      <tspan fill="#A78BFA"> Functional Verification</tspan>.
+    </tspan>
 
-  <tspan x="70" dy="19">
-    I have hands-on experience in Verilog/SystemVerilog RTL,
-    <tspan fill="#39FF88"> memory architectures</tspan>,
-    SRAM design and simulation-based verification.
-  </tspan>
+    <tspan x="70" dy="19">
+      I have hands-on experience in Verilog/SystemVerilog RTL,
+      <tspan fill="#39FF88"> memory architectures</tspan>,
+      SRAM design and simulation-based verification.
+    </tspan>
 
-</text>
-
-
-<!-- ========================================================= -->
-<!--                    SECOND PARAGRAPH                       -->
-<!-- ========================================================= -->
-
-<text x="70"
-      y="402"
-      font-family="Consolas, monospace"
-      font-size="14"
-      fill="#D7E5F5">
-
-  <tspan x="70" dy="0">
-    My work spans
-    <tspan fill="#00E5FF"> digital design</tspan>,
-    <tspan fill="#39FF88"> ASIC physical implementation</tspan>
-    and full-custom IC layout.
-  </tspan>
-
-  <tspan x="70" dy="19">
-    I have practical exposure to
-    <tspan fill="#A78BFA"> synthesis</tspan>,
-    timing, power analysis, DRC/LVS and
-    <tspan fill="#00E5FF"> RTL-to-GDSII flows</tspan>.
-  </tspan>
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                    ENGINEERING FOCUS                      -->
-<!-- ========================================================= -->
-
-<text x="70"
-      y="478"
-      font-family="Consolas, monospace"
-      font-size="19"
-      font-weight="700"
-      fill="#C084FC">
-
-  ⚡ Engineering Focus
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                       FOCUS CARD 1                         -->
-<!-- ========================================================= -->
-
-<rect x="60"
-      y="495"
-      width="245"
-      height="42"
-      rx="14"
-      fill="#07172A"
-      stroke="#00E5FF"
-      stroke-width="1.5"/>
-
-<text x="182"
-      y="521"
-      text-anchor="middle"
-      font-family="Consolas, monospace"
-      font-size="14"
-      font-weight="700"
-      fill="#00E5FF">
-
-  ▸ RTL DESIGN
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                       FOCUS CARD 2                         -->
-<!-- ========================================================= -->
-
-<rect x="320"
-      y="495"
-      width="245"
-      height="42"
-      rx="14"
-      fill="#07172A"
-      stroke="#8B5CF6"
-      stroke-width="1.5"/>
-
-<text x="442"
-      y="521"
-      text-anchor="middle"
-      font-family="Consolas, monospace"
-      font-size="14"
-      font-weight="700"
-      fill="#A78BFA">
-
-  ▸ VERIFICATION
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                       FOCUS CARD 3                         -->
-<!-- ========================================================= -->
-
-<rect x="580"
-      y="495"
-      width="245"
-      height="42"
-      rx="14"
-      fill="#07172A"
-      stroke="#39FF88"
-      stroke-width="1.5"/>
-
-<text x="702"
-      y="521"
-      text-anchor="middle"
-      font-family="Consolas, monospace"
-      font-size="14"
-      font-weight="700"
-      fill="#39FF88">
-
-  ▸ PHYSICAL DESIGN
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                       FOCUS CARD 4                         -->
-<!-- ========================================================= -->
-
-<rect x="840"
-      y="495"
-      width="245"
-      height="42"
-      rx="14"
-      fill="#07172A"
-      stroke="#F472B6"
-      stroke-width="1.5"/>
-
-<text x="962"
-      y="521"
-      text-anchor="middle"
-      font-family="Consolas, monospace"
-      font-size="14"
-      font-weight="700"
-      fill="#F472B6">
-
-  ▸ RTL-to-GDSII
-
-</text>
-
-
-<!-- ========================================================= -->
-<!--                     LOWER SIGNAL PATH                      -->
-<!-- ========================================================= -->
-
-<!-- LEFT RUNNING SIGNAL -->
-
-<path d="M60 570
-         H105 V550
-         H150 V570
-         H195 V550
-         H240 V570"
-      fill="none"
-      stroke="url(#cyanViolet)"
-      stroke-width="2"
-      opacity="0.75"
-      filter="url(#glow)"/>
-
-<!-- LEFT SIGNAL GLOW -->
-
-<circle r="4"
-        fill="#00E5FF"
-        filter="url(#glow)">
-
-  <animateMotion
-      dur="2.2s"
-      repeatCount="indefinite"
-      path="M60 570
-            H105 V550
-            H150 V570
-            H195 V550
-            H240 V570"/>
-
-</circle>
-
-
-<!-- RIGHT RUNNING SIGNAL -->
-
-<path d="M970 570
-         H1015 V550
-         H1060 V570
-         H1105"
-      fill="none"
-      stroke="#39FF88"
-      stroke-width="2"
-      opacity="0.7"
-      filter="url(#glow)"/>
-
-<!-- RIGHT SIGNAL GLOW -->
-
-<circle r="4"
-        fill="#39FF88"
-        filter="url(#glow)">
-
-  <animateMotion
-      dur="1.8s"
-      repeatCount="indefinite"
-      path="M970 570
-            H1015 V550
-            H1060 V570
-            H1105"/>
-
-</circle>
-
-
-<!-- ========================================================= -->
-<!--                    SIGNAL ENDPOINTS                        -->
-<!-- ========================================================= -->
-
-<circle cx="60"
-        cy="570"
-        r="3"
-        fill="#00E5FF"
-        filter="url(#glow)">
-
-  <animate attributeName="opacity"
-           values="1;0.25;1"
-           dur="1.5s"
-           repeatCount="indefinite"/>
-
-</circle>
-
-
-<circle cx="1105"
-        cy="570"
-        r="3"
-        fill="#39FF88"
-        filter="url(#glow)">
-
-  <animate attributeName="opacity"
-           values="0.25;1;0.25"
-           dur="1.7s"
-           repeatCount="indefinite"/>
-
-</circle>
+  </text>
 
 
   <!-- ========================================================= -->
-  <!--                    CORNER STATUS NODES                    -->
+  <!--                    SECOND PARAGRAPH                        -->
+  <!-- ========================================================= -->
+
+  <text x="70"
+        y="402"
+        font-family="Consolas, monospace"
+        font-size="14"
+        fill="#D7E5F5">
+
+    <tspan x="70" dy="0">
+      My work spans
+      <tspan fill="#00E5FF"> digital design</tspan>,
+      <tspan fill="#39FF88"> ASIC physical implementation</tspan>
+      and full-custom IC layout.
+    </tspan>
+
+    <tspan x="70" dy="19">
+      I have practical exposure to
+      <tspan fill="#A78BFA"> synthesis</tspan>,
+      timing, power analysis, DRC/LVS and
+      <tspan fill="#00E5FF"> RTL-to-GDSII flows</tspan>.
+    </tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                    ENGINEERING FOCUS                       -->
+  <!-- ========================================================= -->
+
+  <text x="70"
+        y="478"
+        font-family="Consolas, monospace"
+        font-size="19"
+        font-weight="700"
+        fill="#C084FC">
+
+    ⚡ Engineering Focus
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                       FOCUS CARD 1                         -->
+  <!-- ========================================================= -->
+
+  <rect x="60"
+        y="495"
+        width="245"
+        height="42"
+        rx="14"
+        fill="#07172A"
+        stroke="#00E5FF"
+        stroke-width="1.5"/>
+
+  <text x="182"
+        y="521"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#00E5FF">
+
+    ▸ RTL DESIGN
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                       FOCUS CARD 2                         -->
+  <!-- ========================================================= -->
+
+  <rect x="320"
+        y="495"
+        width="245"
+        height="42"
+        rx="14"
+        fill="#07172A"
+        stroke="#8B5CF6"
+        stroke-width="1.5"/>
+
+  <text x="442"
+        y="521"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#A78BFA">
+
+    ▸ VERIFICATION
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                       FOCUS CARD 3                         -->
+  <!-- ========================================================= -->
+
+  <rect x="580"
+        y="495"
+        width="245"
+        height="42"
+        rx="14"
+        fill="#07172A"
+        stroke="#39FF88"
+        stroke-width="1.5"/>
+
+  <text x="702"
+        y="521"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#39FF88">
+
+    ▸ PHYSICAL DESIGN
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                       FOCUS CARD 4                         -->
+  <!-- ========================================================= -->
+
+  <rect x="840"
+        y="495"
+        width="245"
+        height="42"
+        rx="14"
+        fill="#07172A"
+        stroke="#F472B6"
+        stroke-width="1.5"/>
+
+  <text x="962"
+        y="521"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="14"
+        font-weight="700"
+        fill="#F472B6">
+
+    ▸ RTL-to-GDSII
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                     LOWER SIGNAL PATH                       -->
+  <!-- ========================================================= -->
+
+
+  <!-- ========================================================= -->
+  <!--                  LEFT RUNNING SIGNAL                       -->
+  <!--                  RTL DESIGN SIDE                           -->
+  <!-- ========================================================= -->
+
+  <path d="M60 570
+           H105 V550
+           H150 V570
+           H195 V550
+           H240 V570"
+        fill="none"
+        stroke="url(#cyanViolet)"
+        stroke-width="2"
+        opacity="0.75"
+        filter="url(#glow)"/>
+
+
+  <!-- Moving signal node -->
+
+  <circle r="4"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animateMotion
+        dur="2.2s"
+        repeatCount="indefinite"
+        path="M60 570
+              H105 V550
+              H150 V570
+              H195 V550
+              H240 V570"/>
+
+  </circle>
+
+
+  <!-- Starting endpoint -->
+
+  <circle cx="60"
+          cy="570"
+          r="3"
+          fill="#00E5FF"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;0.25;1"
+             dur="1.5s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ========================================================= -->
+  <!--                  RIGHT SILICON DESTINATION                 -->
+  <!-- ========================================================= -->
+
+  <!-- Incoming connection line -->
+
+  <path d="M970 570 H1080"
+        fill="none"
+        stroke="#24344A"
+        stroke-width="2"
+        stroke-linecap="round"/>
+
+  <!-- Animated energy trace heading toward silicon -->
+
+  <path d="M970 570 H1080"
+        fill="none"
+        stroke="#39FF88"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-dasharray="28 82"
+        filter="url(#glow)">
+
+    <animate attributeName="stroke-dashoffset"
+             from="110"
+             to="0"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+
+<!-- ========================================================= -->
+<!--                  SEMICONDUCTOR CHIP                        -->
+<!--                  2.5× LARGER — SAME CENTER                -->
+<!-- ========================================================= -->
+
+<g transform="translate(1105 570) scale(2.5)">
+
+  <!-- Outer chip glow -->
+
+  <rect x="-22"
+        y="-22"
+        width="44"
+        height="44"
+        rx="7"
+        fill="none"
+        stroke="#39FF88"
+        stroke-width="2"
+        opacity="0.35"
+        filter="url(#strongGlow)">
+
+    <animate attributeName="opacity"
+             values="0.25;0.25;1;0.25;0.25"
+             keyTimes="0;0.84;0.93;0.97;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Main semiconductor package -->
+
+  <rect x="-17"
+        y="-17"
+        width="34"
+        height="34"
+        rx="5"
+        fill="#081426"
+        stroke="#39FF88"
+        stroke-width="2"
+        filter="url(#glow)">
+
+    <animate attributeName="stroke-opacity"
+             values="0.65;0.65;1;0.65"
+             keyTimes="0;0.84;0.93;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Inner silicon die -->
+
+  <rect x="-10"
+        y="-10"
+        width="20"
+        height="20"
+        rx="3"
+        fill="#0D1228"
+        stroke="#00E5FF"
+        stroke-width="1.2"/>
+
+
+  <!-- Silicon circuit pattern -->
+
+  <path d="M-6 -5 H6
+           M-6 0 H6
+           M-6 5 H6
+           M-5 -6 V6
+           M0 -6 V6
+           M5 -6 V6"
+        fill="none"
+        stroke="#8B5CF6"
+        stroke-width="0.8"
+        opacity="0.8"/>
+
+
+  <!-- Chip pins -->
+
+  <g stroke="#39FF88"
+     stroke-width="1.5"
+     stroke-linecap="round">
+
+    <path d="M-10 -17 V-23"/>
+    <path d="M0 -17 V-25"/>
+    <path d="M10 -17 V-23"/>
+
+    <path d="M-10 17 V23"/>
+    <path d="M0 17 V25"/>
+    <path d="M10 17 V23"/>
+
+    <path d="M-17 -10 H-23"/>
+    <path d="M-17 0 H-25"/>
+    <path d="M-17 10 H-23"/>
+
+    <path d="M17 -10 H23"/>
+    <path d="M17 0 H25"/>
+    <path d="M17 10 H23"/>
+
+  </g>
+
+
+  <!-- Silicon arrival flash -->
+
+  <circle cx="0"
+          cy="0"
+          r="7"
+          fill="#39FF88"
+          opacity="0"
+          filter="url(#strongGlow)">
+
+    <animate attributeName="opacity"
+             values="0;0;0.85;0;0"
+             keyTimes="0;0.84;0.93;0.97;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="r"
+             values="5;5;12;5;5"
+             keyTimes="0;0.84;0.93;0.97;1"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!--                  SILICON ARRIVAL PULSE                     -->
+<!-- ========================================================= -->
+
+<circle cx="1105"
+        cy="570"
+        r="38"
+        fill="none"
+        stroke="#00E5FF"
+        stroke-width="2"
+        opacity="0"
+        filter="url(#strongGlow)">
+
+  <animate attributeName="r"
+           values="32;48;65;32"
+           keyTimes="0;0.86;0.95;1"
+           dur="2.2s"
+           repeatCount="indefinite"/>
+
+  <animate attributeName="opacity"
+           values="0;0;0.8;0"
+           keyTimes="0;0.84;0.93;1"
+           dur="2.2s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+  <!-- ========================================================= -->
+  <!--                       SILICON LABEL                        -->
+  <!-- ========================================================= -->
+
+  <text x="1105"
+        y="608"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="9.5"
+        font-weight="700"
+        letter-spacing="1"
+        fill="#39FF88">
+
+    SILICON
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!--                    CORNER STATUS NODES                     -->
   <!-- ========================================================= -->
 
   <circle cx="28"
