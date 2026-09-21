@@ -257,7 +257,7 @@
         y="72"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="39"
+        font-size="45"
         font-weight="800"
         letter-spacing="4"
         fill="url(#nameGradient)">
@@ -283,7 +283,7 @@
         y="118"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="20"
+        font-size="22"
         font-weight="700"
         letter-spacing="2">
 
@@ -306,7 +306,7 @@
         y="145"
         text-anchor="middle"
         font-family="Consolas, monospace"
-        font-size="14"
+        font-size="16"
         letter-spacing="1"
         fill="#D7E5F5">
 
@@ -450,7 +450,7 @@
   <text x="93"
         y="274"
         font-family="Consolas, monospace"
-        font-size="27"
+        font-size="29"
         font-weight="800"
         fill="#E6EDF3"
         letter-spacing="2">
@@ -473,7 +473,7 @@
   <text x="70"
         y="313"
         font-family="Consolas, monospace"
-        font-size="18"
+        font-size="20"
         font-weight="700">
 
     <tspan fill="#00E5FF">Electronics</tspan>
@@ -492,7 +492,7 @@
 <text x="70"
       y="340"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       fill="#D7E5F5">
 
   <tspan x="70" dy="0">
@@ -518,7 +518,7 @@
 <text x="70"
       y="402"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       fill="#D7E5F5">
 
   <tspan x="70" dy="0">
@@ -545,7 +545,7 @@
 <text x="70"
       y="478"
       font-family="Consolas, monospace"
-      font-size="17"
+      font-size="19"
       font-weight="700"
       fill="#C084FC">
 
@@ -571,7 +571,7 @@
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       font-weight="700"
       fill="#00E5FF">
 
@@ -597,7 +597,7 @@
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       font-weight="700"
       fill="#A78BFA">
 
@@ -623,7 +623,7 @@
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       font-weight="700"
       fill="#39FF88">
 
@@ -649,7 +649,7 @@
       y="521"
       text-anchor="middle"
       font-family="Consolas, monospace"
-      font-size="11.5"
+      font-size="14"
       font-weight="700"
       fill="#F472B6">
 
